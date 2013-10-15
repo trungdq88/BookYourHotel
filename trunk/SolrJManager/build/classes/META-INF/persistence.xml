@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="HotelClassLibraryPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.library.a.entities.HotelProperties</class>
+    <class>com.library.a.entities.LinkDetail</class>
+    <class>com.library.a.entities.Properties</class>
+    <class>com.library.a.entities.RoomProperties</class>
+    <class>com.library.a.entities.Website</class>
+    <properties>
+      <property name="eclipselink.canonicalmodel.subpackage" value="projecta"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;databaseName=HotelCrawlerDB"/>
+      <property name="javax.persistence.jdbc.password" value="123456"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.user" value="sa"/>
+    </properties>
+  </persistence-unit>
+  <persistence-unit name="HotelClassWebLibraryPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.library.b.entities.Comment</class>
+    <class>com.library.b.entities.District</class>
+    <class>com.library.b.entities.Hotel</class>
+    <class>com.library.b.entities.Province</class>
+    <class>com.library.b.entities.Rating</class>
+    <class>com.library.b.entities.Role</class>
+    <class>com.library.b.entities.Room</class>
+    <class>com.library.b.entities.RoomPrice</class>
+    <class>com.library.b.entities.User</class>
+    <class>com.library.b.entities.Ward</class>
+    <properties>
+        <property name="eclipselink.canonicalmodel.subpackage" value="projectb"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;databaseName=HotelWebDB"/>
+      <property name="javax.persistence.jdbc.password" value="123456"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.user" value="sa"/>
+    </properties>
+  </persistence-unit>
+</persistence>

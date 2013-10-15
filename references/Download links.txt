@@ -1,0 +1,2 @@
+Sorl:
+http://www.apache.org/dyn/closer.cgi/lucene/solr/4.5.0

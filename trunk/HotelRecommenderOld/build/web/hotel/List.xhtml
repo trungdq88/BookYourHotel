@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.ListHotelTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:form styleClass="jsfcrud_list_form">
+                <h:panelGroup id="messagePanel" layout="block">
+                    <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+                </h:panelGroup>
+                <h:outputText escape="false" value="#{bundle.ListHotelEmpty}" rendered="#{hotelController.items.rowCount == 0}"/>
+                <h:panelGroup rendered="#{hotelController.items.rowCount > 0}">
+                    <div style="text-align:center">
+                        <h:commandLink action="#{hotelController.previous}" value="#{bundle.Previous} #{hotelController.pagination.pageSize}" rendered="#{hotelController.pagination.hasPreviousPage}"/>&nbsp;
+                        <h:outputText value="#{hotelController.pagination.pageFirstItem + 1}..#{hotelController.pagination.pageLastItem + 1}/#{hotelController.pagination.itemsCount}"/>&nbsp;
+                        <h:commandLink action="#{hotelController.next}" value="#{bundle.Next} #{hotelController.pagination.pageSize}" rendered="#{hotelController.pagination.hasNextPage}"/>&nbsp;
+                    </div>
+                    <h:dataTable value="#{hotelController.items}" var="item" border="0" cellpadding="2" cellspacing="0" rules="all">
+                        <h:column class="first_col" headerClass="first_col">
+                            <div class="cmd_btns">
+                                <f:facet name="header">
+                                    <h:outputText value="&nbsp;"/>
+                                </f:facet>
+                                <h:commandLink action="#{hotelController.prepareView}" value="#{bundle.ListHotelViewLink}"/>
+                                <h:outputText value=" "/>
+                                <h:commandLink action="#{hotelController.prepareEdit}" value="#{bundle.ListHotelEditLink}"/>
+                                <h:outputText value=" "/>
+                                <h:commandLink class="delete_btn" action="#{hotelController.destroy}" value="#{bundle.ListHotelDestroyLink}"/>
+                            </div>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="Thông tin khách sạn"/>
+                            </f:facet>
+                            <div class="hotel_content">
+                                <h2>#{item.hotelName}</h2>
+                                <h3>#{item.hotelAddress}</h3>
+                                <p>#{item.description}</p>
+                            </div>
+                        </h:column>
+
+                    </h:dataTable>
+                    <div style="text-align:center">
+                        <h:commandLink action="#{hotelController.previous}" value="#{bundle.Previous} #{hotelController.pagination.pageSize}" rendered="#{hotelController.pagination.hasPreviousPage}"/>&nbsp;
+                        <h:outputText value="#{hotelController.pagination.pageFirstItem + 1}..#{hotelController.pagination.pageLastItem + 1}/#{hotelController.pagination.itemsCount}"/>&nbsp;
+                        <h:commandLink action="#{hotelController.next}" value="#{bundle.Next} #{hotelController.pagination.pageSize}" rendered="#{hotelController.pagination.hasNextPage}"/>&nbsp;
+                    </div>
+                </h:panelGroup>
+                <br />
+                <h:commandLink action="#{hotelController.prepareCreate}" value="#{bundle.ListHotelCreateLink}"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.ListHotelIndexLink}"/>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

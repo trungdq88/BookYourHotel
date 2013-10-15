@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.EditWardTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="#{bundle.EditWardLabel_wardid}" for="wardid" />
+                    <h:inputText id="wardid" value="#{wardController.selected.wardid}" title="#{bundle.EditWardTitle_wardid}" required="true" requiredMessage="#{bundle.EditWardRequiredMessage_wardid}"/>
+                    <h:outputLabel value="#{bundle.EditWardLabel_name}" for="name" />
+                    <h:inputText id="name" value="#{wardController.selected.name}" title="#{bundle.EditWardTitle_name}" required="true" requiredMessage="#{bundle.EditWardRequiredMessage_name}"/>
+                    <h:outputLabel value="#{bundle.EditWardLabel_type}" for="type" />
+                    <h:inputText id="type" value="#{wardController.selected.type}" title="#{bundle.EditWardTitle_type}" required="true" requiredMessage="#{bundle.EditWardRequiredMessage_type}"/>
+                    <h:outputLabel value="#{bundle.EditWardLabel_location}" for="location" />
+                    <h:inputText id="location" value="#{wardController.selected.location}" title="#{bundle.EditWardTitle_location}" required="true" requiredMessage="#{bundle.EditWardRequiredMessage_location}"/>
+                    <h:outputLabel value="#{bundle.EditWardLabel_districtid}" for="districtid" />
+                    <h:selectOneMenu id="districtid" value="#{wardController.selected.districtid}" title="#{bundle.EditWardTitle_districtid}" required="true" requiredMessage="#{bundle.EditWardRequiredMessage_districtid}">
+                        <f:selectItems value="#{districtController.itemsAvailableSelectOne}"/>
+                    </h:selectOneMenu>
+                </h:panelGrid>
+                <h:commandLink action="#{wardController.update}" value="#{bundle.EditWardSaveLink}"/>
+                <br />
+                <br />
+                <h:link outcome="View" value="#{bundle.EditWardViewLink}"/>
+                <br />
+                <h:commandLink action="#{wardController.prepareList}" value="#{bundle.EditWardShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.EditWardIndexLink}" />
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

@@ -1,0 +1,2630 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <script src="/JS/Common.js"></script>
+    <script src="/JS/UserCommon.js"></script>
+    <script src="/JS/LockScreen.js"></script>
+    <link type="text/css" rel="Stylesheet" href="/CSS/Version5/Main.css" /><link type="text/css" rel="Stylesheet" href="/CSS/New3/Main.css" /><link type="text/css" rel="Stylesheet" href="/CSS/New3/Promotion.css" /><link type="text/css" rel="Stylesheet" href="/CSS/New3/Tour.css" /><link type="text/css" rel="Stylesheet" href="/CSS/New3/TravelGuide.css" /><link type="text/css" rel="Stylesheet" href="/CSS/New3/Voucher.css" />
+    <script src="/JS/Jquery/jquery.js"></script>
+    <script src="/JS/Jquery/easySlider.js"></script>
+    <script src="/JS/DateTimePicker.js"></script>
+    <script src="/JS/ManageObject.js"></script>
+    <script src="/JS/Jquery/jquery.tinycarousel.min.js"></script>
+    <script src="/JS/Jquery/jquery-ui.min.js"></script>   
+<title>
+	Khách sạn tại Hà Nội | Asiabooking
+</title><meta NAME="description" CONTENT="Hanoi hotels" /></head>
+<body>
+    <script>
+        var AppPath='/';
+        var ql='';
+        var CurrentHotelID=0;
+    </script>
+    <form name="aspnetForm" method="post" action="listhotel.aspx?P=1&amp;c=14&amp;o=4&amp;d=" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTMzMTM1NTAzNGRkBk4XxFDnJPjlQrsMCbNC0I+akaE=" />
+</div>
+
+
+<script type="text/javascript" src="/ajaxpro/prototype.ashx"></script>
+<script type="text/javascript" src="/ajaxpro/core.ashx"></script>
+<script type="text/javascript" src="/ajaxpro/converter.ashx"></script>
+<script type="text/javascript" src="/ajaxpro/UserControls_Version5_Header,App_Web_hzvnaael.ashx"></script>
+<script type="text/javascript" src="/ajaxpro/UserControls_Hotel_ListHotel,App_Web_3s_utao3.ashx"></script>
+<script type="text/javascript" src="/ajaxpro/UserControls_Version5_Tab_DesDomestic,App_Web_hzvnaael.ashx"></script>
+<script type="text/javascript" src="/ajaxpro/UserControls_Version5_Tab_DesInternational,App_Web_hzvnaael.ashx"></script>
+
+    <div class="main">    
+        <div id="ctl00_DivHeader" class="header">
+        
+<div class="DivLogo">
+    <a href="/">
+        <img src="http://asiabooking.com.vn/FileUploads/logo/free-travel-logo.png" /></a>
+</div>
+
+<div class="DivBanner">
+    <div class="DivLanguage">
+        <table cellpadding="2">
+            <tr>
+                
+                <td>
+                    <input type="text" placeholder="Tên đăng nhập" class="txtlogin"
+                        id="txtusername" />
+                </td>
+                <td>
+                    <input type="password" placeholder="Mật khẩu" class="txtlogin"
+                        id="txtpassword" />
+                </td>
+                
+                <td style="width: 50px; text-align: right;">
+                    <a href="/listhotel/p1/c14/o4/d/search.htm" onclick="ChangeLanguage('VN')">
+                        <img src="/Resources/Icons/Design/vn.gif" align="bottom" /></a>&nbsp;<a
+                            href="/listhotel/p1/c14/o4/d/l1/search.htm" onclick="ChangeLanguage('EN')"><img src="/Resources/Icons/Design/en.gif"
+                                align="bottom" /></a></td>
+            </tr>
+            
+            <tr>
+                <td colspan="2">
+                    <input type="radio" id="radIsMember" name="login" checked="checked" /><label for="radIsMember">Thành viên</label>
+                    <input type="radio" id="radIsHotel" name="login" /><label for="radIsHotel">Khách sạn</label>
+                    <span class="btnlogin" onclick="Login()">
+                        Đăng nhập
+                    </span>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    
+                    <a href="javascript:ShowLostPassword()">
+                        Quên mật khẩu
+                    </a>
+                    
+                    |
+                    
+                    <a href="javascript:ShowActiveAccount()">
+                        Kích hoạt tài khoản
+                    </a>
+                    
+                    |
+                    
+                    <a href="javascript:ShowRegisterMember()">
+                        Đăng ký
+                    </a>
+                    
+                </td>
+                <td>
+                </td>
+            </tr>
+            
+        </table>
+    </div>
+</div>
+<div style="clear: both;">
+</div>
+<input type="hidden" value="" name="Language" id='txtlanguage' />
+
+<script>
+    function ChangeLanguage(lang)
+    {
+        document.getElementById('txtlanguage').value=lang;
+        document.forms[0].submit();
+    }    
+    function OpenSupportOnline()
+    {   
+        OpenWindowPopup("/support.aspx",550,600);
+    }
+    function Logout()
+    {
+        var res=UserControls_Menu_MenuTopVer3.Logout().value;
+        if(res.IsSuccess)
+        {
+            window.location.reload();
+        }
+    }
+    function Login()
+    {
+        var objusername=document.getElementById('txtusername');
+        var objpassword=document.getElementById('txtpassword');
+        if(objusername.value.length>0&&objpassword.value.length>0)
+        {
+            var res=UserControls_Version5_Header.Login(objusername.value,objpassword.value,document.getElementById('radIsMember').checked).value;
+            if(res.IsSuccess)
+            {
+                window.location.href=res.Message;                
+            }
+            else alert(res.Message);
+        }
+        else alert('Dữ liệu không hợp lệ !');
+    }
+    $(document).ready(
+        function()
+        {
+             $("#txtusername, #txtpassword").keypress(function(event)
+                {
+                if (event.which== 13)
+                {
+                    Login();
+                }
+            }); 
+        }
+    );
+</script>
+
+
+<div class='DivDialog' style='display: none;width:500px' id='DivLogin'><div class='TitleDialog'><img src='/Resources/Icons/Controls/checked.png' align='absbottom'/>Đăng nhập<div class='DivCommandDialog' onclick='PerformCloseFormDialog(this)'><img src='/Resources/Icons/Controls/close.png' align='middle' /></div></div><div class='ContentDialog'><table class='DialogTable' cellpadding='0' cellspacing='0'>
+    <tr><td class='TdLable' id='lbl_EmailLogin' type='string' maxlength=100 minlength=0 isnullable=false default=''>Email :</td><td class='TdControl'><input type='text' class='TextBox' id='obj_EmailLogin' style='width:300px;'/>(<span class='RequireField'>*</span>)</td></tr>
+    <tr><td class='TdLable' id='lbl_PasswordLogin' type='string' maxlength=20 minlength=0 isnullable=false default=''>Mật khẩu :</td><td class='TdControl'><input type='password' class='TextBox' id='obj_PasswordLogin' style='width:300px;'/>(<span class='RequireField'>*</span>)</td></tr>
+    <tr><td class='TdLable' id='lbl_IsRemember' type='bit' maxlength=0 minlength=0 isnullable=true default=''></td><td class='TdControl'><input type='checkbox' id='obj_IsRemember' /><label for='obj_IsRemember'>Ghi nhớ</label></td></tr>
+    <tr><td></td><td><br /></td></tr>
+    <tr><td colspan='2' align='center' valign='middle'><input type='button' class='ButtonDialog' onclick='PerformLogin()' value='Đăng nhập' /><input type='button' class='ButtonDialog' onclick='PerformCloseFormDialog(this)' value='Hủy' /></td></tr>
+    </table></div><div class='BottomDialog'></div></div>
+    
+    <div class='DivDialog' style='display: none;width:500px' id='DivLostPassword'><div class='TitleDialog'><img src='/Resources/Icons/Controls/checked.png' align='absbottom'/>Quên mật khẩu<div class='DivCommandDialog' onclick='PerformCloseFormDialog(this)'><img src='/Resources/Icons/Controls/close.png' align='middle' /></div></div><div class='ContentDialog'><table class='DialogTable' cellpadding='0' cellspacing='0'>
+    <tr><td class='TdLable' id='lbl_EmailLost' type='string' maxlength=100 minlength=0 isnullable=false default=''>Email :</td><td class='TdControl'><input type='text' class='TextBox' id='obj_EmailLost' style='width:300px;'/>(<span class='RequireField'>*</span>)</td></tr>
+    <tr><td></td><td><br /></td></tr>
+    <tr><td colspan='2' align='center' valign='middle'><input type='button' class='ButtonDialog' onclick='OfLostPassword.Save()' value='Gửi yêu cầu' /><input type='button' class='ButtonDialog' onclick='PerformCloseFormDialog(this)' value='Hủy' /></td></tr>
+    </table></div><div class='BottomDialog'></div></div>
+    
+    <div class='DivDialog' style='display: none;width:500px' id='DivActiveAccount'><div class='TitleDialog'><img src='/Resources/Icons/Controls/checked.png' align='absbottom'/>Kích hoạt tài khoản<div class='DivCommandDialog' onclick='PerformCloseFormDialog(this)'><img src='/Resources/Icons/Controls/close.png' align='middle' /></div></div><div class='ContentDialog'><table class='DialogTable' cellpadding='0' cellspacing='0'>
+    <tr><td class='TdLable' id='lbl_EmailActive' type='string' maxlength=100 minlength=0 isnullable=false default=''>Email :</td><td class='TdControl'><input type='text' class='TextBox' id='obj_EmailActive' style='width:300px;'/>(<span class='RequireField'>*</span>)</td></tr>
+    <tr><td></td><td><br /></td></tr>
+    <tr><td colspan='2' align='center' valign='middle'><input type='button' class='ButtonDialog' onclick='OfActiveAccount.Save()' value='Gửi yêu cầu' /><input type='button' class='ButtonDialog' onclick='PerformCloseFormDialog(this)' value='Hủy' /></td></tr>
+    </table></div><div class='BottomDialog'></div></div>
+    
+    <div class='DivDialog' style='display: none;width:520px' id='DivRegisterMember'><div class='TitleDialog'><img src='/Resources/Icons/Controls/checked.png' align='absbottom'/>Đăng ký<div class='DivCommandDialog' onclick='PerformCloseFormDialog(this)'><img src='/Resources/Icons/Controls/close.png' align='middle' /></div></div><div class='ContentDialog'><table class='DialogTable' cellpadding='0' cellspacing='0'>
+    <tr><td class='TdLable' id='lbl_EmailRegister' type='string' maxlength=50 minlength=5 isnullable=false default=''>Email :</td><td class='TdControl'><input type='text' class='TextBox' id='obj_EmailRegister' style='width:300px;'/>(<span class='RequireField'>*</span>)</td></tr>
+    <tr><td class='TdLable' id='lbl_PasswordRegister' type='string' maxlength=20 minlength=5 isnullable=false default=''>Mật khẩu :</td><td class='TdControl'><input type='password' class='TextBox' id='obj_PasswordRegister' style='width:300px;'/>(<span class='RequireField'>*</span>)</td></tr>
+    <tr><td class="TdLable">Xác nhận mật khẩu :</td><td class="TdControl"><input type="password" style="width:300px;" id="txtconfirmpasswordregister" class="TextBox">(<span class="RequireField">*</span>)</td></tr>
+    <tr><td></td><td><br /></td></tr>
+    <tr><td class='TdLable' id='lbl_FullNameRegister' type='string' maxlength=50 minlength=4 isnullable=true default=''>Họ tên :</td><td class='TdControl'><input type='text' class='TextBox' id='obj_FullNameRegister' style='width:300px;'/></td></tr>
+    <tr><td class='TdLable' id='lbl_AddressRegister' type='string' maxlength=100 minlength=5 isnullable=false default=''>Địa chỉ :</td><td class='TdControl'><input type='text' class='TextBox' id='obj_AddressRegister' style='width:300px;'/>(<span class='RequireField'>*</span>)</td></tr>
+    <tr><td class='TdLable' id='lbl_PhoneRegister' type='string' maxlength=20 minlength=5 isnullable=false default=''>Điện thoại :</td><td class='TdControl'><input type='text' class='TextBox' id='obj_PhoneRegister' style='width:300px;'/>(<span class='RequireField'>*</span>)</td></tr>
+    <tr>
+        <td class="TdLable">Ngày sinh :</td>
+        <td class="TdControl">
+            <select id="cboDay"><option value="0">Ngày</option></select>
+            <select id="cboMonth"><option value="0">Tháng</option></select>
+            <select id="cboYear"><option value="0">Năm</option></select>
+        </td>
+    </tr>
+    
+    <tr><td class='TdLable' id='lbl_CMNDRegister' type='string' maxlength=12 minlength=5 isnullable=true default=''>Chứng minh nhân dân :</td><td class='TdControl'><input type='text' class='TextBox' id='obj_CMNDRegister' style='width:300px;'/></td></tr>
+    <tr><td class='TdLable' id='lbl_InternationalRegister' type='cbo' maxlength=0 minlength=0 isnullable=true default='0'>Quốc gia :</td><td class='TdControl'><select class='ComboBox' id='obj_InternationalRegister' style='width:200px;'><option value='0'>----</option></select></td></tr>
+    <tr style='display:none'><td class='TdLable' id='lbl_BirthDayRegister' type='string' maxlength=0 minlength=0 isnullable=true default=''></td><td class='TdControl'><input type='hidden' value='' id='obj_BirthDayRegister'/></td></tr>
+    <tr>
+    <td id="lbl_SecurityCode" type="string" maxlength="6" minlength="4" isnullable="false" default="" class="TdLable">Mã bảo mật :</td>
+    <td class="TdControl"><input type="text" id="obj_SecurityCode"/>
+        
+<img class="imgCaptcha" id="ImgConfirmSecurityCode24" src="/ImageConfirm.aspx?ID=24" align="absmiddle" /> <img class="refreshCaptcha" align="absmiddle" src="/Resources/Icons/Design/refresh.png" onclick="ChangeImage24()" style="cursor:pointer;"/>
+<input type="hidden" name="IDSecurityCode" value="24" />
+<script>
+var ImageSecurityID=24;
+function ChangeImage24()
+{
+    var src='/ImageConfirm.aspx?ID=24&'+Math.random();
+    document.getElementById('ImgConfirmSecurityCode24').src=src;   
+}
+function ChangeImage()
+{
+    var func=eval("ChangeImage"+ImageSecurityID);
+    if(func)
+        func();
+}
+</script>
+    </td>
+    </tr>
+    <tr><td></td><td><br /></td></tr>
+    <tr><td colspan='2' align='center' valign='middle'><input type='button' class='ButtonDialog' onclick='PerformRegisterMember()' value='Đăng ký' /><input type='button' class='ButtonDialog' onclick='PerformCloseFormDialog(this)' value='Hủy' /></td></tr>
+    </table></div><div class='BottomDialog'></div></div>
+    
+    <script>
+    var OfLogin=null;
+    var OfLostPassword=null;
+    var OfActiveAccount=null;
+    var OfResetPassword=null;
+    var OfRegisterMember=null;
+    var funcloginsuccess=null;
+    var loginok=false;
+    function LoadCboBirthDay()
+    {
+        LoadNumberToCbo('cboYear',1920,(new Date()).getFullYear());
+        LoadNumberToCbo('cboMonth',1,12);
+        LoadNumberToCbo('cboDay',1,31);
+        
+    }
+    function ShowRegisterMember()
+    {
+        if(!OfRegisterMember)
+        {
+            LoadCboBirthDay();
+            document.getElementById('obj_InternationalRegister').innerHTML="";
+            LoadDataToCombo('obj_InternationalRegister',UserControls_Version5_Header.GetAllInternational().value,'ID','Name');
+            OfRegisterMember=new ManageObject(UserControls_Version5_Header,'DivRegisterMember');
+            OfRegisterMember.lang=0;
+//            $('#obj_PhoneRegister').keydown(function(e)
+//            {
+//                if(!((e.keyCode>=48&&e.keyCode<=57)||(e.keyCode==8||e.keyCode==37||e.keyCode==39||e.keyCode==9)))
+//                    e.preventDefault();
+//            });
+            $('#obj_PhoneRegister').keyup(function(e)
+            {
+                this.value = this.value.replace(/[^0-9\.]/g,'');
+            });
+        }
+        OfRegisterMember.Edit(0);
+        ChangeImage();
+    }
+    function PerformRegisterMember()
+    {
+        if(OfRegisterMember.CheckValid())
+        {
+            if(document.getElementById('txtconfirmpasswordregister').value==document.getElementById('obj_PasswordRegister').value)
+            {
+                var year=document.getElementById('cboYear').value;
+                var month=document.getElementById('cboMonth').value;
+                var day=document.getElementById('cboDay').value;
+                var strdate="";
+                if(year>0||month>0||day>0)
+                {
+                    if(IsDate(day,month,year))
+                        strdate=day+"-"+month+"-"+year;
+                    else alert("Ngày sinh không hợp lệ !");
+                }
+                var securitycode=document.getElementById('obj_SecurityCode').value;
+                document.getElementById('obj_BirthDayRegister').value=strdate;
+                var res=UserControls_Version5_Header.PerformRegisterMember(OfRegisterMember.GetForInsert(),ImageSecurityID,securitycode,CurrentHotelID).value;
+                if(res.IsSuccess)
+                {
+                    alert("Bạn đã đăng ký thành viên thành công, vui lòng kiểm tra email để kích hoạt và sử dụng tài khoản !");
+                    OfRegisterMember.CloseForm();
+                }
+                else
+                {
+                    alert("Lỗi  : "+res.Message);
+                    ChangeImage();
+                }
+            }
+            else
+            {
+                alert("Mật khẩu xác nhận không đúng !");
+                document.getElementById('txtconfirmpassword').focus();
+            }
+        }
+    } 
+    function ShowLogin()
+    {
+        if(!OfLogin)
+        {
+            OfLogin=new ManageObject(UserControls_Version5_Header,'DivLogin');
+            OfLogin.lang=0;
+        }
+        OfLogin.Edit(0);
+    }
+    function PerformLogin()
+    {
+        if(OfLogin.CheckValid())
+        {
+            var res=UserControls_Version5_Header.PerformLogin(OfLogin.GetForInsert()).value;            
+            if(ProcessIntResult(res))
+            {
+                if(!funcloginsuccess)
+                    window.location.reload();
+                else funcloginsuccess();
+                loginok=true;
+            }
+        }
+    }
+    function ShowActiveAccount()
+    {
+        if(!OfActiveAccount)
+        {
+            OfActiveAccount=new ManageObject(UserControls_Version5_Header,'DivActiveAccount');
+            OfActiveAccount.AjaxInsert="PerformActiveAccount";
+            OfActiveAccount.IsLoadData=false;
+            OfActiveAccount.lang=0;
+        }
+        OfActiveAccount.Edit(0);
+    }
+    function ShowLostPassword()
+    {
+        if(!OfLostPassword)
+        {
+            OfLostPassword=new ManageObject(UserControls_Version5_Header,'DivLostPassword');
+            OfLostPassword.AjaxInsert="PerformLostPassword";
+            OfLostPassword.IsLoadData=false;
+            OfLostPassword.lang=0;
+        }
+        OfLostPassword.Edit(0);
+    } 
+</script>
+   </div>
+        <div id="ctl00_DivMenuTop" class="main-menu">        
+        
+ <ul class="nav">
+    <li><a href='/index/trang-chu.htm'>Trang Chủ</a></li><li><a href='http://asiabooking.com.vn/voucher/voucher.htm'>Voucher khách sạn </a></li><li><a href='/tour/M145/tour.htm'>Tour</a><ul><li><a href='/tour/M183/tour-trong-nuoc.htm'>Tour trong nước</a><li><a href='/tour/M184/tour-quoc-te.htm'>Tour quốc tế</a><li><a href='/tour/M297/tour-khoi-hanh-hang-ngay.htm'>Tour khởi hành hằng ngày</a></ul></li><li><a href='/promotion/M135/khuyen-mai-hap-dan.htm'>Khuyến mãi hấp dẫn</a></li><li><a href='/travelguide/M144/cam-nang-du-lich.htm'>Cẩm nang du lịch</a><ul><li><a href='/listguide/M277/du-lich-viet-nam.htm'>Du lịch Việt Nam</a><li><a href='/listguide/M278/du-lich-nuoc-ngoai.htm'>Du lịch nước ngoài</a><li><a href='/listguide/M292/kinh-nghiem-du-lich.htm'>Kinh nghiệm du lịch</a></ul></li>
+</ul>
+</div>
+        <div class="main-content">
+            
+
+<script src="/JS/bdmap.js"></script>
+<div id="ctl00_MainContent_DivListHotel">
+
+
+<div class="path" id="divpath"></div>
+
+<div class="DivContentCity">
+    <div style="margin: 10px 0;">
+        <select id='CboCountry' onchange="LoadCityByCountry(this)" style="width: 120px;">
+            <option value="0">--Quốc gia--</option>
+            
+            <option selected='true' value="1">Việt Nam</option>
+            
+        </select>
+        <select id="CboCity" style="width: 200px;">
+            <option value="0">--Thành phố--</option>
+            
+            <option  value="148">Bạc Liêu</option>
+            
+            <option  value="142">Đảo Cát Bà</option>
+            
+            <option  value="115">Điện Biên</option>
+            
+            <option  value="25">Đồng Hới</option>
+            
+            <option  value="32">Đồng Nai</option>
+            
+            <option class="district"  city="32" value="53">Đồng Nai--Biên Hòa</option>
+            
+            <option  value="114">Hà Tỉnh</option>
+            
+            <option  value="19">Hải Phòng </option>
+            
+            <option  value="38">Hòa Bình</option>
+            
+            <option class="district"  city="38" value="185">Hòa Bình--Ba Vì </option>
+            
+            <option  value="149">Quảng Trị</option>
+            
+            <option class="district"  city="149" value="186">Quảng Trị--Đông Hà</option>
+            
+            <option class="district"  city="149" value="187">Quảng Trị--Khe Sanh </option>
+            
+            <option  value="146">Phú Thọ</option>
+            
+            <option  value="21"> Ninh Bình</option>
+            
+            <option  value="139">An Giang</option>
+            
+            <option class="district"  city="139" value="188">An Giang--Long Xuyên</option>
+            
+            <option class="district"  city="139" value="189">An Giang--Trung tâm thành phố</option>
+            
+            <option  value="31">Bến Tre</option>
+            
+            <option class="district"  city="31" value="190">Bến Tre--Bến Tre </option>
+            
+            <option  value="15">Biên Hòa</option>
+            
+            <option  value="153">Bình Dương </option>
+            
+            <option class="district"  city="153" value="179">Bình Dương --Thị xã Thủ Dầu Một    </option>
+            
+            <option class="district"  city="153" value="172">Bình Dương --Thị xã Thuận An </option>
+            
+            <option  value="106">Buôn Ma Thuột</option>
+            
+            <option  value="124">Cà Mau</option>
+            
+            <option  value="141">Cam Ranh</option>
+            
+            <option  value="33">Cần Giờ</option>
+            
+            <option  value="30">Cần Thơ</option>
+            
+            <option  value="107">Côn Đảo</option>
+            
+            <option  value="26">Châu Đốc</option>
+            
+            <option  value="123">Chu Lai</option>
+            
+            <option class="district"  city="123" value="111">Chu Lai--Khu kinh tế Chu Lai</option>
+            
+            <option  value="159">Hà Tiên</option>
+            
+            <option  value="24">Kiên Giang</option>
+            
+            <option class="district"  city="24" value="110">Kiên Giang--Hà Tiên</option>
+            
+            <option class="district"  city="24" value="16">Kiên Giang--Rạch giá</option>
+            
+            <option  value="116">Lạng Sơn</option>
+            
+            <option  value="109">Mai Châu</option>
+            
+            <option  value="160">Mỹ Tho</option>
+            
+            <option  value="110">Nam Dinh</option>
+            
+            <option  value="16">Ninh Thuận - Phan Rang</option>
+            
+            <option  value="122">Pleiku</option>
+            
+            <option  value="27">Phu Yen - Tuy Hòa</option>
+            
+            <option class="district"  city="27" value="13">Phu Yen - Tuy Hòa--Bãi Biển Núi Thơm</option>
+            
+            <option class="district"  city="27" value="14">Phu Yen - Tuy Hòa--Trung tâm thành phố</option>
+            
+            <option  value="112">Quãng Ngãi</option>
+            
+            <option  value="23">Quy Nhơn</option>
+            
+            <option class="district"  city="23" value="17">Quy Nhơn--Bãi biển Bãi Dài</option>
+            
+            <option  value="158">Rạch Giá</option>
+            
+            <option  value="17">Sapa (Lào Cai)</option>
+            
+            <option class="district"  city="17" value="182">Sapa (Lào Cai)--Khu họp chợ</option>
+            
+            <option class="district"  city="17" value="15">Sapa (Lào Cai)--Trung tâm thành phố</option>
+            
+            <option class="district"  city="17" value="183">Sapa (Lào Cai)--Vòng quanh Sapa</option>
+            
+            <option  value="144">Tiền Giang</option>
+            
+            <option  value="113">Thanh Hóa</option>
+            
+            <option class="district"  city="113" value="113">Thanh Hóa--Sầm Sơn</option>
+            
+            <option  value="22">Vinh (Biển Cửa Lò)</option>
+            
+            <option class="district"  city="22" value="10">Vinh (Biển Cửa Lò)--Bãi Biển Cửa Lò</option>
+            
+            <option class="district"  city="22" value="11">Vinh (Biển Cửa Lò)--Bãi Lữ</option>
+            
+            <option class="district"  city="22" value="12">Vinh (Biển Cửa Lò)--Trung Tâm Thành Phố</option>
+            
+            <option  value="140">Vĩnh Phúc </option>
+            
+            <option class="district"  city="140" value="109">Vĩnh Phúc --Tam Đảo</option>
+            
+            <option  value="11">Đà Lạt</option>
+            
+            <option class="district"  city="11" value="104">Đà Lạt--Ga Xe Lửa Cũ</option>
+            
+            <option class="district"  city="11" value="33">Đà Lạt--Hồ Tuyền Lâm</option>
+            
+            <option class="district"  city="11" value="31">Đà Lạt--Thác Cam Ly</option>
+            
+            <option class="district"  city="11" value="32">Đà Lạt--Thung Lũng Tình Yêu</option>
+            
+            <option class="district"  city="11" value="60">Đà Lạt--Trung Tâm Đà Lạt</option>
+            
+            <option  value="13">Đà Nẵng</option>
+            
+            <option class="district"  city="13" value="40">Đà Nẵng--Biển Bắc Mỹ An</option>
+            
+            <option class="district"  city="13" value="42">Đà Nẵng--Biển Mỹ Khê</option>
+            
+            <option class="district"  city="13" value="43">Đà Nẵng--Biển Non Nước</option>
+            
+            <option class="district"  city="13" value="184">Đà Nẵng--Sông Hàn</option>
+            
+            <option class="district"  city="13" value="44">Đà Nẵng--Sơn Trà</option>
+            
+            <option class="district"  city="13" value="41">Đà Nẵng--Trung tâm thành phố</option>
+            
+            <option  value="7">Hạ Long</option>
+            
+            <option class="district"  city="7" value="45">Hạ Long--Bãi Cháy</option>
+            
+            <option class="district"  city="7" value="46">Hạ Long--Cảng Hòn Gai</option>
+            
+            <option class="district"  city="7" value="47">Hạ Long--Tuần Châu</option>
+            
+            <option selected='true' value="14">Hà Nội</option>
+            
+            <option class="district"  city="14" value="70">Hà Nội--Ba Đình</option>
+            
+            <option class="district"  city="14" value="73">Hà Nội--Cầu Giấy</option>
+            
+            <option class="district"  city="14" value="71">Hà Nội--Đống Đa</option>
+            
+            <option class="district"  city="14" value="69">Hà Nội--Hai Bà Trưng</option>
+            
+            <option class="district"  city="14" value="59">Hà Nội--Hoàn Kiếm</option>
+            
+            <option class="district"  city="14" value="75">Hà Nội--Hoàng Mai</option>
+            
+            <option class="district"  city="14" value="58">Hà Nội--Hồ Tây</option>
+            
+            <option class="district"  city="14" value="74">Hà Nội--Long Biên</option>
+            
+            <option class="district"  city="14" value="56">Hà Nội--Phố cổ</option>
+            
+            <option class="district"  city="14" value="105">Hà Nội--Quận Hà Đông</option>
+            
+            <option class="district"  city="14" value="96">Hà Nội--Quận Từ Liêm</option>
+            
+            <option class="district"  city="14" value="99">Hà Nội--Quận Thanh Xuân</option>
+            
+            <option class="district"  city="14" value="103">Hà Nội--Sân bay Nội Bài</option>
+            
+            <option class="district"  city="14" value="114">Hà Nội--Thi Trấn Chúc Sơn - Chương Mỹ</option>
+            
+            <option class="district"  city="14" value="57">Hà Nội--Trung Tâm Thương Mại</option>
+            
+            <option  value="12">Hội An</option>
+            
+            <option class="district"  city="12" value="102">Hội An--Bãi biển Cửa Đại</option>
+            
+            <option  value="6">Huế</option>
+            
+            <option class="district"  city="6" value="34">Huế--Biển Lăng Cô</option>
+            
+            <option class="district"  city="6" value="37">Huế--Biển Mỹ An</option>
+            
+            <option class="district"  city="6" value="35">Huế--Biển Thuận An</option>
+            
+            <option class="district"  city="6" value="36">Huế--Chùa Thiên Mụ</option>
+            
+            <option class="district"  city="6" value="38">Huế--Sông Hương</option>
+            
+            <option  value="2">Nha Trang</option>
+            
+            <option class="district"  city="2" value="27">Nha Trang--Chợ Đầm</option>
+            
+            <option class="district"  city="2" value="28">Nha Trang--Đại Lộ Phạm Văn Đồng</option>
+            
+            <option class="district"  city="2" value="25">Nha Trang--Gần Sân Bay</option>
+            
+            <option class="district"  city="2" value="29">Nha Trang--Hòn Tre, Hòn Tằm - Khu Vinpearl</option>
+            
+            <option class="district"  city="2" value="39">Nha Trang--Trung tâm - gần biển</option>
+            
+            <option class="district"  city="2" value="26">Nha Trang--Trung Tâm Nha Trang - Trần Phú</option>
+            
+            <option class="district"  city="2" value="30">Nha Trang--Vịnh Ninh Vân</option>
+            
+            <option  value="5">Phan Thiết</option>
+            
+            <option class="district"  city="5" value="157">Phan Thiết--Bãi biển Tiến Thành</option>
+            
+            <option class="district"  city="5" value="23">Phan Thiết--Mũi Kê Gà</option>
+            
+            <option class="district"  city="5" value="21">Phan Thiết--Mũi né </option>
+            
+            <option class="district"  city="5" value="156">Phan Thiết--Nguyễn Đình Chiểu - Trung tâm bãi biển</option>
+            
+            <option class="district"  city="5" value="22">Phan Thiết--Phan Thiết</option>
+            
+            <option class="district"  city="5" value="24">Phan Thiết--Phú Hải</option>
+            
+            <option class="district"  city="5" value="181">Phan Thiết--Trung tâm thành phố </option>
+            
+            <option  value="4">Phú Quốc</option>
+            
+            <option class="district"  city="4" value="18">Phú Quốc--Bãi biển Ông Lăng</option>
+            
+            <option class="district"  city="4" value="19">Phú Quốc--Bãi Dài - Đông Dương</option>
+            
+            <option class="district"  city="4" value="20">Phú Quốc--Bãi Sao</option>
+            
+            <option  value="1">TP. Hồ Chí Minh</option>
+            
+            <option class="district"  city="1" value="176">TP. Hồ Chí Minh--Quận 1 </option>
+            
+            <option class="district"  city="1" value="173">TP. Hồ Chí Minh--Quận 1 - Bến  Nghé </option>
+            
+            <option class="district"  city="1" value="158">TP. Hồ Chí Minh--Quận 1 - Bùi Thị Xuân </option>
+            
+            <option class="district"  city="1" value="159">TP. Hồ Chí Minh--Quận 1 - Chợ Bến Thành </option>
+            
+            <option class="district"  city="1" value="161">TP. Hồ Chí Minh--Quận 1 - Đồng Khởi / Nguyễn Huệ </option>
+            
+            <option class="district"  city="1" value="162">TP. Hồ Chí Minh--Quận 1 - Khu Người Nhật </option>
+            
+            <option class="district"  city="1" value="160">TP. Hồ Chí Minh--Quận 1 - Phạm Ngũ Lão / Tây Ba-Lô</option>
+            
+            <option class="district"  city="1" value="178">TP. Hồ Chí Minh--Quận 10 </option>
+            
+            <option class="district"  city="1" value="180">TP. Hồ Chí Minh--Quận 11</option>
+            
+            <option class="district"  city="1" value="170">TP. Hồ Chí Minh--Quận 12</option>
+            
+            <option class="district"  city="1" value="165">TP. Hồ Chí Minh--Quận 2 - Thảo Điền </option>
+            
+            <option class="district"  city="1" value="168">TP. Hồ Chí Minh--Quận 3</option>
+            
+            <option class="district"  city="1" value="163">TP. Hồ Chí Minh--Quận 5 - Khu phố Tàu / Chợ Lớn </option>
+            
+            <option class="district"  city="1" value="167">TP. Hồ Chí Minh--Quận 7</option>
+            
+            <option class="district"  city="1" value="164">TP. Hồ Chí Minh--Quận 7 - Triển lãm Sài Gòn & TT Hội nghị/Phú Mỹ Hưng</option>
+            
+            <option class="district"  city="1" value="169">TP. Hồ Chí Minh--Quận Bình Thạnh</option>
+            
+            <option class="district"  city="1" value="174">TP. Hồ Chí Minh--Quận Gò Vấp </option>
+            
+            <option class="district"  city="1" value="171">TP. Hồ Chí Minh--Quận Phú Nhuận </option>
+            
+            <option class="district"  city="1" value="166">TP. Hồ Chí Minh--Quận Tân Bình - Sân bay Tân Sơn Nhất </option>
+            
+            <option class="district"  city="1" value="177">TP. Hồ Chí Minh--Quận Thủ Đức </option>
+            
+            <option  value="3">Vũng Tàu</option>
+            
+            <option class="district"  city="3" value="2">Vũng Tàu--Bãi Dâu</option>
+            
+            <option class="district"  city="3" value="3">Vũng Tàu--Bãi Dứa</option>
+            
+            <option class="district"  city="3" value="1">Vũng Tàu--Bãi Sau</option>
+            
+            <option class="district"  city="3" value="4">Vũng Tàu--Bãi Trước</option>
+            
+            <option class="district"  city="3" value="5">Vũng Tàu--Long Hải </option>
+            
+            <option class="district"  city="3" value="106">Vũng Tàu--Trung tâm Thành phố</option>
+            
+            <option class="district"  city="3" value="112">Vũng Tàu--Xuyên Mộc</option>
+            
+        </select>
+        <input type="text" id="txtSearch" />
+        <input type="button" class="command" onclick="PerformSearchHotel(true)" value="Tìm khách sạn" />
+    </div>
+    <div style="clear: both;">
+    </div>
+    
+    <div style="clear: both;">
+    </div>
+    
+    <div style="clear: both;">
+    </div>
+</div>
+<div class="clear">
+</div>
+<div class="filter-hotel">
+    <div class="widget">
+        <h3 class="title">
+            Lọc theo hạng sao
+        </h3>
+        <div class="content">
+            <ul class="list-rate" id="filter_rate">
+                <li>
+                    <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                </li>
+                <li>
+                    <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                </li>
+                <li>
+                    <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                </li>
+                <li>
+                    <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                </li>
+                <li>
+                    <img src='/Resources/Icons/Design/start.png'/>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="widget">
+        <h3 class="title">
+            Lọc theo giá
+        </h3>
+        <div class="content">
+            <ul class="list-rate" id="filter_price">
+                <li>100,000 - 300,000 </li>
+                <li>300,000 - 500,000 </li>
+                <li>500,000 - 700,000 </li>
+                <li>700,000 - 1,000,000 </li>
+                <li>1,000,000 - 2,000,000 </li>
+                <li>2,000,000+ </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="widget">
+        <h3 class="title">
+            Lọc theo khu vực
+        </h3>
+        <div class="content">
+            <ul class="list-rate" id="filter-district">
+                <li dic='70'><a href='/listhotel/C14/q70/ha-noi-ba-dinh.htm'>Ba Đình</a></li><li dic='73'><a href='/listhotel/C14/q73/ha-noi-cau-giay.htm'>Cầu Giấy</a></li><li dic='71'><a href='/listhotel/C14/q71/ha-noi-dong-da.htm'>Đống Đa</a></li><li dic='69'><a href='/listhotel/C14/q69/ha-noi-hai-ba-trung.htm'>Hai Bà Trưng</a></li><li dic='59'><a href='/listhotel/C14/q59/ha-noi-hoan-kiem.htm'>Hoàn Kiếm</a></li><li dic='75'><a href='/listhotel/C14/q75/ha-noi-hoang-mai.htm'>Hoàng Mai</a></li><li dic='58'><a href='/listhotel/C14/q58/ha-noi-hò-tay.htm'>Hồ Tây</a></li><li style='display:none;' dic='74'><a href='/listhotel/C14/q74/ha-noi-long-bien.htm'>Long Biên</a></li><li style='display:none;' dic='56'><a href='/listhotel/C14/q56/ha-noi-phó-cỏ.htm'>Phố cổ</a></li><li style='display:none;' dic='105'><a href='/listhotel/C14/q105/ha-noi-quan-ha-dong.htm'>Quận Hà Đông</a></li><li style='display:none;' dic='96'><a href='/listhotel/C14/q96/ha-noi-quan-tu-liem.htm'>Quận Từ Liêm</a></li><li style='display:none;' dic='99'><a href='/listhotel/C14/q99/ha-noi-quan-thanh-xuan.htm'>Quận Thanh Xuân</a></li><li style='display:none;' dic='103'><a href='/listhotel/C14/q103/ha-noi-san-bay-noi-bai.htm'>Sân bay Nội Bài</a></li><li style='display:none;' dic='114'><a href='/listhotel/C14/q114/ha-noi-thi-tran-chuc-son--chuong-my.htm'>Thi Trấn Chúc Sơn - Chương Mỹ</a></li><li style='display:none;' dic='57'><a href='/listhotel/C14/q57/ha-noi-trung-tam-thuong-mại.htm'>Trung Tâm Thương Mại</a></li>
+            </ul>
+            
+            <p class="showall">
+                <a onclick="$('#filter-district li').show();$(this).parent().hide();">
+                    Tất cả
+                </a>
+            </p>
+            
+        </div>
+    </div>
+    
+    <div class="widget">
+        <h3 class="title">
+            Tiện nghi khách sạn
+        </h3>
+        <div class="content">
+            <ul class="list-rate" id="filter-facilities">
+                
+                <li  faci="34"><a href="/listhotel/c14/f34/ha-noi-golf.htm">
+                    Golf
+                </a></li>
+                
+                <li  faci="35"><a href="/listhotel/c14/f35/ha-noi-luot-van.htm">
+                    Lướt ván
+                </a></li>
+                
+                <li  faci="36"><a href="/listhotel/c14/f36/ha-noi-thue-van-truot.htm">
+                    Thuê ván trượt
+                </a></li>
+                
+                <li  faci="37"><a href="/listhotel/c14/f37/ha-noi-dich-vu-tour.htm">
+                    Dịch vụ tour
+                </a></li>
+                
+                <li  faci="38"><a href="/listhotel/c14/f38/ha-noi-thue-xe-dap.htm">
+                    Thuê xe đạp
+                </a></li>
+                
+                <li  faci="40"><a href="/listhotel/c14/f40/ha-noi-nha-hang.htm">
+                    Nhà hàng
+                </a></li>
+                
+                <li  faci="41"><a href="/listhotel/c14/f41/ha-noi-bar.htm">
+                    Bar
+                </a></li>
+                
+                <li style='display:none;' faci="42"><a href="/listhotel/c14/f42/ha-noi-massage-spa.htm">
+                    Massage & spa
+                </a></li>
+                
+                <li style='display:none;' faci="43"><a href="/listhotel/c14/f43/ha-noi-bai-bien-rieng.htm">
+                    Bãi biển riêng
+                </a></li>
+                
+                <li style='display:none;' faci="44"><a href="/listhotel/c14/f44/ha-noi-doi-ngoai-te.htm">
+                    Đổi ngoại tệ
+                </a></li>
+                
+                <li style='display:none;' faci="45"><a href="/listhotel/c14/f45/ha-noi-san-tennis.htm">
+                    Sân tennis
+                </a></li>
+                
+                <li style='display:none;' faci="46"><a href="/listhotel/c14/f46/ha-noi-phong-tap-the-duc.htm">
+                    Phòng tập thể dục
+                </a></li>
+                
+                <li style='display:none;' faci="47"><a href="/listhotel/c14/f47/ha-noi-thang-may.htm">
+                    Thang máy
+                </a></li>
+                
+                <li style='display:none;' faci="48"><a href="/listhotel/c14/f48/ha-noi-bi-a.htm">
+                    Bi-a
+                </a></li>
+                
+                <li style='display:none;' faci="49"><a href="/listhotel/c14/f49/ha-noi-dich-vu-dua-don-theo-yeu-cau.htm">
+                    Dịch vụ đưa đón (theo yêu cầu)
+                </a></li>
+                
+                <li style='display:none;' faci="50"><a href="/listhotel/c14/f50/ha-noi-bong-chuyen-bai-bien.htm">
+                    Bóng chuyền bãi biển
+                </a></li>
+                
+                <li style='display:none;' faci="51"><a href="/listhotel/c14/f51/ha-noi-bai-dau-xe.htm">
+                    Bãi đậu xe
+                </a></li>
+                
+                <li style='display:none;' faci="52"><a href="/listhotel/c14/f52/ha-noi-dich-vu-phong.htm">
+                    Dịch vụ phòng
+                </a></li>
+                
+                <li style='display:none;' faci="53"><a href="/listhotel/c14/f53/ha-noi-trang-thiet-bi-cho-nguoi-tan-tat.htm">
+                    Trang thiết bị cho người tàn tật
+                </a></li>
+                
+                <li style='display:none;' faci="54"><a href="/listhotel/c14/f54/ha-noi-giat-ui.htm">
+                    Giặt ủi
+                </a></li>
+                
+                <li style='display:none;' faci="55"><a href="/listhotel/c14/f55/ha-noi-cua-hang.htm">
+                    Cửa hàng
+                </a></li>
+                
+                <li style='display:none;' faci="56"><a href="/listhotel/c14/f56/ha-noi-dich-vu-trong-tre.htm">
+                    Dịch vụ trông trẻ
+                </a></li>
+                
+                <li style='display:none;' faci="57"><a href="/listhotel/c14/f57/ha-noi-quan-bar-canh-be-boi.htm">
+                    Quán bar cạnh bể bơi
+                </a></li>
+                
+                <li style='display:none;' faci="58"><a href="/listhotel/c14/f58/ha-noi-dua-don-san-bay.htm">
+                    Đưa đón sân bay
+                </a></li>
+                
+                <li style='display:none;' faci="59"><a href="/listhotel/c14/f59/ha-noi-tam-hoi.htm">
+                    Tắm hơi
+                </a></li>
+                
+                <li style='display:none;' faci="60"><a href="/listhotel/c14/f60/ha-noi-phong-tam-hoi.htm">
+                    Phòng tắm hơi
+                </a></li>
+                
+                <li style='display:none;' faci="61"><a href="/listhotel/c14/f61/ha-noi-ho-boi-cho-tre-em.htm">
+                    Hồ bơi (cho trẻ em)
+                </a></li>
+                
+                <li style='display:none;' faci="62"><a href="/listhotel/c14/f62/ha-noi-wifi-o-khu-vuc-cong-cong.htm">
+                    Wifi ở khu vực công cộng
+                </a></li>
+                
+                <li style='display:none;' faci="63"><a href="/listhotel/c14/f63/ha-noi-khu-vui-choi-tre-em.htm">
+                    khu vui chơi trẻ em
+                </a></li>
+                
+                <li style='display:none;' faci="64"><a href="/listhotel/c14/f64/ha-noi-phong-hop.htm">
+                    Phòng họp
+                </a></li>
+                
+                <li style='display:none;' faci="65"><a href="/listhotel/c14/f65/ha-noi-be-boi-ngoai-troi.htm">
+                    Bể bơi ngoài trời
+                </a></li>
+                
+                <li style='display:none;' faci="66"><a href="/listhotel/c14/f66/ha-noi-karaoke.htm">
+                    Karaoke
+                </a></li>
+                
+                <li style='display:none;' faci="67"><a href="/listhotel/c14/f67/ha-noi-cau-ca.htm">
+                    Câu cá
+                </a></li>
+                
+                <li style='display:none;' faci="68"><a href="/listhotel/c14/f68/ha-noi-trung-tam-thuong-mai.htm">
+                    Trung tâm thương mại
+                </a></li>
+                
+                <li style='display:none;' faci="69"><a href="/listhotel/c14/f69/ha-noi-quan-ca-phe.htm">
+                    Quán cà phê
+                </a></li>
+                
+                <li style='display:none;' faci="70"><a href="/listhotel/c14/f70/ha-noi-khu-vui-choi-duoi-nuoc.htm">
+                    Khu vui chơi dưới nước
+                </a></li>
+                
+                <li style='display:none;' faci="75"><a href="/listhotel/c14/f75/ha-noi-cho-phep-mang-theo-vat-nuoi.htm">
+                    Cho phép mang theo vật nuôi
+                </a></li>
+                
+                <li style='display:none;' faci="77"><a href="/listhotel/c14/f77/ha-noi-be-boi-trong-nha.htm">
+                    Bể bơi trong nhà
+                </a></li>
+                
+                <li style='display:none;' faci="78"><a href="/listhotel/c14/f78/ha-noi-song-bai.htm">
+                    Sòng bài
+                </a></li>
+                
+            </ul>
+            
+            <p class="showall">
+                <a onclick="$('#filter-facilities li').show();$(this).parent().hide();">
+                    Tất cả
+                </a>
+            </p>
+            
+        </div>
+    </div>
+</div>
+<div class="DivListHotel" style="float: right; width: 800px;">
+    <div class="titlelist">
+        <div class="title">
+            Có 180 Khách sạn
+        </div>
+        <div class="order">
+            Sắp xếp theo
+            <select id='CboOrder'>
+                <option value="4">---</option>
+                <option value="3">
+                    Sao
+                </option>
+                <option value="1">
+                    Tên khách sạn
+                </option>
+                <option value="2">
+                    Giá trong tuần
+                </option>
+            </select>
+            <select id="CboIsAsc">
+                <option value="2">
+                    Giảm dần
+                </option>
+                <option value="1">
+                    Tăng dần
+                </option>
+            </select>
+            <input type="button" class="command" onclick="PerformSearchHotel(false)" value="Sắp xếp" />
+        </div>
+    </div>
+    <ul class="ListHotel">
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/1/ha noi/Fraser Suites Hanoi/Three Bedroom Executive.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h2712/fraser-suites-hanoi-.htm" id='LblNameHotel_2712'>
+                    Fraser Suites Hanoi 
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_2712">
+                        51 Xuân Diệu, Tây Hồ, Hà Nội, Việt Nam
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(2712,'21.06177439806426,105.83085894584656 ')" />
+                    
+                </div>
+                
+                <p>
+                    Toạ lạc chiến lược trong khu Hồ Tây đẹp như tranh vẽ, Fraser Suites Hà Nội cung cấp các căn hộ dịch vụ với những tiện nghi bao gồm hồ bơi ngoài trời kiểu khu nghỉ mát và điều kiện đi lại trực tiếp đến trung tâm mua sắm liên kết Syrena.<br><br>
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h2712/fraser-suites-hanoi-.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/1/ha noi/Golden Sun Legend Hotel/Reception.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h3275/golden-legend-hotel-.htm" id='LblNameHotel_3275'>
+                    Golden Legend Hotel 
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_3275">
+                        10 Chân Cầm, quận Hoàn Kiếm, Hà Nội, Việt Nam
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(3275,'21.0300577,105.8478365')" />
+                    
+                </div>
+                
+                <p>
+                    Khách sạn này tại Hà Nội có tầm nhìn ra khung cảnh Khu Phố Pháp và các phòng với ban công. Khách sạn có Wi-Fi miễn phí, bãi đậu xe miễn phí và một quầy lễ tân 24-giờ.<br><br>
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h3275/golden-legend-hotel-.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/Art Trendy Hotel/Art Trendy Hotel -Guest room 1.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h4293/khach-san-art-trendy.htm" id='LblNameHotel_4293'>
+                    Khách Sạn Art Trendy
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_4293">
+                        6A Hàng Bụt, quận Hoàn Kiếm, Hà Nội
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(4293,'21.0349267,105.8481444')" />
+                    
+                </div>
+                
+                <p>
+                    Từ Art Trendy Hotel khách có thể dễ dàng tiếp cận được nét đẹp sống động của thành phố ở mọi góc cạnh. Với những điểm du lịch chính của thành phố như Pho Co, Bảo Tàng Độc lập, Hàng Ngang Hàng Đào khá gần, khách tham quan khi đến khách sạn đều rất hài lòng với vị trí này của khách sạn.
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h4293/khach-san-art-trendy.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/Hanoi Calypso Hotel/family.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h730/hanoi-calypso-hotel-.htm" id='LblNameHotel_730'>
+                    Hanoi Calypso Hotel 
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_730">
+                        27A Cửa Đông, Quận Hoàn Kiếm , Hà Nội, Việt Nam
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(730,'21.032636393300717,105.84537506103516')" />
+                    
+                </div>
+                
+                <p>
+                    Hanoi Calypso Hotel cung cấp chỗ ở sang trọng tại khu mua sắm của Phố Cổ Hà Nội. Tại đây có Wi-Fi miễn phí và các phòng được trang bị máy tính. Từ khách sạn đến Hồ Hoàn Kiếm chỉ mất 5 phút tản bộ.
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h730/hanoi-calypso-hotel-.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/A HANOI/Grand Plaza Hanoi Hotel/247355_1012211818003504608_STD.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h2192/grand-plaza-hanoi-hotel-.htm" id='LblNameHotel_2192'>
+                    Grand Plaza Hanoi Hotel 
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_2192">
+                        117 Trần Duy Hưng, Cầu Giấy, Hà Nội, Việt Nam
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(2192,'21.013959039251933,105.80349169671535')" />
+                    
+                </div>
+                
+                <p>
+                    Nằm trên đường Trần Duy Hưng, tiếp giáp với Trung tâm Hội nghị Quốc gia, Grand Plaza Hanoi Hotel ở trung tâm chính trị, kinh doanh của Hà Nội. Với 618 phòng khách sang trọng, một loạt các nhà hàng, quán bar, phòng hội nghị tuyệt vời với trang thiết bị sang trọng cho bữa tiệc, cũng như các trung tâm thể dục &amp; spa ấn tượng, chúng tôi luôn đem lại mọi sự thoải mái cho doanh nhân và du khách khi chọn kỳ nghì tại đây!
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <b  class='online'>
+                    2,455,000
+                    VND</b><br />
+                <br />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h2192/grand-plaza-hanoi-hotel-.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/Zephyr Hotel/Superior.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h733/zephyr-hotel-hanoi.htm" id='LblNameHotel_733'>
+                    Zephyr Hotel Hanoi
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_733">
+                        4-6 Bà Triệu, Hoàn Kiếm Dis, Hà Nội.
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(733,'21.023843807131634,105.85099697113037')" />
+                    
+                </div>
+                
+                <p>
+                    Nằm ngay giữa Hà Nội, Khách sạn Zéphyr cách đoạn chạy xe ngắn từ Hồ Hoàn Kiếm. Nơi đây có bãi đỗ xe miễn phí, nhà hàng và các phòng với Internet miễn phí.<br>
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <b  class='online'>
+                    1,690,000
+                    VND</b><br />
+                <br />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h733/zephyr-hotel-hanoi.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/1/ha noi/view 2/Hanoi View 2 Hotel - le tan1.JPG" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h2223/khach-san-ha-noi-view-2.htm" id='LblNameHotel_2223'>
+                    Khách Sạn Hà Nội View 2
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_2223">
+                        48 ngõ Ngô Sĩ Liên, Quận Đống Đa, Hà Nội, Việt Nam
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(2223,'21.027361404563884,105.83876341581345')" />
+                    
+                </div>
+                
+                <p>
+                    Nằm cạnh Ga Hà Nội, Hanoi View 2 cung cấp các phòng thanh lịch có máy tính và Wi-Fi miễn phí. Với tầm nhìn ra quang cảnh Khu Phố Cổ sôi động, khách sạn phục vụ bữa sáng và có các tiện nghi hát karaoke.
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <b  class='online'>
+                    720,000
+                    VND</b><br />
+                <br />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h2223/khach-san-ha-noi-view-2.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/1/ha noi/authentic/authentic-1.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h3624/authentic-hotel-hanoi.htm" id='LblNameHotel_3624'>
+                    Authentic Hotel Hanoi
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_3624">
+                        13 Lý Thái Tổ, Quận Hoàn Kiếm, Hà Nội 
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(3624,'21.0304583,105.85509')" />
+                    
+                </div>
+                
+                <p>
+                    Tọa lạc trên con phố tại trung tâm Thủ Đô, khách sạn Authentic Hanoi Boutique Hotel được thiết kế theo tiêu chí hiện đại và sang trọng nhưng vẫn giữ được hồn tinh tế của văn hóa Á Đông<br><br>
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h3624/authentic-hotel-hanoi.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/HANOI DAEWOO HOTEL/10960_110801183709272_STD.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h419/hanoi-daewoo-hotel-.htm" id='LblNameHotel_419'>
+                    Hanoi Daewoo Hotel 
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_419">
+                        Số 360, Phố Kim Mã, Quận Ba Đình,  Hà Nội, Việt Nam 
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(419,'21.030553458499234,105.81477642059326')" />
+                    
+                </div>
+                
+                <p>
+                    Với tầm nhìn tuyệt đẹp ra quang cảnh thành phố Hà Nội và Hồ Thủ Lệ, Daewoo Hotel có hồ bơi ngoài trời dài 80 m, bãi tập đánh gôn trong nhà và spa. Các phòng nghỉ hiện đại có truy cập Internet miễn phí. Tại đây có chỗ đỗ xe miễn phí.<br>
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <b  class='online'>
+                    2,222,000
+                    VND</b><br />
+                <br />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h419/hanoi-daewoo-hotel-.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/1/ha noi/romance/Hanoi Romance Hotel.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h3634/romance-hotel-hanoi.htm" id='LblNameHotel_3634'>
+                    Romance Hotel Hanoi
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_3634">
+                        19 Ngõ Trung Yên , đường Đinh Liệt , Quận Hoàn Kiếm , Hà Nội
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(3634,'21.033052,105.8518848')" />
+                    
+                </div>
+                
+                <p>
+                    Tọa lạc ở vị trí chỉ cách trung tâm thành phố 0.5 Km, khách hàng sẽ có được chỗ ở tốt để tận hưởng các điểm thú vị và hoạt động nổi tiếng ở đây. Và cũng có thể dễ dàng đến phố Cầu Gỗ, Hàng Ngang Hàng Đào, 87 Mã Mây.<br><br>
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h3634/romance-hotel-hanoi.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/InterContinental Hanoi Westlake/90776_090430162400906437_STD.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h2175/intercontinental-hanoi-westlake-.htm" id='LblNameHotel_2175'>
+                    InterContinental Hanoi Westlake  
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_2175">
+                        1A Nghi Tàm, Tây Hồ, Hà Nội
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(2175,'21.033674720417377,105.84638692438602')" />
+                    
+                </div>
+                
+                <p>
+                    InterContinental sang trọng nằm trên mặt nước thanh bình của Hồ Tây,Hà Nội, cạnh Chùa Kim Liên 800 tuổi. Các phòng máy lạnh rộng rãi được trang trí kiểu Việt Nam đương đại và TV màn hình phẳng.
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h2175/intercontinental-hanoi-westlake-.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/HILTON HANOI OPERA/Las.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h280/hilton-hanoi-opera.htm" id='LblNameHotel_280'>
+                    Hilton Hanoi Opera
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_280">
+                        Số 1, Phố Lê Thánh Tông, Pho Hue/Hom Market - Thong Nhat Park, Hà Nội, Việt Nam 
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(280,'21.021420246870004,105.85803508758545')" />
+                    
+                </div>
+                
+                <p>
+                    Khách sạn sang trọng đẳng cấp quốc tế này nằm trên đường Lê Thánh Tông, ngay cạnh khu phố cổ. Du khách sẽ dễ dàng tiếp cận các điểm tham quan nổi tiếng của thành phố ngàn năm văn hiến này chỉ trong một khoảng cách đi bộ
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h280/hilton-hanoi-opera.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/Hidden Charm Hotel/Hotel Exterior.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h3511/-hidden-charm-hotel-.htm" id='LblNameHotel_3511'>
+                     Hidden Charm Hotel 
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_3511">
+                        23 Âu Triệu, Quận Hoàn Kiếm, Hà Nội
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(3511,'21.0285005,105.8485293')" />
+                    
+                </div>
+                
+                <p>
+                    Hidden Charm Hotel nằm trong Khu Phố Cổ Hà Nội, cách Hồ Hoàn Kiếm cũng như Đền Ngọc Sơn 5 phút đi bộ. Khách sạn cung cấp Wi-Fi miễn phí và dịch vụ phòng 24 giờ.<br>Các phòng mang một loạt các phong cách khác nhau, một số phòng có thiết kế hiện đại, tối giản trong khi những phòng khác đặc trưng với đồ nội thất chạm khắc trang nhã. Truyền hình cáp màn hình phẳng được trang bị trong phòng. Ngoài ra còn có tiện nghi pha trà/cà phê.<br>Hidden Charm Hanoi cách Chợ Đồng Xuân cũng như Công viên Bách thảo Hà Nội 10 phút đi bộ. Khách sạn cách Ga Tàu Hà Nội chưa đầy 2 km.<br>
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h3511/-hidden-charm-hotel-.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/1/ha noi/Hanoi Cozy Hotel 2/Suite Room.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h2984/khach-san-cozy-2.htm" id='LblNameHotel_2984'>
+                    Khách sạn Cozy 2
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_2984">
+                        58 Hang Be Street, Quận Hoàn Kiếm, Hà Nội, Việt Nam
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(2984,'21.0272662,105.8554513')" />
+                    
+                </div>
+                
+                <p>
+                    Hà Nội Cozy Hotel 2, 1 khách sạn ba sao thương hiệu mới ở trung tâm của Hà Nội. Hà Nội Cozy Hotel 2 nằm ở trung tâm của khu phố cổ Hà Nội.Từ khách sạn, Chỉ cần 1/2 phút đi bộ đến Hồ Hoàn Kiếm, con rối nhà hát nước, và Nhà thờ Thánh Giuse, một số bước đi bộ đến chợ đêm Hàng Ngang, Hàng Đào, Đồng Xuân thị trường. Nó cũng gần bưu điện quốc tế, các ngân hàng, nhà hàng, cửa hàng lưu niệm ....
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h2984/khach-san-cozy-2.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/HANOI BOUTIQUE HOTEL 2/159223_110419101321304_STD.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h283/khach-san-ha-noi-boutique-2.htm" id='LblNameHotel_283'>
+                    Khách sạn Hà Nội Boutique 2
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_283">
+                        32 Đào Duy Từ, Hoan Kiem District - Old Quarter, Hà Nội, Việt Nam
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(283,'21.03529009017206,105.85246682167053')" />
+                    
+                </div>
+                
+                <p>
+                    Nằm ở giữa khu phố cổ Hà Nội, trên đường Đào Duy Từ, chỉ là 45 phút từ sân bay Nội Bài. Du khách có thể đi bộ từ khách sạn đến những điểm thu hút khách du lịch của thành phố như Hồ Hoàn Kiếm, Chợ Đồng Xuân, Phủ Chủ Tịch, Nhà múa rối nước Thăng Long,
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <b  class='online'>
+                    811,000
+                    VND</b><br />
+                <br />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h283/khach-san-ha-noi-boutique-2.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/SUNNY III HOTEL HANOI/247526_110403154209956_STD.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h434/sunny-iii-hotel-hanoi.htm" id='LblNameHotel_434'>
+                    Sunny III Hotel Hanoi
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_434">
+                        10-12/168 Phố Hạo Nam, Quận Đống Đa, Hà Nội, Việt Nam 
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(434,'21.021688142348076,105.82622945308685')" />
+                    
+                </div>
+                
+                <p>
+                    Có 50 phòng ở khách sạn 11 tầng này, tất cả đều được trang bị các thiết bị hiện đại nhất.
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <b  class='online'>
+                    1,200,000
+                    VND</b><br />
+                <br />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h434/sunny-iii-hotel-hanoi.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/Artisan Boutique Hotel/Artisan Boutique - Guest Room 2.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h4250/khach-san-artisan-boutique.htm" id='LblNameHotel_4250'>
+                    Khách sạn Artisan Boutique
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_4250">
+                        24 - 26 Hàng Hành, Quận Hoàn Kiếm - Hồ Hoàn Kiếm,
+                    </span>
+                    
+                </div>
+                
+                <p>
+                    Tọa lạc ở vị trí đẹp của Quận Hoàn Kiếm - Hồ Hoàn Kiếm, Artisan Boutique Hotel hưởng được rất nhiều lợi thế trong mua sắm, văn hóa, nhà hàng trung tâm của Hà Nội. Chỉ cách sân bay 40 km, nên từ sân bay rất dễ để đi đến khách sạn 3 sao này
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h4250/khach-san-artisan-boutique.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/1/ha noi/Hanoi Posh Hotel/239466_110920173753896_STD.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h2635/hanoi-posh-hotel-.htm" id='LblNameHotel_2635'>
+                    Hanoi Posh Hotel 
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_2635">
+                        18 Hàng Hòm, Hoàn Kiếm, Hà Nội, Việt Nam
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(2635,'21.031715098806416,105.84885120391846')" />
+                    
+                </div>
+                
+                <p>
+                    Hanoi Posh toạ lạc ở trung tâm Khu Phố Cổ Hà Nội, cách Hồ Hoàn Kiếm vài bước chân. Để thuận tiện cho quý khách, chỗ ở này cung cấp Wi-Fi miễn phí trong toàn bộ khách sạn và có nhà hàng ngay trong khuôn viên.
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h2635/hanoi-posh-hotel-.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/hilton Garden Inn Hanoi/Hilton Garden Inn Hanoi - Outside 3.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h4345/khach-san-hilton-garden-inn.htm" id='LblNameHotel_4345'>
+                    Khách sạn Hilton Garden Inn
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_4345">
+                        20 Phan Chu Trinh, Quận Hòan Kiếm, Hà Nội
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(4345,'21.0216525,105.8561555')" />
+                    
+                </div>
+                
+                <p>
+                    Khiêm tốn nằm trong trung tâm của Nhà hát thành phố - Quận Hoàn Kiếm, Hilton Garden Inn Hanoi là điểm lý tưởng cho du khách muốn khám phá Hà Nội.&nbsp;
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h4345/khach-san-hilton-garden-inn.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/A HANOI/Amazing Hotel Hanoi/Deluxe.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h2219/amazing-hotel-hanoi.htm" id='LblNameHotel_2219'>
+                    Amazing Hotel Hanoi
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_2219">
+                        21 Hàng Phèn, Quận Hoàn Kiếm, Hà Nội, Việt Nam
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(2219,'21.034383832969972,105.84724187850952')" />
+                    
+                </div>
+                
+                <p>
+                    Khách sạn Amazing Hotel Hà Nội cung cấp chỗ nghỉ 3 sao giá cả phải chăng ở ngay trung tâm của Khu phố cổ của Hà Nội. Khách sạn nằm trong khoảng cách đi bộ đến Chợ Đồng Xuân, Hồ Hoàn Kiếm và Đền Ngọc Sơn.
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h2219/amazing-hotel-hanoi.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/LEGACY HOTEL HANOI/Legacy Hotel Hanoi - Lobby.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h4176/hanoi-legacy-hotel--hang-bac.htm" id='LblNameHotel_4176'>
+                    Hanoi Legacy Hotel - Hang Bac
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_4176">
+                        108 Hàng Bạc, Quận Hoàn Kiếm, Hà Nội, Việt Nam
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(4176,'21.0340033,105.8515602')" />
+                    
+                </div>
+                
+                <p>
+                    Được thiết kế cho cả các chuyến du lịch nghỉ ngơi và công tác, Hanoi Legacy Hotel - Hang Bac tọa lạc tại vị trí lí tưởng ở Phố Cổ - Quận Hoàn Kiếm; một trong những khu vực nổi tiếng của thành phố. Từ đây, khách có thể dễ dàng tiếp cận được nét đẹp sống động của thành phố ở mọi góc cạnh. Một điểm không kém phần đặc biệt là vị trí khách sạn dễ dàng tiệp cận vô số địa điểm thú vị như Hàng Ngang Hàng Đào, Bảo Tàng Độc lập, 87 Mã Mây.
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h4176/hanoi-legacy-hotel--hang-bac.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/SERENADE HOTEL/97221_081006152600199082_STD.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h386/serenade-hotel.htm" id='LblNameHotel_386'>
+                    Serenade Hotel
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_386">
+                        Số 58, Phố Hàng Đào, Quận Hoàn Kiếm, Hà Nội, Việt Nam 
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(386,'21.03329231145301,105.85101306438446')" />
+                    
+                </div>
+                
+                <div class="DivContentPromotion">
+                    
+                    
+                      <span class="title-promotion travel">Khuyến mãi Du lịch</span>
+                       <a href="/detailhotel/h386/serenade-hotel.htm">Giá ưu đãi đặc biệt</a>                       
+                    
+                </div>
+                
+                <p>
+                    Nằm ở trung tâm Khu Phố Cổ Hà Nội, Serenade Hotel cung cấp chỗ đỗ xe miễn phí và Internet có dây miễn phí trong phòng nghỉ. Chỉ cách Hồ Hoàn Kiếm 50 m, chỗ ở này cũng có phòng xông hơi khô và các liệu pháp mát-xa thư giãn. Tại đây cũng cho thuê xe đạp.<br>
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h386/serenade-hotel.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/1/ha noi/Hanoi Asia Star Hotel/Deluxe Twin Sky View.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h2940/khach-san-hanoi-asia-star.htm" id='LblNameHotel_2940'>
+                    Khách Sạn Hanoi Asia Star
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_2940">
+                        20 Đào Duy Từ, Quận Hoàn Kiếm, Hà Nội, Việt Nam
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(2940,'21.036539,105.8526629')" />
+                    
+                </div>
+                
+                <p>
+                    Chỉ cách Ô Quan Chưởng vài phút đi bộ, Hanoi Asia Star Hotel nằm trong bán kính 5 phút đi bộ từ Chợ Đồng Xuân, Hồ Hoàn Kiếm và các phố mua sắm. Khách sạn cung cấp các phòng nghỉ được trang bị máy vi tính và truy cập Wi-Fi miễn phí.<br><br><br>
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h2940/khach-san-hanoi-asia-star.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/1/ha noi/Vista Hotel Hanoi/Superior 1.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h3021/vista-hotel-hanoi.htm" id='LblNameHotel_3021'>
+                    Vista Hotel Hanoi
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_3021">
+                        30 Nguyễn Thượng Hiền, Quận Hai Bà Trưng, Hà Nội, Việt Nam
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(3021,'21.0188595,105.8419196')" />
+                    
+                </div>
+                
+                <p>
+                    Vista Hotel Hanoi nằm cách Hồ Thuyền Quang, Ga Hà Nội và chợ địa phương 5 phút đi bộ. Nơi này có nhà hàng quốc tế và Wi-Fi miễn phí trong toàn bộ khách sạn.<br><br>
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h3021/vista-hotel-hanoi.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/A HANOI/Pearl Suites Hanoi Hotel/gjghj.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h2182/pearl-suites-hanoi-hotel-.htm" id='LblNameHotel_2182'>
+                    Pearl Suites Hanoi Hotel 
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_2182">
+                        7 Đông Thái, Hoàn Kiếm, Hoàn Kiếm, Hà Nội
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(2182,'21.036470469394388,105.85310518741608')" />
+                    
+                </div>
+                
+                <p>
+                    Pearl Suites Hanoi Hotel cách Hồ Hoàn Kiếm 3 phút đi bộ này cung cấp các phòng kiểu Việt Nam hiện đại với laptop và Internet có dây miễn phí. Quầy bar trên tầng mái nhìn ra Sông Hồng và Cầu Long Biên. Wi-Fi miễn phí được cung cấp trong toàn bộ khách sạn.
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h2182/pearl-suites-hanoi-hotel-.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/HANOI GRAND VIEW HOTEL/161691_0908191023001680173_STD.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h421/hanoi-amanda-hotel-hanoi-grand-view-hotel-.htm" id='LblNameHotel_421'>
+                    Hanoi Amanda Hotel ( Hanoi Grand View Hotel )
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_421">
+                        50 Hàng Bè, Quận Hoàn Kiếm,  Hà Nội, Việt Nam 
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(421,'21.033257262464453,105.85374355316162')" />
+                    
+                </div>
+                
+                <p>
+                    Khách sạn giá cả phải chăng này rất quen thuộc với cả du khách kinh doanh và khách du lịch đến Hà Nội. Vị trí thuận tiện ngay trong khu trung tâm của Hà Nội, các địa điểm tham quan nổi tiếng của thành phố Hồ Hoàn Kiếm,
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h421/hanoi-amanda-hotel-hanoi-grand-view-hotel-.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/HANOI ROSALIZA HOTEL/96591_1102011002003551564_STD.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h438/hanoi-rosaliza-hotel-.htm" id='LblNameHotel_438'>
+                    Hanoi Rosaliza Hotel 
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_438">
+                        15 Phố Trần Quốc Toản, Quận Hoàn Kiếm, Hà Nội, Việt Nam
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(438,'21.019357185192685,105.85031032562256')" />
+                    
+                </div>
+                
+                <p>
+                    Chỉ mười phút đi bộ từ trung tâm thành phố, mới được mở ra Rosaliza Hotel cung cấp một cái nhìn thành phố tuyệt vời với thiết kế sang trọng và phong cách trong 50 phòng rộng rãi khác nhau, từ tiêu chuẩn, Deluxe Suite tập trung vào sự thoải mái và tiện lợi của  khách  trong thời gian lưu trú ở khách sạn
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h438/hanoi-rosaliza-hotel-.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/1/ha noi/Hanoi Moment Hotel/Deluxe Double.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h2823/khach-san-ha-noi-moment.htm" id='LblNameHotel_2823'>
+                    Khách Sạn Hà Nội Moment
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_2823">
+                        15 Phố Hàng Cân, Quận Hoàn Kiếm, Hà Nội, Việt Nam
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(2823,'21.034637,105.8496835')" />
+                    
+                </div>
+                
+                <p>
+                    Hà Nội Moment Hotel cung cấp phòng nghỉ giá cả phải chăng với Wi-Fi miễn phí và TV màn hình phẳng, nằm trong khoảng cách đi bộ đến hồ Hoàn Kiếm và Chợ Đêm. Khách sạn có một nhà hàng.<br><br>
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h2823/khach-san-ha-noi-moment.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/HANOI/SUNNY III HOTEL HANOI/Sunny 3 -  Overview1.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h4370/khach-san-sunny-3.htm" id='LblNameHotel_4370'>
+                    Khách Sạn Sunny 3
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_4370">
+                        10-12/168 Hào Nam, Đống Đa, Hà Nội
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(4370,'21.0216356,105.8259773')" />
+                    
+                </div>
+                
+                <p>
+                    Khách sạn Sunny Hà Nội III có lợi thế ban đầu là một vị trí tuyệt vời ở trung tâm của quận Đống Đa, và quang cảnh ngoạn mục trên các đường phố đông đúc. Chỉ cần 15 phút đi xe vào khu phố cổ Hà Nội và ngắm cảnh hồ Hoàn Kiếm, nằm ​​bên cạnh Giảng Võ Trung tâm Triển lãm Quốc tế, Văn Miếu, Lăng Chủ tịch Hồ Chí Minh, Chùa Một Cột và nhiều đại sứ quán
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h4370/khach-san-sunny-3.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+        <li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/1/ha noi/Hoan Kiem Lake Hotel/Hoan Kiem Lake Hotel.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h3345/hoan-kiem-lake-hotel.htm" id='LblNameHotel_3345'>
+                    Hoan Kiem Lake Hotel
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_3345">
+                        29 Hàng Trống, Quận Hòan Kiếm, Hà Nội, Việt Nam 
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(3345,'21.0312304,105.8491865')" />
+                    
+                </div>
+                
+                <p>
+                    Hoan Kiem Lake Hotel cung cấp phòng nghỉ được trang trí đơn giản với Wi-Fi miễn phí và nằm trong Khu Phố Cổ của Hà Nội. Nằm trong bán kính 3 phút đi bộ từ Chợ Đồng Xuân, khách sạn có phòng trưng bày tranh Phật và quầy lễ tân 24 giờ.&nbsp;<br>
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <b  class='online'>
+                    360,000
+                    VND</b><br />
+                <br />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h3345/hoan-kiem-lake-hotel.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        
+    </ul>
+    <br/><div class='DivSplitPage'><div class='DivCurrentPage'>1</div> <div><a href='/ListHotel.aspx?P=2&C=14&O=4'>2</a></div>  <div><a href='/ListHotel.aspx?P=3&C=14&O=4'>3</a></div>  <div><a href='/ListHotel.aspx?P=4&C=14&O=4'>4</a></div>  <div><a href='/ListHotel.aspx?P=5&C=14&O=4'>5</a></div>  <div><a href='/ListHotel.aspx?P=6&C=14&O=4'>6</a></div> </div>
+</div>
+
+<script>
+    function PerformFilterHotel()
+    {
+        var link="/listhotel/c14/q0/";
+        var i_rate=0;
+        if($('#filter_rate li.checked').length>0)
+            i_rate=$('#filter_rate li.checked').index()+1;
+        var i_price=0;
+        if($('#filter_price li.checked').length>0)
+            i_price=$('#filter_price li.checked').index()+1;
+        if(ql=="1")
+        {
+            link +="l1/";
+        }
+        
+        if(i_rate>0)
+            link +="r"+i_rate+"/";
+        if(i_price>0)
+            link +="g"+i_price+"/";
+        window.location.href=link+"filter-hotel.htm";
+    }
+    $(document).ready(
+        function()
+        {
+            $('#filter_rate li').click(
+                function()
+                {
+                    $('#filter_rate li').not(this).removeClass('checked');
+                    $(this).toggleClass('checked');
+                    PerformFilterHotel();
+                }
+            );
+            $('#filter_price li').click(
+                function()
+                {
+                    $('#filter_price li').not(this).removeClass('checked');
+                    $(this).toggleClass('checked');
+                    PerformFilterHotel();
+                }
+            );
+            $('#filter-district li, #filter-group li, #filter-facilities li').click(
+                function()
+                {
+                    window.location.href=$(this).find('a').attr('href');
+                }
+            );
+            
+            
+        }
+    );
+</script>
+
+<script>
+    var oldtext='';
+    var timerid=null;
+    $(document).ready(
+        function()
+        {            
+            $('body').append('<ul class="UlSearch"></ul>');
+            $('#txtSearch').keyup
+            (
+                function(e)
+                {                                       
+                    if(timerid!=null)
+                        clearTimeout(timerid);
+                    timerid=setTimeout(
+                    function()
+                    {
+                        ShowHotelOption(e);
+                    },500);
+                }
+            );
+        }
+    );
+     function SearchHotelByName(obj)
+    {
+        $('#txtSearch').val($(obj).text());
+        $('.UlSearch').hide();
+    }
+    function ShowHotelOption(e)
+    {        
+    try{
+        var text=$('#txtSearch').val();
+        var code = (e.keyCode ? e.keyCode : e.which);    
+        if(text.length>0)
+        {
+                if(oldtext!=text)
+                {
+                    UserControls_Hotel_ListHotel.GetHotelByWord(text,20,
+                    function(res)
+                    {
+                        if(res&&res.value)
+                        {
+                            var html='';
+                            var l='';
+                            if(ql=="1")
+                                l="l1/";
+                            
+                            for(var i=0;i<res.value.Tables[0].Rows.length;i++)
+                            {
+                                var row=res.value.Tables[0].Rows[i];
+                                var link='/detailhotel/h'+row.ID+"/"+l+ConvertUnicodeToASCII(row.Name)+'.htm';
+                                html+="<li "+(i==0?"class='selected'":"")+"><a onclick='SearchHotelByName(this)'>"+row.Name+"</a></li>";
+                            }
+                            if(html.length>0)
+                            {
+                                var obj=$('#txtSearch').offset();
+                                $('.UlSearch').mouseleave(
+                                  function()
+                                  {
+                                    $(this).hide();
+                                    oldtext='';
+                                  }  
+                                );
+                                $('.UlSearch').html(html).css({left:(obj.left+'px'),top:((obj.top+24)+'px')}).slideDown();
+                                $('.UlSearch li').mousemove(
+                                    function()
+                                    {
+                                        $('.UlSearch li').removeClass('selected');
+                                        $(this).addClass('selected');
+                                    }
+                                );
+                            }
+                            else $('.UlSearch').html('').hide();
+                        }
+                    }
+                );
+                oldtext=text;
+            }
+            else 
+            {
+                if(code==13)
+                    {                                               
+                        //window.location.href=$('.UlSearch li.selected a').attr('href');
+                        //return;
+                        $('#txtSearch').val($('.UlSearch li.selected a').text());
+                    }                            
+                var objlis=$('.UlSearch li');
+                var index=0;
+                objlis.each(
+                function()
+                {
+                    if(this.className=='selected')
+                    {
+                        index=$(this).index();
+                    }
+                }
+                );
+                if(code==40)
+                    index++;
+                else index--;
+                if(index<0||index>=objlis.length)
+                    index=0;
+                objlis.removeClass('selected');
+                objlis.eq(index).addClass('selected');
+            }
+        }
+        else $('.UlSearch').html('').hide();
+        }
+        catch(e){alert(e.message);}
+    }
+</script>
+
+<script>
+    var ObjHTMLRoomType=null;
+    var ObjListDetail={};
+    var AllServices=null;
+    var ObjListPromotion={};
+    var ObjHTMLPromotion=null;
+    var ObjMap=null;
+    var map;
+    
+    var descriptionnote={};
+    var divdescriptionnote=null;
+    
+    function ShowDescriptionNote(obj,typenote)
+    {
+        var key=typenote;
+        if(descriptionnote[key]==null)
+        {
+            var content=UserControls_Hotel_ListHotel.GetDescriptionNote(typenote).value;                        
+            if(content!=null&&content.length>0)
+            {
+                descriptionnote[key]="<span class='DescriptionUp'>"+content+"<span class='ArrowDown'></span></span>";
+            }
+        }
+        if(descriptionnote[key]!=null&&descriptionnote[key].length>0)
+        {
+            if(!divdescriptionnote)
+            {
+                divdescriptionnote=document.createElement('div');
+                divdescriptionnote.className='DivShowDescription';
+                document.body.appendChild(divdescriptionnote);
+            }
+            divdescriptionnote.innerHTML=descriptionnote[key];
+            divdescriptionnote.style.display='';
+            var pos=GetPositionObject(obj);
+            divdescriptionnote.style.left=(pos.X+20)+'px';
+            divdescriptionnote.style.top=(pos.Y-divdescriptionnote.offsetHeight-5)+'px';
+        }
+        obj.onmouseout=function(){if(divdescriptionnote)
+            divdescriptionnote.style.display='none';};
+    }
+    
+    function ShowPosition(id,pos)
+    {
+        LoadGoogleMap();
+        var dialogid='DialogDivMap';
+        if (GBrowserIsCompatible())
+        {
+            var arrpos=pos.split(',');
+            var hotelname=document.getElementById('LblNameHotel_'+id).innerHTML;
+            var hoteladdress=document.getElementById('LblAddress_'+id).innerHTML;
+            if(!ObjMap)
+            {
+                CreateDivDialog(dialogid,'700px',hotelname,'');
+                ObjMap='Content_'+dialogid;
+                document.getElementById('Content_'+dialogid).className='ContentDialog';
+                document.getElementById(ObjMap).style.height='500px';
+            }
+            var htmlnode='<div align="left"><b>'+hotelname+'</b><br/>'+hoteladdress+'</div>';
+            if(!map)
+            {
+                map = new GMap2(document.getElementById(ObjMap));
+                map.setUIToDefault();
+                BDInit(map,ObjMap);
+            }
+            var center = new GLatLng(arrpos[0],arrpos[1]);
+            map.setCenter(center, 13);
+
+            var marker = new GMarker(center);
+            map.addOverlay(marker);
+            marker.openInfoWindow(htmlnode);
+            GEvent.addListener(marker, "click", function() 
+                {
+                    marker.openInfoWindow(htmlnode);
+                }
+            );
+            document.getElementById('lbltitle_'+dialogid).innerHTML=hotelname;
+            ShowFormDialog(true,dialogid);
+        }
+        else alert('Trình duyệt của bạn không hỗ trợ xem bản đồ !');  
+    }
+    var ObjTypePromotion={};
+    var ObjHTMLTypePromotion=null;
+    function ShowListPromotion(roomtypeid)
+    {
+        if(ObjTypePromotion[roomtypeid]==null)
+        {
+            var res=UserControls_Hotel_ListHotel.GetAllRoomPromotion(roomtypeid).value;
+            if(res)
+            {
+                var html='<table cellspacing="0" cellpadding="0" class="TableGrid"><tr><th>Số đêm tối thiểu</th><th>Số ngày đặt trước</th><th>Giá khuyến mãi</th></tr>';
+                for(var i=0;i<res.Tables[0].Rows.length;i++)
+                {
+                    var row=res.Tables[0].Rows[i];
+                    html+='<tr><td>'+row["MinDays"]+'</td><td>'+row["BeforeDays"]+'</td><td>'+IntFormat(row.Price.toFixed(1))+' '+row.Symbol+'</td></tr>';
+                }
+                html+='</table>';
+                ObjTypePromotion[roomtypeid]=html;
+            }
+        }
+        if(ObjTypePromotion[roomtypeid])
+        {
+            if(ObjHTMLTypePromotion==null)
+            {
+                ObjHTMLTypePromotion='DivListPromotion';
+                CreateDivDialog(ObjHTMLTypePromotion,'500px','Danh sách loại phòng ở khách sạn  ',ObjTypePromotion[roomtypeid]);                
+            }
+            else document.getElementById('Content_'+ObjHTMLTypePromotion).innerHTML=ObjTypePromotion[roomtypeid];
+            document.getElementById('lbltitle_'+ObjHTMLTypePromotion).innerHTML=document.getElementById('typeroom_'+roomtypeid).innerHTML;
+            ShowFormDialog(true,ObjHTMLTypePromotion);
+        }
+    }
+    function ShowPromotion(HotelID)
+    {
+        if(ObjListPromotion[HotelID]==null)
+        {
+            ObjListPromotion[HotelID]="<div class='ContentDialog'>"+UserControls_Hotel_ListHotel.GetContentPromotion(HotelID).value+"</div>";
+        }
+        if(ObjListPromotion[HotelID]!=null)
+        {
+            if(ObjHTMLPromotion==null)
+            {
+                ObjHTMLPromotion='DivInfoPromotion';
+                CreateDivDialog(ObjHTMLPromotion,'600px',document.getElementById('LblNameHotel_'+HotelID).innerHTML,ObjListPromotion[HotelID]);                
+            }
+            else
+            {
+                document.getElementById('Content_'+ObjHTMLPromotion).innerHTML=ObjListPromotion[HotelID];
+            }
+        }
+        document.getElementById('lbltitle_'+ObjHTMLPromotion).innerHTML=document.getElementById('LblNameHotel_'+HotelID).innerHTML;
+        ShowFormDialog(true,ObjHTMLPromotion);
+    }
+    var lstcity={};
+    function LoadCityByCountry(obj)
+    {
+        if(lstcity[obj.value]==null)
+        {
+            lstcity[obj.value]=UserControls_Hotel_ListHotel.GetAllCities(obj.value).value;
+        }
+        var cbo=document.getElementById('CboCity');
+        cbo.innerHTML="";
+        if(!lstcity[obj.value])
+            return;
+        for(var i=0;i<lstcity[obj.value].Tables[0].Rows.length;i++)
+        {
+            var row=lstcity[obj.value].Tables[0].Rows[i];
+            var id=row.ID;
+            var name=row.Name;
+            
+            var opcity=document.createElement('option');
+            opcity.value=id;
+            opcity.text=name;
+            cbo.options.add(opcity);
+            
+            for(var j=0;j<lstcity[obj.value].Tables[1].Rows.length;j++)
+            {
+                var r=lstcity[obj.value].Tables[1].Rows[j];
+                if(r.CityID==id)
+                {
+                    var op=document.createElement('option');
+                    op.text=name+'--'+r.Name;
+                    op.setAttribute("city",id);
+                    op.setAttribute("district",r.ID);
+                    op.className='district';
+                    cbo.options.add(op);
+                }
+            }
+        }
+    }
+    function PerformCommentHotel(HotelID)
+    {
+        window.location.href='/DetailHotel.aspx?H='+HotelID+'&E=1#Comment';
+    }
+    function PerformBookHotel(HotelID,RoomType)
+    {
+        var link='/BookHotel.aspx?H='+HotelID;
+        if(RoomType)
+            link+='&R='+RoomType;
+        window.location.href=link;
+    }
+    function InitListHotel()
+    {
+        document.getElementById('CboIsAsc').value=0;
+        document.getElementById('CboOrder').value=4;
+    }
+    function PerformSearchHotel(IsSearch)
+    {
+        var link = "/ListHotel.aspx?P=1";
+        var link1 = "/listhotel/P1";
+        
+        var CityID=14;
+        var CountryID=0;
+        var DistrictID=0;
+        var search=document.getElementById('txtSearch').value.trim();
+        if(search.length>0)
+        {
+            if(ql=="1")
+            {
+                link +="&l=1";
+            }
+            window.location.href=link+"&S="+search;
+            return;
+        }
+        if(IsSearch)
+        {            
+            var cboCT=document.getElementById('CboCity');
+            var objCity=0,objDistrict=0;
+            var opCT=cboCT.options[cboCT.selectedIndex];
+            if(opCT&&opCT.getAttribute("city"))
+            {
+                objDistrict=opCT.value;
+                objCity=opCT.getAttribute("city")
+            }
+            else objCity=cboCT.value;            
+            var objcountry=document.getElementById('CboCountry').value;
+            if(search.trim().length==0&&objCity<=0&&objcountry<=0)
+            {
+                alert('Dữ liệu tìm kiếm không hợp lệ ! !');
+                return;
+            }
+            
+            if(objCity>0)
+            {    
+                CityID=objCity;
+                if(objDistrict>0)
+                    DistrictID=objDistrict;
+            }
+            else if(objcountry>0)
+                {
+                    CountryID=objcountry;
+                    CityID=0;
+                }
+            if (search.length>0)
+                link += "&S=" + search;
+        }
+        if(CityID>0)
+        {
+            link += "&C=" + CityID;
+            link1+='/c'+CityID;
+            if(DistrictID>0)
+            {
+                link += "&Q=" + DistrictID;
+                link1 +='/q'+DistrictID;
+            }
+        }
+        else if(CountryID>0)
+           { 
+            link += "&U=" + CountryID;
+            link1 += "/u" + CountryID;
+           }
+        
+        var order=document.getElementById('CboOrder').value;
+        var isasc=document.getElementById('CboIsAsc').value;
+        link += "&O="+order+"&D="+isasc;        
+        link1 += "/o"+order+"/d"+isasc;
+        if(ql=="1")
+        {
+            link +="&l=1";
+            link1 +="/l1";
+        }
+        if(search.length>0)
+        {
+            window.location.href=link;
+        }
+        else window.location.href=link1+'/search.htm';
+    }
+    InitListHotel();
+    $(document).ready(function()
+    {
+        $('.arrow_up').click
+        (
+            function()
+            {
+                $('.descriptioncity li').eq($('.typedescription li.selected').index()).slideUp();
+            }
+        )
+        $('.typedescription li').click(
+            function()
+            {
+                $('.typedescription li').removeClass('selected');
+                $(this).addClass('selected');
+                $('.descriptioncity li').hide().eq($(this).index()).slideDown();
+            }
+        );
+        
+        
+            var city=$('#CboCity option:selected').text();
+            var country=$('#CboCountry option:selected').text();
+            var path='<a href="/">Trang chủ</a> > <a href="/listhotel/u1/'+ConvertUnicodeToASCII(country)+'.htm">'+country+'</a> > <a href="/listhotel/c14/'+ConvertUnicodeToASCII(city)+'.htm">'+city+'</a>';
+            $('#divpath').html(path);
+        
+        
+	});
+</script>
+
+</div>
+
+            <div class="clear"></div>
+            <div id="ctl00_List_Destination">
+<div class="tab-single-control">
+<ul class="tabs">
+    <li>Điểm đến hấp dẫn trong nước</li>
+    <li class="split"></li>
+</ul>
+<div class="tab-content">
+    <ul class="city-destination">
+        
+            <li><a href="/listhotel/C142/dao-cat-ba.htm">Đảo Cát Bà</a></li>
+        
+            <li><a href="/listhotel/C19/hai-phong-.htm">Hải Phòng </a></li>
+        
+            <li><a href="/listhotel/C21/-ninh-bình.htm"> Ninh Bình</a></li>
+        
+            <li><a href="/listhotel/C107/con-dao.htm">Côn Đảo</a></li>
+        
+            <li><a href="/listhotel/C26/chau-doc.htm">Châu Đốc</a></li>
+        
+            <li><a href="/listhotel/C109/mai-chau.htm">Mai Châu</a></li>
+        
+            <li><a href="/listhotel/C23/quy-nhon.htm">Quy Nhơn</a></li>
+        
+            <li><a href="/listhotel/C17/sapa-lao-cai.htm">Sapa (Lào Cai)</a></li>
+        
+            <li><a href="/listhotel/C22/vinh-bien-cua-lo.htm">Vinh (Biển Cửa Lò)</a></li>
+        
+            <li><a href="/listhotel/C11/da-lat.htm">Đà Lạt</a></li>
+        
+            <li><a href="/listhotel/C13/da-nang.htm">Đà Nẵng</a></li>
+        
+            <li><a href="/listhotel/C7/ha-long.htm">Hạ Long</a></li>
+        
+            <li><a href="/listhotel/C14/ha-noi.htm">Hà Nội</a></li>
+        
+            <li><a href="/listhotel/C12/hoi-an.htm">Hội An</a></li>
+        
+            <li><a href="/listhotel/C6/hue.htm">Huế</a></li>
+        
+            <li><a href="/listhotel/C2/nha-trang.htm">Nha Trang</a></li>
+        
+            <li><a href="/listhotel/C5/phan-thiet.htm">Phan Thiết</a></li>
+        
+            <li><a href="/listhotel/C4/phu-quoc.htm">Phú Quốc</a></li>
+        
+            <li><a href="/listhotel/C1/tp-ho-chi-minh.htm">TP. Hồ Chí Minh</a></li>
+        
+            <li><a href="/listhotel/C3/vung-tau.htm">Vũng Tàu</a></li>
+        
+    </ul>
+    <div class="clear"></div>
+</div>
+</div>
+
+<div class="tab-single-control">
+<ul class="tabs">
+    <li>Điểm đến quốc tế hấp dẫn</li>
+    <li class="split"></li>
+</ul>
+<div class="tab-content">
+    <ul class="city-destination country">
+        
+            <li><a href="/ohotels/c11698/bangkok.htm">Bangkok</a></li>
+        
+            <li><a href="/ohotels/c8609/cha-am.htm">Cha-am</a></li>
+        
+            <li><a href="/ohotels/c25284/phuket.htm">Phuket</a></li>
+        
+            <li><a href="/ohotels/c17765/singapore.htm">Singapore</a></li>
+        
+            <li><a href="/ohotels/c16408/tokyo.htm">Tokyo</a></li>
+        
+    </ul>
+    <div class="clear"></div>
+</div>
+</div>
+</div>
+        </div>
+        <div id="ctl00_DivBottomVer3" class="footer">             
+        
+ <div class="left">
+    <p class="copyright">
+        <b>FREE TRAVEL COMPANY LIMITED</b><br>Email : bookings@asiabooking.com.vn<br>Phone : +84.8.3589.3689 -&nbsp; <span style="font-weight: bold;">+ 84 908 79 59 89</span><br>Address : 538/24 Quang Trung, Go Vap, TP HCM
+    </p>
+ </div>
+ <div class="right">
+    <div class="links"><a href='/index/trang-chu.htm'>Trang Chủ</a>  | <a href='http://asiabooking.com.vn/voucher/voucher.htm'>Voucher khách sạn </a>  | <a href='/tour/M145/tour.htm'>Tour</a>  | <a href='/promotion/M135/khuyen-mai-hap-dan.htm'>Khuyến mãi hấp dẫn</a>  | <a href='/travelguide/M144/cam-nang-du-lich.htm'>Cẩm nang du lịch</a>  | <a href='/sitemap.aspx'>Sitemap</a></div>
+    <div class="clear"></div>
+    <div class="network">
+        <a href="mailto:director@free-travel.vn"><img src="/FileUploads/Icons/gmail.png" /></a>
+        <a target="_blank" href="https://www.facebook.com/hotelpromotions?bookmark_t=page"><img src="/FileUploads/Icons/facebook.png" /></a>
+        <a><img src="/FileUploads/Icons/skype.png" /></a>
+        <a><img src="/FileUploads/Icons/yahoo.png" /></a>
+        <a><img src="/FileUploads/Icons/google.png" /></a>
+    </div>
+ </div></div>    
+    </div>    
+    
+    <script>
+    var IsLoadedGoogleMap=false;
+    function LoadGoogleMap()
+    {
+//        if(!IsLoadedGoogleMap)
+//        {
+//            var gm = document.createElement('script');
+//            gm.type = 'text/javascript'; gm.async = true;
+//            gm.src="http://maps.google.com/maps?file=api&v=2&sensor=false&key=ABQIAAAAHRWieLawHPw7Djuf89jfcxR0S5N2HQ0mZDjrfHzqnkjPJ-1qtxT8rM1IUXQV3-CNPE7m24eihrHB5w";
+//            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gm, s);
+//        }
+//        IsLoadedGoogleMap=true;
+    }    
+</script>
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36061144-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() 
+  {
+    LoadGoogleMap();
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<script src="http://maps.google.com/maps?file=api&v=2&sensor=false&key=ABQIAAAAHRWieLawHPw7Djuf89jfcxR0S5N2HQ0mZDjrfHzqnkjPJ-1qtxT8rM1IUXQV3-CNPE7m24eihrHB5w"></script>
+<iframe src="HoldConnection.aspx" style="display:none;"></iframe>
+</form>
+</body>
+</html>

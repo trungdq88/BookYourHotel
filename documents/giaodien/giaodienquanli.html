@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Untitled Document</title>
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+            <style type="text/css">
+                body {
+                    padding-top: 40px;
+                    padding-bottom: 40px;
+                    background-color:#f5f5f5;
+                }
+                .span9 {
+                    float: none;
+                    margin: 0 auto;
+                }
+                .centerme {
+                    margin: 0 auto;
+                }
+            </style>	  
+    </head>
+    <body>
+        <div class="centerme">
+            <div class="cangiua" >
+                <div class="span12">
+                    <h1 align="center" >THÔNG TIN TÌM LINK</h1>
+                    <fieldset>
+                        <legend>Thông Tin Chung</legend>
+                        <table >
+                            <tr >
+                                <td class="span3"><label class="control-label" for="WebsiteName">Tên trang web: </label></td>
+                                <td class="span7"><input type="text" class="input-block-level" name="WebsiteName" id="WebsiteName" placeholder="vd: Google"/></td>
+                            </tr>
+                            <tr >
+                                <td ><label class="control-label" for="Homepage">Địa chỉ trang chủ: </label></td>
+                                <td ><input type="text" class="input-block-level" name="Homepage" id="Homepage" 
+                                            placeholder="vd: http://www.google.com.vn "/></td>
+                            </tr>
+                            <tr >
+                                <td><label class="control-label" for="CrawlerSeed">Trang bắt đầu (Seed): </label></td>
+                                <td ><input type="text" class="input-block-level"  name="CrawlerSeed" id="CrawlerSeed" 
+                                            placeholder="ngăn cách nhau bởi dấu (;)"/></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Xác Định Link Detail</legend>
+                        <table >
+                            <tr >
+                                <td colspan="2" class="span3"><label class="control-label" for="ClawlerMatch">Địa chỉ trang detail hợp lệ: </label></td>
+                                <td colspan="2" class="span7"><input type="text" class="input-block-level" name ="ClawlerMatch" id ="ClawlerMatch"
+                                                                     placeholder="Nhập địa chỉ trang detail"/></td>
+                            </tr>
+                            <tr >
+                                <td colspan="2"><label class="control-label" for="ClawlerIDLink">Địa chỉ link detail dùng ID: </label></td>
+                                <td colspan="2"><input type="text" class="input-block-level" name="ClawlerIDLink" id="ClawlerIDLink" 
+                                                       placeholder="Nhập địa chỉ link detail dùng ID"/></td>
+                            </tr>
+                            <tr>
+                                <td class="span1"><label class="control-label" for="ClawlerIDForm">ID từ: </label></td>
+                                <td class="span3"><input type="text" class="input-block-level" name="ClawlerIDForm" id="ClawlerIDForm" placeholder="từ ID" /> </td>
+                                <td class="span1 text-center"><label class="control-label" for="ClawlerIDTo">đến: </label></td>
+                                <td class="span3"><input type="text" class="input-block-level" name="ClawlerIDTo" id"ClawlerIDTo" placeholder="đến ID" /> </td>
+                            </tr>
+                            <tr >
+                                <td colspan="2"><label class="control-label" for="ClawlerCheckContent">Nội dung nhận dạng trang detail: </label></td>
+                                <td colspan="2"><input type="text" class="input-block-level" name="ClawlerCheckContent" id="ClawlerCheckContent"
+                                                       /></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Các Tham Số Truyền Đi</legend>
+                        <table >
+                            <tr >
+                                <td class="span3"><label class="control-label" for="CheckInParaName">Tên biến của ngày đến: </label></td>
+                                <td class="span7"><input type="text" class="input-block-level" name="CheckInParaName" id="CheckInParaName" 
+                                                         /></td>
+                            </tr>
+                            <tr >
+                                <td><label class="control-label" for="CheckOutParaName">Tên biến của ngày đi: </label></td>
+                                <td><input type="text" class="input-block-level" name="CheckOutParaName" id="CheckOutParaName" 
+                                           /></td>
+                            </tr>
+                            <tr >
+                                <td><label class="control-label" for="OtherParaName">Các biến cần thiết khác: </label></td>
+                                <td><input type="text" class="input-block-level" name="OtherParaName" id="OtherParaName" 
+                                           /></td>
+                            </tr>
+                            <tr >
+                                <td><label class="control-label" for="DateFormat">Định dạng ngày tháng: </label></td>
+                                <td><input type="text" class="input-block-level" name="DateFormat" id="DateFormat" /></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Cài đặt request</legend>
+                        <table>
+                            <tr>
+                                <td class="span3" colspan="2"><label class ="control-label">Phương thức gửi:</label></td>
+                                <td class="span2"><label class="radio"> <input type="radio" name="RequestMethod"/> GET </label></td>
+                                <td class="span3"><label class="radio"> <input type="radio" name="RequestMethod"/> POST </label></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><label class ="control-label">Sử dụng Cookie:</label></td>
+                                <td><label class="radio"> <input type="radio" name="UseCookie"/> Có </label></td>
+                                <td><label class="radio"> <input type="radio" name="UseCookie"/> Không </label></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+            <div class="cangiua">
+                <div class="span9">
+                    <h1 align="center">THÔNG TIN KHÁCH SẠN</h1>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="span4">Tên biến</th>
+                                <th class="span2">Selector</th>
+                                <th class="span3">Mode</th>
+                                <th class="span2">After Regex</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Tên khách sạn</td>
+                                <td><input type="text"/></td>
+                                <td>
+                                    <input list="TextHotelName" type="text" class="input-block-level" placeholder="Click & chọn"/>   
+                                    <datalist id="TextHotelName">  
+                                        <option value="Site"/>  
+                                        <option value="Attribute"/>  
+                                        <option value="Block"/>    
+                                    </datalist>  
+                                </td>
+                                <td><input type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td>Địa chỉ</td>
+                                <td><input type="text"/></td>
+                                <td>
+                                    <input list="TextAddress" type="text" class="input-block-level" placeholder="Click & chọn"/>   
+                                    <datalist id="TextAddress">  
+                                        <option value="Site"/>  
+                                        <option value="Attribute"/>  
+                                        <option value="Block"/>    
+                                    </datalist>
+                                </td>
+                                <td><input type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td>Tỉnh thành</td>
+                                <td><input type="text"/></td>
+                                <td>
+                                    <input list="TextCity" type="text" class="input-block-level" placeholder="Click & chọn"/>   
+                                        <datalist id="TextCity">  
+                                            <option value="Site"/>  
+                                            <option value="Attribute"/>  
+                                            <option value="Block"/>    
+                                        </datalist>
+                                </td>
+                                <td><input type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td>Mô tả</td>
+                                <td><input type="text"/></td>
+                                <td>
+                                    <input list="TextDecription" type="text" class="input-block-level" placeholder="Click & chọn"/>   
+                                        <datalist id="TextDecription">  
+                                            <option value="Site"/>  
+                                            <option value="Attribute"/>  
+                                            <option value="Block"/>    
+                                        </datalist>  
+                                </td>
+                                <td><input type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td>Sao</td>
+                                <td><input type="text"/></td>
+                                <td>
+                                    <input list="TextStar" type="text" class="input-block-level" placeholder="Click & chọn"/>   
+                                        <datalist id="TextStar">  
+                                            <option value="Site"/>  
+                                            <option value="Attribute"/>  
+                                            <option value="Block"/>    
+                                        </datalist>
+                                </td>
+                                <td><input type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td>Hình ảnh</td>
+                                <td><input type="text"/></td>
+                                <td>
+                                    <input list="TextPicture" type="text" class="input-block-level" placeholder="Click & chọn"/>   
+                                        <datalist id="TextPicture">  
+                                            <option value="Site"/>  
+                                            <option value="Attribute"/>  
+                                            <option value="Block"/>    
+                                        </datalist>
+                                </td>
+                                <td><input type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td>Đánh giá</td>
+                                <td><input type="text"/></td>
+                                <td>
+                                    <input list="TextReview" type="text" class="input-block-level" placeholder="Click & chọn"/>   
+                                        <datalist id="TextReview">  
+                                            <option value="Site"/>  
+                                            <option value="Attribute"/>  
+                                            <option value="Block"/>    
+                                        </datalist>  
+                                </td>
+                                <td><input type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td>Block phòng</td>
+                                <td><input type="text"/></td>
+                                <td>
+                                    <input list="TextRoomBlock" type="text" class="input-block-level" placeholder="Click & chọn"/>   
+                                        <datalist id="TextRoomBlock">  
+                                            <option value="Site"/>  
+                                            <option value="Attribute"/>  
+                                            <option value="Block"/>    
+                                        </datalist>
+                                </td>
+                                <td><input type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td>Tên phòng</td>
+                                <td><input type="text"/></td>
+                                <td>
+                                    <input list="TextRoomName" type="text" class="input-block-level" placeholder="Click & chọn"/>   
+                                        <datalist id="TextRoomName">  
+                                            <option value="Site"/>  
+                                            <option value="Attribute"/>  
+                                            <option value="Block"/>    
+                                        </datalist>
+                                </td>
+                                <td><input type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td>Mô tả phòng</td>
+                                <td><input type="text"/></td>
+                                <td>
+                                    <input list="TextRoomDecription" type="text" class="input-block-level" placeholder="Click & chọn"/>   
+                                        <datalist id="TextRoomDecription">  
+                                            <option value="Site"/>  
+                                            <option value="Attribute"/>  
+                                            <option value="Block"/>    
+                                        </datalist>  
+                                </td>
+                                <td><input type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td>Giá phòng</td>
+                                <td><input type="text"/></td>
+                                <td>
+                                    <input list="TextRoomPrice" type="text" class="input-block-level" placeholder="Click & chọn"/>   
+                                        <datalist id="TextRoomPrice">  
+                                            <option value="Site"/>  
+                                            <option value="Attribute"/>  
+                                            <option value="Block"/>    
+                                        </datalist>
+                                </td>
+                                <td><input type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td>Sức chứa phòng</td>
+                                <td><input type="text"/></td>
+                                <td>
+                                    <input list="TextRoomCapacity" type="text" class="input-block-level" placeholder="Click & chọn"/>   
+                                        <datalist id="TextRoomCapacity">  
+                                            <option value="Site"/>  
+                                            <option value="Attribute"/>  
+                                            <option value="Block"/>    
+                                        </datalist>
+                                </td>
+                                <td><input type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td>Hình ảnh phòng</td>
+                                <td><input type="text"/></td>
+                                <td>
+                                    <input list="TextRoomPicture" type="text" class="input-block-level" placeholder="Click & chọn " />   
+                                        <datalist id="TextRoomPicture">  
+                                            <option value="Site"/>  
+                                            <option value="Attribute"/>  
+                                            <option value="Block"/>    
+                                        </datalist>
+                                </td>
+                                <td><input type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4"><button class="btn btn-success" type="button">Thêm thuộc tính</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+            <div style="clear: both"></div>
+            <div>
+                <p style="text-align: center">
+                    <button class="btn btn-large btn-primary" type="button"><span class="icon-ok"></span><span>Lưu</span></button>
+                    <button class="btn btn-large" type="button"><span class="icon-remove"></span><span>Hủy</span></button>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

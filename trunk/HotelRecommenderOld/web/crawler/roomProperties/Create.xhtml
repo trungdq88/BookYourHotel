@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundleCrawler.CreateRoomPropertiesTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="#{bundleCrawler.CreateRoomPropertiesLabel_selector}" for="selector" />
+                    <h:inputText id="selector" value="#{roomPropertiesController.selected.selector}" title="#{bundleCrawler.CreateRoomPropertiesTitle_selector}" />
+                    <h:outputLabel value="#{bundleCrawler.CreateRoomPropertiesLabel_resultMode}" for="resultMode" />
+                    <h:inputText id="resultMode" value="#{roomPropertiesController.selected.resultMode}" title="#{bundleCrawler.CreateRoomPropertiesTitle_resultMode}" />
+                    <h:outputLabel value="#{bundleCrawler.CreateRoomPropertiesLabel_afterRegex}" for="afterRegex" />
+                    <h:inputText id="afterRegex" value="#{roomPropertiesController.selected.afterRegex}" title="#{bundleCrawler.CreateRoomPropertiesTitle_afterRegex}" />
+                    <h:outputLabel value="#{bundleCrawler.CreateRoomPropertiesLabel_website}" for="website" />
+                    <h:selectOneMenu id="website" value="#{roomPropertiesController.selected.website}" title="#{bundleCrawler.CreateRoomPropertiesTitle_website}" required="true" requiredMessage="#{bundleCrawler.CreateRoomPropertiesRequiredMessage_website}">
+                        <f:selectItems value="#{websiteController.itemsAvailableSelectOne}"/>
+                    </h:selectOneMenu>
+                    <h:outputLabel value="#{bundleCrawler.CreateRoomPropertiesLabel_properties}" for="properties" />
+                    <h:selectOneMenu id="properties" value="#{roomPropertiesController.selected.properties}" title="#{bundleCrawler.CreateRoomPropertiesTitle_properties}" required="true" requiredMessage="#{bundleCrawler.CreateRoomPropertiesRequiredMessage_properties}">
+                        <f:selectItems value="#{propertiesController.itemsAvailableSelectOne}"/>
+                    </h:selectOneMenu>
+                </h:panelGrid>
+                <br />
+                <h:commandLink action="#{roomPropertiesController.create}" value="#{bundleCrawler.CreateRoomPropertiesSaveLink}" />
+                <br />
+                <br />
+                <h:commandLink action="#{roomPropertiesController.prepareList}" value="#{bundleCrawler.CreateRoomPropertiesShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundleCrawler.CreateRoomPropertiesIndexLink}"/>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

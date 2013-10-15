@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundleCrawler.ViewRoomPropertiesTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputText value="#{bundleCrawler.ViewRoomPropertiesLabel_selector}"/>
+                    <h:outputText value="#{roomPropertiesController.selected.selector}" title="#{bundleCrawler.ViewRoomPropertiesTitle_selector}"/>
+                    <h:outputText value="#{bundleCrawler.ViewRoomPropertiesLabel_resultMode}"/>
+                    <h:outputText value="#{roomPropertiesController.selected.resultMode}" title="#{bundleCrawler.ViewRoomPropertiesTitle_resultMode}"/>
+                    <h:outputText value="#{bundleCrawler.ViewRoomPropertiesLabel_afterRegex}"/>
+                    <h:outputText value="#{roomPropertiesController.selected.afterRegex}" title="#{bundleCrawler.ViewRoomPropertiesTitle_afterRegex}"/>
+                    <h:outputText value="#{bundleCrawler.ViewRoomPropertiesLabel_website}"/>
+                    <h:outputText value="#{roomPropertiesController.selected.website}" title="#{bundleCrawler.ViewRoomPropertiesTitle_website}"/>
+                    <h:outputText value="#{bundleCrawler.ViewRoomPropertiesLabel_properties}"/>
+                    <h:outputText value="#{roomPropertiesController.selected.properties}" title="#{bundleCrawler.ViewRoomPropertiesTitle_properties}"/>
+                </h:panelGrid>
+                <br />
+                <h:commandLink action="#{roomPropertiesController.destroyAndView}" value="#{bundleCrawler.ViewRoomPropertiesDestroyLink}"/>
+                <br />
+                <br />
+                <h:link outcome="Edit" value="#{bundleCrawler.ViewRoomPropertiesEditLink}"/>
+                <br />
+                <h:commandLink action="#{roomPropertiesController.prepareCreate}" value="#{bundleCrawler.ViewRoomPropertiesCreateLink}" />
+                <br />
+                <h:commandLink action="#{roomPropertiesController.prepareList}" value="#{bundleCrawler.ViewRoomPropertiesShowAllLink}"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundleCrawler.ViewRoomPropertiesIndexLink}"/>
+
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

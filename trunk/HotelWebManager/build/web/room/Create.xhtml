@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.CreateRoomTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="#{bundle.CreateRoomLabel_roomID}" for="roomID" />
+                    <h:inputText id="roomID" value="#{roomController.selected.roomID}" title="#{bundle.CreateRoomTitle_roomID}" required="true" requiredMessage="#{bundle.CreateRoomRequiredMessage_roomID}"/>
+                    <h:outputLabel value="#{bundle.CreateRoomLabel_roomName}" for="roomName" />
+                    <h:inputText id="roomName" value="#{roomController.selected.roomName}" title="#{bundle.CreateRoomTitle_roomName}" />
+                    <h:outputLabel value="#{bundle.CreateRoomLabel_capicity}" for="capicity" />
+                    <h:inputText id="capicity" value="#{roomController.selected.capicity}" title="#{bundle.CreateRoomTitle_capicity}" />
+                    <h:outputLabel value="#{bundle.CreateRoomLabel_imageLinks}" for="imageLinks" />
+                    <h:inputTextarea rows="4" cols="30" id="imageLinks" value="#{roomController.selected.imageLinks}" title="#{bundle.CreateRoomTitle_imageLinks}" />
+                    <h:outputLabel value="#{bundle.CreateRoomLabel_description}" for="description" />
+                    <h:inputTextarea rows="4" cols="30" id="description" value="#{roomController.selected.description}" title="#{bundle.CreateRoomTitle_description}" />
+                    <h:outputLabel value="#{bundle.CreateRoomLabel_otherProperties}" for="otherProperties" />
+                    <h:inputTextarea rows="4" cols="30" id="otherProperties" value="#{roomController.selected.otherProperties}" title="#{bundle.CreateRoomTitle_otherProperties}" />
+                    <h:outputLabel value="#{bundle.CreateRoomLabel_hotelID}" for="hotelID" />
+                    <h:selectOneMenu id="hotelID" value="#{roomController.selected.hotelID}" title="#{bundle.CreateRoomTitle_hotelID}" >
+                        <f:selectItems value="#{hotelController.itemsAvailableSelectOne}"/>
+                    </h:selectOneMenu>
+                </h:panelGrid>
+                <br />
+                <h:commandLink action="#{roomController.create}" value="#{bundle.CreateRoomSaveLink}" />
+                <br />
+                <br />
+                <h:commandLink action="#{roomController.prepareList}" value="#{bundle.CreateRoomShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.CreateRoomIndexLink}"/>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

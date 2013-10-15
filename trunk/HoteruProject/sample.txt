@@ -1,0 +1,1222 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="vi" lang="vi" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<meta http-equiv="content-Type" content="text/css; charset=UTF-8" />
+<meta http-equiv="content-language" content="vi" />
+<meta name="robots" content="index,follow" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="-1">
+<meta http-equiv="cache-control" content="no-store">
+<meta name="RESOURCE-TYPE" content="DOCUMENT" />
+<meta name="msvalidate.01" content="2F40F68811E094FE8E39F9EBC992BAFD" />
+<title>Đặt phòng khách sạn giá rẻ nhất (Sài Gòn) TP Hồ Chí Minh tại Mangdatphong.vn</title>
+<meta name="description" content="Đặt phòng khách sạn trực tuyến giá rẻ nhất TP Hồ Chí Minh. Phục vụ 24h, đảm bảo nhanh chóng, an toàn tại mạng đặt phòng khách sạn hàng đầu Việt nam." />
+<meta name="keywords" content="sài gòn, tp ho chi minh, khach san sai gon, khách sạn tp hồ chí minh, đăt phòng, giá rẻ nhất, dat phong, gia re, gia re nhat, giá rẻ" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Đặt phòng khách sạn giá rẻ nhất (Sài Gòn) TP Hồ Chí Minh tại Mangdatphong.vn" />
+<meta property="og:description" content="Đặt phòng khách sạn trực tuyến giá rẻ nhất TP Hồ Chí Minh. Phục vụ 24h, đảm bảo nhanh chóng, an toàn tại mạng đặt phòng khách sạn hàng đầu Việt nam." />
+<meta property="og:image" content="http://www.checkinvietnam.com/upload/booking/zone/hcmc.jpg" />
+<meta property="og:url" content="http://www.mangdatphong.vn/khach-san-tai-ho-chi-minh.html" />
+<meta property="og:site_name" content="Mangdatphong.vn" />
+<base href="http://www.mangdatphong.vn" />
+<link rel="image_src" src="http://www.checkinvietnam.com/upload/booking/zone/hcmc.jpg" />
+<link rel="stylesheet" href="http://www.mangdatphong.vn/skins/default/css/global.css?v=2.02" type="text/css" />
+<link rel="stylesheet" href="http://www.mangdatphong.vn/skins/mangdatphong/css/style.css?v=2.02" type="text/css"/>
+<link rel="shortcut icon" href="upload/booking/icon//1312862727_favicon.ico"/>
+<script src="http://www.mangdatphong.vn/packages/core/includes/js/common.js?v=2.02" type="text/javascript"></script>
+<script src="http://www.mangdatphong.vn/packages/core/includes/js/cookie.js?v=2.02" type="text/javascript"></script>
+<script src="http://www.mangdatphong.vn/packages/core/includes/js/jquery/jquery-1.4.4.js?v=2.02" type="text/javascript"></script>
+<script src="http://www.mangdatphong.vn/packages/core/includes/js/jquery/ui.core.js?v=2.02" type="text/javascript"></script>
+<script type="text/javascript">
+	query_string = "?page%3Dhotels%26hotel_zone_id%3Dho-chi-minh";
+	PORTAL_ID = "mangdatphong";
+	jQuery.noConflict();
+    HOTEL_ID = '0';
+    CITY_ID = '50';
+</script>
+<script src="http://www.mangdatphong.vn/packages/core/includes/js/jq_common.js?v=2.02" type="text/javascript"></script>
+
+<script type="text/javascript" src="packages/core/includes/js/jquery/jquery.cookie.js?v=2.01"></script>
+<script type="text/javascript" src="packages/core/includes/js/jquery/jquery.translate-1.4.7-debug-all.js?v=2.01"></script>
+<script type="text/javascript" src="packages/core/includes/js/jquery/jquery.flash.js?v=2.01"></script>
+<script type="text/javascript" src="packages/frontend/includes/js/language.js?v=2.01"></script>
+<script type="text/javascript" src="cache/tables/currency_symbol.cache.js?v=2.01"></script>
+<link rel="stylesheet" href="skins/modern/css/style.css?v=2.01" type="text/css" />
+<link rel="stylesheet" href="skins/modern/css/jquery-ui.css?v=2.01" type="text/css" />
+<script type="text/javascript" src="skins/modern/scripts/jquery-1.7.1.min.js?v=2.01"></script>
+<script type="text/javascript" src="skins/modern/scripts/jquery.color.js?v=2.01"></script>
+<script type="text/javascript" src="skins/modern/scripts/Color.js?v=2.01"></script>
+<script type="text/javascript" src="skins/modern/scripts/calendar.js?v=2.01"></script>
+<script type="text/javascript" src="skins/modern/scripts/organictabs.jquery.js?v=2.01"></script>
+<script type="text/javascript" src="skins/modern/scripts/main.js?v=2.01"></script>
+<script type="text/javascript" src="skins/modern/scripts/ui.selectmenu.js?v=2.01"></script>
+<script type="text/javascript" src="skins/modern/scripts/jquery.bpopup-0.8.0.js?v=2.01"></script>
+<link rel="stylesheet" href="skins/modern/css/google_search.css?v=2.01" type="text/css" />
+<script type="text/javascript" src="packages/core/includes/js/jquery/jquery.blockUI.js?v=2.01"></script>
+<link rel="stylesheet" href="skins/mangdatphong/css/list_destination.css?v=2.01" type="text/css" />
+<link rel="stylesheet" href="packages/frontend/templates/Advertisment/skins/default/style.css?v=2.01" type="text/css" />
+<link rel="stylesheet" href="skins/mangdatphong/css/top-destination.css?v=2.01" type="text/css" />
+<script type="text/javascript" src="packages/core/includes/js/jquery/jquery.autocomplete.js?v=2.01"></script>
+<script type="text/javascript" src="packages/core/includes/js/jquery/tooltips.js?v=2.01"></script>
+<script type="text/javascript" src="packages/frontend/modules/VnHomeSearch/functions.js?v=2.01"></script>
+<link rel="stylesheet" href="skins/mangdatphong/css/home-search.css?v=2.01" type="text/css" />
+<link rel="stylesheet" href="skins/default/css/jquery/autocomplete.css?v=2.01" type="text/css" />
+<link rel="stylesheet" href="skins/mangdatphong/css/jquery.rating.css?v=2.01" type="text/css" />
+<script type="text/javascript" src="packages/frontend/includes/js/hotel.js?v=2.01"></script>
+<link rel="stylesheet" href="skins/mangdatphong/css/jRating.jquery.css?v=2.01" type="text/css" />
+<script type="text/javascript" src="packages/core/includes/js/jquery/jRating.jquery.js?v=2.01"></script>
+<link rel="stylesheet" href="skins/mangdatphong/css/top-discount.css?v=2.01" type="text/css" /><link rel="stylesheet" href="skins/mobile/css/queryLoader.css" type="text/css" />
+<script type='text/javascript' src='skins/mobile/scripts/queryLoader.js'></script>
+</head>
+<body ><div id="wrapper">
+    <div class="layout-header">
+<div id="module_72847"><div class="header">
+		    <h6 class="logo"><a href="http://www.mangdatphong.vn" title="Mạng đặt phòng khách sạn hàng đầu Việt Nam"><img src="skins/modern/images/logo.png"/></a></h6>
+        <div class="banner-text"></div>
+    <div class="topNav">
+        <ul>
+        		<li><a href="noi-dung/huong-dan-thanh-toan" >Hướng dẫn thanh toán</a></li>
+           						<li><a href="http://www.mangdatphong.vn/dang-ky-dai-ly">Đăng ký đại lý <img src="skins/modern/images/hot.gif" /></a></li>
+            <li><a target="_blank" href="http://www.checkinvietnam.com/hotel_register.html">Đăng ký khách sạn</a></li>
+            <li><a href="dang-ky">Đăng ký người dùng</a></li>
+            <li><a href="dang-nhap">Đăng nhập</a></li>
+           
+                                </ul>
+    </div>
+    <div class="hotline"><img src="skins/modern/images/hotline19006651.png"/></div>
+    <div style="float:right;width:274px;position:absolute;top:48px;right:0px;">
+    	<script src="http://www.google.com.vn/jsapi" type="text/javascript"></script>
+        <form id="searchbox" id="partner-pub-2311624222054946:6755201120" method="post"> 
+          <input value="2311624222054946:6755201120" name="cx" type="hidden"/> 
+          <input value="FORID:11" name="cof" type="hidden"/> 
+          <input  id="q" style="width:150px;" name="q" size="70" type="text" id="search" placeholder="Nhập từ khóa"  /> 
+          <input value="Tìm kiếm" name="sa" type="submit" id="submit" /> 
+        <input type="hidden" name="form_block_id" value="72847" />
+			</form >
+			
+			 
+        <link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" />
+    </div>
+    <br clear="all">
+</div>
+<div class="menuTop">
+<div class="navBar">
+    <ul>
+        <li><a href="" >Trang chủ</a></li>
+        <li><a href="khuyen-mai"  style="color:#FF0000;">Khuyến mãi</a></li>
+       	<li><a href="khach-san-viet-nam" title="Khách sạn Việt Nam">Khách sạn</a></li>
+        <li><a href="khu-nghi-duong-resort" title="Khu nghỉ dưỡng, Resort">Khu nghỉ dưỡng</a></li>
+        <li><a href="du-thuyen-cruise" title="Du thuyền, Cruise">Du thuyền</a></li>
+        <li><a href="tin-tuc/du-lich" >Tin du lịch</a>
+        	<ul class="sub-menu" style="display:none;">
+          	<li><a href="tin-tuc/thong-tin-du-lich">Thông tin du lịch</a></li>
+            <li><a href="tin-tuc/dia-diem-du-lich">Địa điểm du lịch</a></li>
+          </ul>
+        </li>
+        <li><a href="hoi-dap" >Hỏi đáp</a></li>
+        <li><a style="background:none;" href="lien-he" >Liên hệ</a></li>
+    </ul>
+    <div class="top"></div>
+    <div class="right"></div>
+    <div class="bottom"></div>
+    <div class="left"></div>
+</div>
+<div id="select_language">
+	 <div>
+				<a target="_blank" href="http://www.checkinvietnam.com">English</a>
+    </div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="nav-right" id="nav_right">
+	<div class="home-button"><a href=""><img src="skins/modern/images/home.png" /></a></div>
+    <div class="facebook-like">
+		<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.mangdatphong.vn&amp;send=false&amp;layout=box_count&amp;width=20&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=tahoma&amp;height=90&amp;appId=303683316332189&amp;locale=en_US" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:70px; height:70px;" allowTransparency="true"></iframe>
+    </div>
+    <div align="center">
+<!-- Place this tag in your head or just before your close body tag. -->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<!-- Place this tag where you want the +1 button to render. -->
+<div class="g-plusone" data-size="tall" width="50px" height="60px" data-href="http://www.mangdatphong.vn"></div>
+</div>
+    <div class="top-text"><a href="javascript:void(0)" id="go_top">Top</a></div>
+</div>
+<div id="element_to_pop_up">
+    <a class="bClose">x<a/>
+    <div id="youtube-content"></div>
+</div>
+
+<script>
+(function() {
+	var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+	po.src = 'https://apis.google.com/js/plusone.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+jQuery(document).ready(function(){
+	//getUpdateSiteCurrency('VND',72847);
+	jQuery('#go_top').click(function(){
+		jQuery('html, body').animate({scrollTop:0},500);
+	})
+	if(parseInt(jQuery(window).width())<1200)
+	{
+		jQuery('#nav_right').css('display','none');
+		jQuery('#change_currency').css('display','');
+	}
+	jQuery('.my-button').click(function(){
+		showPopup(jQuery(this));
+	})
+		//showPopup(jQuery('.my-button'));	
+	})
+function showPopup(self)
+{
+        var content = jQuery('#youtube-content'); 
+        jQuery('#element_to_pop_up').bPopup({
+            onOpen: function() {
+                content.html(self.data('bpopup') || '');
+            },
+            onClose: function() {
+                content.empty();
+				setCookie('popup','1',7);
+            }
+        });	
+}
+</script>
+<div id="footerSlideContainer">
+    <script>
+		// Use 'jQuery(function($) {' for inside WordPress blogs (without quotes)
+		jQuery(function() {
+			var open = false;
+			jQuery('#footerSlideContent').css({ height: '0px' });
+			jQuery('#footerSlideButton').css('backgroundPosition', 'top left');
+			jQuery('#footerSlideButton').click(function() {
+				if(open === false) {
+					jQuery('#footerSlideContent').animate({ height: '130px' });
+					jQuery(this).css('backgroundPosition', 'bottom left');
+					open = true;
+				} else {
+					jQuery('#footerSlideContent').animate({ height: '0px' });
+					jQuery(this).css('backgroundPosition', 'top left');
+					open = false;
+				}
+			});		
+		});
+	</script>
+    <div id="footerSlideButton" style="background-position: 0% 100%;">
+    	<div class="cursor"></div>
+    </div>
+    <div id="footerSlideContent" style="height: 180px;">
+        <div id="footerSlideText">
+            <p>
+                <a href="ymsgr:sendIM?haonguyen_civn&amp;m=Xin chào Ms. Hảo Nguyễn" title="Chat Yahoo với Ms. Hảo Nguyễn" alt="Hỗ trợ khách hàng">
+                    <img src="http://opi.yahoo.com/online?u=haonguyen_civn&amp;m=g&amp;t=5">
+                    <small>Ms. Hảo</small>
+                </a>
+                <span>0902 196 774</span>
+            </p>
+             <p>
+                <a href="ymsgr:sendIM?civn.sale2&amp;m=Xin chào Ms. Thơm" title="Chat Yahoo với Ms. Thơm" alt="Hỗ trợ khách hàng">
+                    <img src="http://opi.yahoo.com/online?u=civn.sale2&amp;m=g&amp;t=5">
+                    <small>Ms. Thơm</small>
+                </a>
+                <span>0985 828 958</span>
+            </p>
+        </div>
+    </div>
+</div></div></div>
+    <div class="layout-body">
+<div id="module_72848"><table cellpadding="0" cellspacing="0" width="100%" >
+<tr valign="top">
+<td width="" align="left" style="padding-right:10px;padding-left:5px;"><div id="module_72916"><form name="hotel_search" id="hotel_search" method="post">
+<div id="list-search-hotel">
+<div class="container_search">
+    <div class="hotel_name_bound">
+        <label>Tên khách sạn</label>
+        <input  name="hotel_name" id="hotel_name" class="hotel_name" placeholder="Nhập tên khách sạn hoặc để trống"/ type ="text" value="">
+    </div>
+    <div>
+        <label>Địa điểm</label>
+        <select   name="zone_id" id="zone_id" style="width:100%;">
+            <option>Chọn Địa điểm</option>
+            <option value="2"  style="color:#000000;" >&nbsp;&nbsp;Hà Nội</option><option value="12"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Ba Đình</option><option value="80"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Đống Đa</option><option value="3"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Hoàn Kiếm</option><option value="78"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Hai Bà Trưng</option><option value="82"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Tây Hồ</option><option value="138"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Cầu Giấy</option><option value="88"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Long Biên</option><option value="94"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Hoàng Mai</option><option value="116"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Thanh Xuân</option><option value="176"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Sóc Sơn</option><option value="177"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Ba Vì</option><option value="5"  style="color:#000000;" >&nbsp;&nbsp;Bắc Giang</option><option value="6"  style="color:#000000;" >&nbsp;&nbsp;Bắc Kạn</option><option value="8"  style="color:#000000;" >&nbsp;&nbsp;Bắc Ninh</option><option value="9"  style="color:#000000;" >&nbsp;&nbsp;Cao Bằng</option><option value="10"  style="color:#000000;" >&nbsp;&nbsp;Hà Giang</option><option value="142"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Quản Bạ</option><option value="13"  style="color:#000000;" >&nbsp;&nbsp;Hà Nam</option><option value="14"  style="color:#000000;" >&nbsp;&nbsp;Điện Biên</option><option value="15"  style="color:#000000;" >&nbsp;&nbsp;Hải Dương</option><option value="16"  style="color:#000000;" >&nbsp;&nbsp;Hải Phòng</option><option value="115"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Cát Bà</option><option value="17"  style="color:#000000;" >&nbsp;&nbsp;Hòa Bình</option><option value="160"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Mai Châu</option><option value="18"  style="color:#000000;" >&nbsp;&nbsp;Hưng Yên</option><option value="19"  style="color:#000000;" >&nbsp;&nbsp;Lai Châu</option><option value="20"  style="color:#000000;" >&nbsp;&nbsp;Lào Cai</option><option value="72"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Sapa</option><option value="21"  style="color:#000000;" >&nbsp;&nbsp;Lạng Sơn</option><option value="22"  style="color:#000000;" >&nbsp;&nbsp;Nam Định</option><option value="23"  style="color:#000000;" >&nbsp;&nbsp;Ninh Bình</option><option value="24"  style="color:#000000;" >&nbsp;&nbsp;Phú Thọ</option><option value="25"  style="color:#000000;" >&nbsp;&nbsp;Quảng Ninh</option><option value="26"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Hạ Long</option><option value="98"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Móng Cái</option><option value="137"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Cô Tô</option><option value="139"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Vân Đồn</option><option value="27"  style="color:#000000;" >&nbsp;&nbsp;Sơn La</option><option value="161"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Mộc Châu</option><option value="34"  style="color:#000000;" >&nbsp;&nbsp;Bình Định</option><option value="28"  style="color:#000000;" >&nbsp;&nbsp;Thái Bình</option><option value="29"  style="color:#000000;" >&nbsp;&nbsp;Thái Nguyên</option><option value="30"  style="color:#000000;" >&nbsp;&nbsp;Tuyên Quang</option><option value="31"  style="color:#000000;" >&nbsp;&nbsp;Vĩnh Phúc</option><option value="145"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Tây Thiên</option><option value="32"  style="color:#000000;" >&nbsp;&nbsp;Yên Bái</option><option value="143"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Thác Bà</option><option value="33"  style="color:#000000;" >&nbsp;&nbsp;Đà Nẵng</option><option value="147"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Bà Nà</option><option value="140"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Sơn Trà</option><option value="141"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Hải Châu</option><option value="180"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Ngũ Hành Sơn</option><option value="35"  style="color:#000000;" >&nbsp;&nbsp;Dak Lak</option><option value="36"  style="color:#000000;" >&nbsp;&nbsp;Dak Nông</option><option value="37"  style="color:#000000;" >&nbsp;&nbsp;Gia Lai</option><option value="38"  style="color:#000000;" >&nbsp;&nbsp;Hà Tĩnh</option><option value="39"  style="color:#000000;" >&nbsp;&nbsp;Khánh Hòa</option><option value="40"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Nha Trang</option><option value="41"  style="color:#000000;" >&nbsp;&nbsp;Kon Tum</option><option value="42"  style="color:#000000;" >&nbsp;&nbsp;Nghệ An</option><option value="171"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Cửa Lò</option><option value="172"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Vinh</option><option value="173"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Nghi Lộc</option><option value="43"  style="color:#000000;" >&nbsp;&nbsp;Phú Yên</option><option value="44"  style="color:#000000;" >&nbsp;&nbsp;Quảng Bình</option><option value="45"  style="color:#000000;" >&nbsp;&nbsp;Quảng Nam</option><option value="90"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Hội An</option><option value="46"  style="color:#000000;" >&nbsp;&nbsp;Quảng Ngãi</option><option value="47"  style="color:#000000;" >&nbsp;&nbsp;Quảng Trị</option><option value="48"  style="color:#000000;" >&nbsp;&nbsp;Thanh Hóa</option><option value="174"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Hoằng Hóa</option><option value="49"  style="color:#000000;" >&nbsp;&nbsp;Huế</option><option value="50"  style="color:#000000;" selected="selected">&nbsp;&nbsp;Hồ Chí Minh</option><option value="75"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Quận 1</option><option value="83"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Quận 3</option><option value="76"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Quận 5</option><option value="92"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Quận 7</option><option value="178"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Quận 10</option><option value="179"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Quận 11</option><option value="89"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Tân Bình</option><option value="79"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Bình Thạnh</option><option value="93"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Phú Nhuận</option><option value="97"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Tân Phú</option><option value="105"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Thủ Đức</option><option value="181"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Gò Vấp</option><option value="182"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Bình Chánh</option><option value="51"  style="color:#000000;" >&nbsp;&nbsp;An Giang</option><option value="52"  style="color:#000000;" >&nbsp;&nbsp;Vũng Tàu</option><option value="53"  style="color:#000000;" >&nbsp;&nbsp;Bạc Liêu</option><option value="54"  style="color:#000000;" >&nbsp;&nbsp;Bến Tre</option><option value="55"  style="color:#000000;" >&nbsp;&nbsp;Bình Dương</option><option value="56"  style="color:#000000;" >&nbsp;&nbsp;Bình Phước</option><option value="57"  style="color:#000000;" >&nbsp;&nbsp;Bình Thuận</option><option value="73"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Mũi Né</option><option value="167"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Phan Thiết</option><option value="58"  style="color:#000000;" >&nbsp;&nbsp;Cà Mau</option><option value="59"  style="color:#000000;" >&nbsp;&nbsp;Cần Thơ</option><option value="175"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Ninh Kiều</option><option value="60"  style="color:#000000;" >&nbsp;&nbsp;Đồng Nai</option><option value="61"  style="color:#000000;" >&nbsp;&nbsp;Đồng Tháp</option><option value="62"  style="color:#000000;" >&nbsp;&nbsp;Hậu Giang</option><option value="63"  style="color:#000000;" >&nbsp;&nbsp;Kiên Giang</option><option value="96"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Phú Quốc</option><option value="64"  style="color:#000000;" >&nbsp;&nbsp;Lâm Đồng</option><option value="95"  style="color:#F00;" >&nbsp;&nbsp;&nbsp;&nbsp;Đà Lạt</option><option value="65"  style="color:#000000;" >&nbsp;&nbsp;Long An</option><option value="66"  style="color:#000000;" >&nbsp;&nbsp;Ninh Thuận</option><option value="67"  style="color:#000000;" >&nbsp;&nbsp;Sóc Trăng</option><option value="68"  style="color:#000000;" >&nbsp;&nbsp;Tây Ninh</option><option value="69"  style="color:#000000;" >&nbsp;&nbsp;Tiền Giang</option><option value="70"  style="color:#000000;" >&nbsp;&nbsp;Trà Vinh</option><option value="71"  style="color:#000000;" >&nbsp;&nbsp;Vĩnh Long</option>        </select>
+    </div>
+        <div class="date"><label class="home-search-label">Ngày nhận phòng</label>
+        <input  name="check_in_date" id="check_in_date" class="datepicker" readonly="readonly" type ="text" value=""></div>
+    <div class="date">
+        <label class="home-search-label">Ngày trả phòng</label>
+		<input  name="check_out_date" id="check_out_date" class="datepicker" readonly="readonly" type ="text" value="">
+    </div>
+    <div class="star">
+        <label>Hạng sao</label>
+        <select  name="stars" id="stars"><option value="">Hạng sao</option><option value="5">5 Sao</option><option value="4">4 Sao</option><option value="3">3 Sao</option><option value="2">2 Sao</option><option value="1">1 Sao</option><script type="text/javascript">getId('stars').value = "";</script>
+	
+        </select>
+    </div>    
+    <div>
+        <input  name="search_hotel" id="search_hotel" value="Tìm Kiếm" class="btn" / type ="submit" value="">
+    </div>
+</div>
+</div>
+<input type="hidden" name="form_block_id" value="72916" />
+			</form >
+			
+			
+<script type="text/javascript">
+	jQuery("#hotel_name").autocomplete('get_hotel.php',{
+		minChars: 3,
+		width: 394,
+		matchContains: true,
+		autoFill: false,
+		cacheLength:10,
+		selectFirst: false,
+		extraParams:{cmd:'hotel_name'},
+		max:100,
+		formatItem: function(row, i, max) {
+			return row[0];
+		},
+		formatMatch: function(row, i, max) {
+			return row[0];
+		},
+		formatResult: function(row) {
+			var newStr = row[0];
+			var arr = newStr.split(' - ');
+			return arr[0];
+		}
+});
+
+</script></div><div id="module_72851"><!-- HOTEL -->
+<div class="list_product">
+<div class="title">
+    <h3>Kết quả tìm kiếm </h3>
+    <h6></h6>
+</div><!--End .title-->
+<div style="font-weight:bold;font-size:14px; padding:5px 10px 5px 10px;">
+        <ul class="hotel-detail-path" itemprop="breadcrumb">
+    <li><a href="/trang-chu"><span>Trang chủ</span></a></li>
+    	<li>&nbsp;&raquo;&nbsp;</li><li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="khach-san-tai-ho-chi-minh.html"  itemprop="url"><span>khách sạn tại </span><span itemprop="title">Hồ Chí Minh</span></a></li>
+	
+						    </ul>
+    <div class="clear"></div>
+    
+				    Có 98 kết quả trong Ho Chi Minh,
+				98 khách sạn, Hiển thị 1 - 20				 <h1>Đặt phòng khách sạn giá rẻ nhất (Sài Gòn) TP Hồ Chí Minh tại Mangdatphong.vn</h1>
+</div>
+<div style="padding:10px;">
+<form method="post" name="Form_sort" id="Form_sort">
+<div><strong>Sắp xếp theo:</strong> <select  name="hotel_type" id="hotel_type" onchange="Form_sort.submit();"><option value="1000">Loại hình</option><option value="0">HOTEL</option><option value="1">RESORT</option><option value="2">CRUISE</option><script type="text/javascript">getId('hotel_type').value = "";</script>
+	</select> <select  name="have_promotion" id="have_promotion" onchange="Form_sort.submit();"><option value="">Khuyến mại</option><option value="YES">Có khuyến mại</option><script type="text/javascript">getId('have_promotion').value = "";</script>
+	</select> <select  name="sort" id="sort" onchange="Form_sort.submit();"><option value="star">Hạng sao</option><option value="stars_up">Thấp -> Cao</option><option value="stars_down">Cao -> Thấp</option><script type="text/javascript">getId('sort').value = "";</script>
+	</select> <select  name="price" id="price" onchange="Form_sort.submit();"><option value="">Mức giá</option><option value="price_up">Thấp -> Cao</option><option value="price_down">Cao -> Thấp</option><script type="text/javascript">getId('price').value = "";</script>
+	</select> </div>
+<input type="hidden" name="form_block_id" value="72851" />
+			</form >
+			
+			
+</div>
+<div class="products">
+	<!--<div class="sale">Giảm <small>36%</small></div> -->
+    <a href="http://www.mangdatphong.vn/quan-1/khach-san-sai-gon-sports-3.html">
+        <img title="Checkin Vietnam Khách sạn Sài Gòn Sports 3" alt="Checkin Vietnam Khách sạn Sài Gòn Sports 3" src="http://media.checkinvietnam.com/hotel/saigonsport3hotel21092012/thumb/1350706148_222995_110511103509577_STD.jpg" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/quan-1/khach-san-sai-gon-sports-3.html" title="Khách sạn Sài Gòn Sports 3">Khách sạn Sài Gòn Sports 3    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">175/21 Phạm Ngũ Lão, Quận 1, TP. Hồ Chí Minh, Việt Nam. <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('saigon-sports-3-hotel');">Bản đồ</span></div><!--End .add-->
+        <div class="brief">Nằm ở vị trí thuận lợi trong Quận 1 - Phạm Ngũ Lão / Tây Ba-lô, Saigon Sports 3 Hotel là một điểm lý tưởng để khởi hành chuyến du ngoạn của bạn ở Thành phố Hồ Chí Minh. Khách sạn nằm cách trung tâm thành phố 0.5 Km và dễ dàng tiếp cận các địa điểm khác trong thành phố . </div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">365.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/quan-1/khach-san-sai-gon-sports-3.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>45%</small></div> -->
+    <a href="http://www.mangdatphong.vn/phu-nhuan/khach-san-hoa-dong-duong-sai-gon.html">
+        <img title="Checkin Vietnam Khách Sạn Hoa Đông Dương Sài Gòn" alt="Checkin Vietnam Khách Sạn Hoa Đông Dương Sài Gòn" src="http://media.checkinvietnam.com/hotel/hoadongduonghotel24052012/thumb/c3124f0ce435430d632c7d445f011df5gDelux.JPG" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/phu-nhuan/khach-san-hoa-dong-duong-sai-gon.html" title="Khách Sạn Hoa Đông Dương Sài Gòn">Khách Sạn Hoa Đông Dương Sài Gòn    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">122 - 124 Hoàng Văn Thụ P.9 Q.Phú Nhuận Tp.Hồ Chí Minh <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('hoa-dong-duong-hotel');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>2</span> nhận xét: <span><strong>7.8</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">Khách sạn Hoa Đông Dương với 20 phòng ngủ rộng rãi, sang trọng, ấm cúng, thoáng mát với gió trời tự nhiên và được trang bị đầy đủ tiện nghi như: máy điều hòa, điện thoại, tivi LCD với truyền hình cáp, internet, Wifi, máy sấy tóc, bồn tắm,… </div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">255.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/phu-nhuan/khach-san-hoa-dong-duong-sai-gon.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>33%</small></div> -->
+    <a href="http://www.mangdatphong.vn/phu-nhuan/khach-san-hanriver-sai-gon.html">
+        <img title="Checkin Vietnam Khách sạn Hanriver Sài Gòn" alt="Checkin Vietnam Khách sạn Hanriver Sài Gòn" src="http://media.checkinvietnam.com/hotel/hanriverhotel03082012/thumb/BDELUXE1.png" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/phu-nhuan/khach-san-hanriver-sai-gon.html" title="Khách sạn Hanriver Sài Gòn">Khách sạn Hanriver Sài Gòn    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">197 Hoàng Văn Thụ-Quận Phú Nhuận-TP.Hồ Chí Minh <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('hanriver-hotel-saigon');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>5</span> nhận xét: <span><strong>8.3</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">Khách sạn toạ lạc tại trung tâm thành phố có nền kinh tế lớn của Việt Nam .</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">456.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/phu-nhuan/khach-san-hanriver-sai-gon.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>16%</small></div> -->
+    <a href="http://www.mangdatphong.vn/quan-1/khach-san-ha-my-2.html">
+        <img title="Checkin Vietnam Khách sạn Hà My 2 " alt="Checkin Vietnam Khách sạn Hà My 2 " src="http://media.checkinvietnam.com/hotel/hamy2hotel22092011/thumb/09_2011/gallery_37_gallery5.jpg" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/quan-1/khach-san-ha-my-2.html" title="Khách sạn Hà My 2 ">Khách sạn Hà My 2     <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">100 Lý Tự Trọng, Quận 1, Tp. Hồ CHí Minh. <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('ha-my-2-hotel');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>4</span> nhận xét: <span><strong>8.2</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">Khách sạn Hà My 2 chính thức đi vào hoạt động đầu năm 2011 cung cấp cho khách hàng thân yêu của chúng tôi một chỗ ở ấm cúng và dễ chịu, với tất cả các tiện nghi sang trọng của một khách sạn thương mại cao cấp. Nằm ở trung tâm của thành phố Hồ Chí Minh, kế bên chợ  Bến Thành. Chỉ vài phút đi bộ tới Nhà thờ Đức Bà, Nhà hát Thành phố, Văn phòng Chính phủ thành phố, trung tâm mua sắm Parkson...</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">547.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/quan-1/khach-san-ha-my-2.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>9%</small></div> -->
+    <a href="http://www.mangdatphong.vn/quan-1/khach-san-ha-my-3-sai-gon.html">
+        <img title="Checkin Vietnam Khách sạn Hà My 3 Sài Gòn" alt="Checkin Vietnam Khách sạn Hà My 3 Sài Gòn" src="http://media.checkinvietnam.com/hotel/hongvy2hotel27032012/thumb/1351842238_deluxe1.jpg" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/quan-1/khach-san-ha-my-3-sai-gon.html" title="Khách sạn Hà My 3 Sài Gòn">Khách sạn Hà My 3 Sài Gòn    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">Số 47 - Thủ Khoa Huân - Hồ Chí Minh <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('ha-my-3-hotel');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>5</span> nhận xét: <span><strong>7.8</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">Với 39 phòng, khách sạn này có tất cả các tiện nghi và dịch vụ bạn mong chờ từ một khách sạn 2 sao ở trung tâm Thành phố Hồ Chí Minh. Phòng khách được trang bị các thiết bị cơ bản như điều hòa nhiệt độ, bàn, máy sấy tóc, internet, két sắt, truyền hình cáp. Để làm hài lòng khách hàng, khách sạn có các dịch vụ thang máy, quán cà phê, quán bar, dịch vụ giặt là v.v,. Với các thiết bị hiện đại....</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">547.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/quan-1/khach-san-ha-my-3-sai-gon.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>27%</small></div> -->
+    <a href="http://www.mangdatphong.vn/quan-1/khach-san-hoang-lien-sai-gon.html">
+        <img title="Checkin Vietnam Khách sạn Hoàng Liên Sài Gòn" alt="Checkin Vietnam Khách sạn Hoàng Liên Sài Gòn" src="http://media.checkinvietnam.com/hotel/hoanglienhotel22092011/thumb/11_2011/Lobby.JPG" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/quan-1/khach-san-hoang-lien-sai-gon.html" title="Khách sạn Hoàng Liên Sài Gòn">Khách sạn Hoàng Liên Sài Gòn    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">15 Bùi Thị Xuân, P. Bến Thành, Quận 1, TP. Hồ Chí Minh <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('hoang-lien-hotel-saigon');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>10</span> nhận xét: <span><strong>7.9</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">Khách sạn Hoàng Liên chỉ cách Chợ Bến Thành khoảng 10 phút đi bộ và cung cấp các phòng giá cả phải chăng với Wi-Fi miễn phí. Khách sạn nằm ngay đối diện Công viên Tao Đàn và cách Tàu Du Ngoạn Đêm trên Sông Sài Gòn 15 phút đi bộ. Các phòng máy lạnh đi kèm với truyền hình cáp màn hình phẳng 32 inch và minibar. Phòng tắm riêng được trang bị tiện nghi vòi sen và máy sấy tóc...</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">456.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/quan-1/khach-san-hoang-lien-sai-gon.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>15%</small></div> -->
+    <a href="http://www.mangdatphong.vn/quan-1/khach-san-huong-trinh-sai-gon.html">
+        <img title="Checkin Vietnam Khách sạn Hương Trinh Sài Gòn" alt="Checkin Vietnam Khách sạn Hương Trinh Sài Gòn" src="http://media.checkinvietnam.com/hotel/huongtrinh13102012/thumb/284303_111009043141670_STD.jpg" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/quan-1/khach-san-huong-trinh-sai-gon.html" title="Khách sạn Hương Trinh Sài Gòn">Khách sạn Hương Trinh Sài Gòn    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">98F/13 Lê Lai, P. Bến Thành, Quận 1, TP. HCM <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('huong-trinh-hotel-saigon');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>4</span> nhận xét: <span><strong>8.6</strong></span></div><!--End .littlescore-->
+    
+				    div class="brief">Tọa lạc tại Trung tâm kinh doanh lữ hành tại TP Hồ Chí Minh, 100 m từ chợ Bến Thành, 30 phút lái xe quốc tế sân bay Tân Sơn Nhất bằng taxi.</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">37.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/quan-1/khach-san-huong-trinh-sai-gon.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>36%</small></div> -->
+    <a href="http://www.mangdatphong.vn/quan-1/khach-san-ha-hien-sai-gon.html">
+        <img title="Checkin Vietnam Khách sạn Hà Hiển Sài Gòn" alt="Checkin Vietnam Khách sạn Hà Hiển Sài Gòn" src="http://media.checkinvietnam.com/hotel/hahienhotel08092011/thumb/1362645376_Front_hotel_at_night.jpg" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/quan-1/khach-san-ha-hien-sai-gon.html" title="Khách sạn Hà Hiển Sài Gòn">Khách sạn Hà Hiển Sài Gòn    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">145-147 Lý Tự Trọng, Phường Bến Thành, Quận 1, Tp Hồ Chí Minh. <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('ha-hien-hotel-saigon');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>7</span> nhận xét: <span><strong>8.3</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">Khách sạn Hà Hiển là một khách sạn ba sao với gồm 10 tầng và trên 62 phòng nghỉ. Là khách sạn đạt tiêu chuẩn Quốc tế, tọa lạc ngay trung tâm thành phố với các điểm di tích lịch sử, nhà thờ, bưu điện, chợ Bến Thành và khu thương mại. Một địa điểm rất thuận tiện cho du khách tham quan, mua sắm và kinh doanh thương mại. Khách sạn Hà Hiển được thiết kế và xây dựng theo tiêu chuẩn quốc tế...</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">820.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/quan-1/khach-san-ha-hien-sai-gon.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>29%</small></div> -->
+    <a href="http://www.mangdatphong.vn/phu-nhuan/khach-san-199-ho-chi-minh.html">
+        <img title="Checkin Vietnam Khách sạn 199 Hồ Chí Minh" alt="Checkin Vietnam Khách sạn 199 Hồ Chí Minh" src="http://media.checkinvietnam.com/hotel/hotell19902012012/thumb/01_2012/Untitled.jpg" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/phu-nhuan/khach-san-199-ho-chi-minh.html" title="Khách sạn 199 Hồ Chí Minh">Khách sạn 199 Hồ Chí Minh    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">199 Hoàng Văn Thụ, phường 08, quận Phú Nhuận, Tp Hồ Chí Minh <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('hotel-199-ho-chi-minh');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>3</span> nhận xét: <span><strong>8.0</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">Nằm trong bán kính 10 phút lái xe từ Sân bay Quốc tế Tân Sơn Nhất, Hotel 199 ở Thành phố Hồ Chí Minh cung cấp các phòng máy lạnh với Wi-Fi miễn phí. Quán View Café trên tầng thượng phục vụ các món ăn Việt Nam và phương Tây cũng như bữa sáng hàng ngày. Cách Hotel 199 15 phút lái xe là Ga Tàu Sài Gòn, Nhà hát lớn Sài Gòn và Nhà thờ Đức Bà Sài Gòn.</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">456.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/phu-nhuan/khach-san-199-ho-chi-minh.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>25%</small></div> -->
+    <a href="http://www.mangdatphong.vn/quan-3/khach-san-new-pacific-sai-gon.html">
+        <img title="Checkin Vietnam Khách sạn New Pacific Sài Gòn" alt="Checkin Vietnam Khách sạn New Pacific Sài Gòn" src="http://media.checkinvietnam.com/hotel/newpacifichotelsaigon12112012/thumb/1352702483_newpacific_resize.jpg" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/quan-3/khach-san-new-pacific-sai-gon.html" title="Khách sạn New Pacific Sài Gòn">Khách sạn New Pacific Sài Gòn    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">9-11 Kỳ Đồng, P.9, Q.3, TP. Hồ Chí Minh <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('new-pacific-hotel-saigon');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>4</span> nhận xét: <span><strong>8.0</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">New Pacific là nơi hội tụ những dịch vụ chất lượng đẳng cấp theo tiêu chuẩn quốc tế. Đến với New Pacific, quý khách có thể thả mình trong không gian thoáng đãng và ngắm thành phố về đêm.</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">1.930.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/quan-3/khach-san-new-pacific-sai-gon.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>31%</small></div> -->
+    <a href="http://www.mangdatphong.vn/quan-1/khach-san-elegant-sai-gon.html">
+        <img title="Checkin Vietnam Khách sạn Elegant Sài Gòn" alt="Checkin Vietnam Khách sạn Elegant Sài Gòn" src="http://media.checkinvietnam.com/hotel/eleganthotel23082011/thumb/237747_110907133358027_STD.jpg" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/quan-1/khach-san-elegant-sai-gon.html" title="Khách sạn Elegant Sài Gòn">Khách sạn Elegant Sài Gòn    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">122F-122F1 Bùi Thị Xuân ,Quận 1, Hồ Chí Minh <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('elegant-hotel-saigon');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>5</span> nhận xét: <span><strong>8.4</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">Được hưởng vị trí đắc địa ở trung tâm Thành Phố Hồ Chí Minh, Elegant Hotel cung cấp các phòng nghỉ boutique nằm cách Chợ Bến Thành và Công viên Tao Đàn 5 phút đi bộ. Nơi này có Wi-Fi miễn phí và trung tâm thể dục. Elegant Hotel Saigon City cách Sân bay Quốc tế Tân Sơn Nhất 20 phút lái xe. Dinh Thống Nhất và Nhà thờ Đức Bà nằm cách khách sạn 10 phút lái xe...</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">619.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/quan-1/khach-san-elegant-sai-gon.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>31%</small></div> -->
+    <a href="http://www.mangdatphong.vn/binh-thanh/faifoo-boutique-hotel.html">
+        <img title="Checkin Vietnam Faifoo Boutique Hotel" alt="Checkin Vietnam Faifoo Boutique Hotel" src="http://media.checkinvietnam.com/hotel/faifooboutiquehotel23082011/thumb/09_2011/Faifoo-908.jpg" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/binh-thanh/faifoo-boutique-hotel.html" title="Faifoo Boutique Hotel">Faifoo Boutique Hotel    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">97/3 Lê Quang Định, Quận Bình Thạnh, Thành phố Hồ Chí Minh <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('faifoo-boutique-hotel');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>5</span> nhận xét: <span><strong>8.1</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">Faifoo Boutique Hotel cung cấp các phòng trang nhã kèm Wi-Fi miễn phí ở quận Bình Thạnh yên tĩnh của thành phố Hồ Chí Minh. Khách sạn cách trung tâm thành phố 15 phút lái xe, có Wi-Fi miễn phí và vườn sân thượng. Đặc trưng với đồ nội thất bằng gỗ tối màu, các phòng tại Faifoo có truyền hình cáp và ấm đun nước điện.</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">755.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/binh-thanh/faifoo-boutique-hotel.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>27%</small></div> -->
+    <a href="http://www.mangdatphong.vn/quan-1/khach-san-kingston-sai-gon.html">
+        <img title="Checkin Vietnam Khách sạn Kingston Sài Gòn" alt="Checkin Vietnam Khách sạn Kingston Sài Gòn" src="http://media.checkinvietnam.com/hotel/kingstonhotel24082011/thumb/08_2011/Hotel Overview.jpg" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/quan-1/khach-san-kingston-sai-gon.html" title="Khách sạn Kingston Sài Gòn">Khách sạn Kingston Sài Gòn    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">52-54 Thủ Khoa Huân, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh. <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('kingston-hotel-saigon');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>8</span> nhận xét: <span><strong>8.2</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">Khách sạn Kingston cao cấp sang trọng nằm ở trung tâm Sài Gòn. Một trong các địa chỉ uy tín của khách sạn với phục vụ kinh nghiệm, Vị trí thuận tiện chỉ trong vòng một phút đi bộ đến tất cả khu du lịch nổi tiếng như trung tâm thương mại Sài Gòn, nhà hàng, nhà hát, bảo tàng, Chợ Bến Thành, Dinh Thống Nhất và các khu mua sắm tốt nhất các doanh nghiệp đô thị...</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">1.002.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/quan-1/khach-san-kingston-sai-gon.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>15%</small></div> -->
+    <a href="http://www.mangdatphong.vn/quan-1/khach-san-hoang-ngan-sai-gon.html">
+        <img title="Checkin Vietnam Khách Sạn Hoàng Ngân Sài Gòn" alt="Checkin Vietnam Khách Sạn Hoàng Ngân Sài Gòn" src="http://media.checkinvietnam.com/hotel/gialinhhotel25082011/thumb/09_2011/Reception.jpg" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/quan-1/khach-san-hoang-ngan-sai-gon.html" title="Khách Sạn Hoàng Ngân Sài Gòn">Khách Sạn Hoàng Ngân Sài Gòn    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">29-31 Bùi Thị Xuân, Quận 1, Thành phố Hồ Chí Minh. <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('hoang-ngan-hotel-saigon');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>2</span> nhận xét: <span><strong>7.6</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">Khách sạn Hoàng Ngân đạt tiêu chuẩn 3 sao với 55 phòng ngủ là khách sạn mới được xây dựng và đi vào hoạt động chính thức từ tháng 12/2009, vị trí nằm trên phố Bùi thị Xuân là trung tâm thương mại và du lịch của quận 1.Thành Phố Hồ Chí Minh, Quý khách chỉ mất khoảng 10 phút đi bộ để đến chợ Bến Thành. 20 phút bằng taxi đến sân bay quốc tế Tân Sơn Nhất. Ngành du lịch Việt Nam nói chung và....</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">911.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/quan-1/khach-san-hoang-ngan-sai-gon.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>10%</small></div> -->
+    <a href="http://www.mangdatphong.vn/quan-1/khach-san-asian-ruby-luxury-sai-gon.html">
+        <img title="Checkin Vietnam Khách sạn Asian Ruby Luxury Sài Gòn" alt="Checkin Vietnam Khách sạn Asian Ruby Luxury Sài Gòn" src="http://media.checkinvietnam.com/hotel/asianruby1hotel25082011/thumb/09_2011/1314262420_superio.jpg" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/quan-1/khach-san-asian-ruby-luxury-sai-gon.html" title="Khách sạn Asian Ruby Luxury Sài Gòn">Khách sạn Asian Ruby Luxury Sài Gòn    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">26 Thi Sách, phường Bến Nghé, quận 1, TP. Hồ Chí Minh <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('asian-ruby-luxury-hotel-saigon');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>9</span> nhận xét: <span><strong>7.8</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">Nằm tại trung tâm Sài Gòn, Asian Ruby Luxury Hotel có vị trí thuận tiện và giá cả phải chăng cho du khách khi đến thăm thành phố nhộn nhịp này. Khách sạn thiết kế theo phong cách thuộc địa Pháp và rất gần với các điểm tham quan như Nhà Hát Lớn, Tòa Thị Sảnhl, Nhà thờ Đức Bà, Bưu Điện và Dinh Thống Nhất. Các loại phòng đều được trang bị tiện nghi hiện đại như Internet Wi-Fi và Tivi LCD...</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">1.894.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/quan-1/khach-san-asian-ruby-luxury-sai-gon.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>33%</small></div> -->
+    <a href="http://www.mangdatphong.vn/quan-1/khach-san-hong-thien-loc.html">
+        <img title="Checkin Vietnam Khách sạn Hồng Thiên Lộc" alt="Checkin Vietnam Khách sạn Hồng Thiên Lộc" src="http://media.checkinvietnam.com/hotel/hongthienlochotel25082011/thumb/03_2012/2. Deluxe room.jpg" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/quan-1/khach-san-hong-thien-loc.html" title="Khách sạn Hồng Thiên Lộc">Khách sạn Hồng Thiên Lộc    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">287-289 Phạm Ngũ Lão, Quận 1, thành phố Hồ Chí Minh <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('hong-thien-loc-hotel');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>2</span> nhận xét: <span><strong>8.5</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">Khách sạn 3 sao Hồng Thiên Lộc, Saigon, Vietnam (Blessing hotel) có vị trí cực kỳ thuận lợi tại trung tâm của thành phố Hồ Chí Minh - Quận 1 – quận trung tâm trên các lĩnh vực văn hóa, thương mại và du lịch … của Sài gòn. Lưu trú tại Hong Thien Loc hotel, quý khách dễ dàng đi đến những điểm tham quan: Chợ Bến Thành, Dinh độc lập, UBND thành phố, Nhà hát thành phố, Nhà thờ Đức Bà, thương xá Tax...</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">638.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/quan-1/khach-san-hong-thien-loc.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>20%</small></div> -->
+    <a href="http://www.mangdatphong.vn/quan-1/khach-san-le-duy-sai-gon.html">
+        <img title="Checkin Vietnam Khách sạn Lê Duy Sài Gòn" alt="Checkin Vietnam Khách sạn Lê Duy Sài Gòn" src="http://media.checkinvietnam.com/hotel/leduyhotel26082011/thumb/08_2011/DELUXE.jpg" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/quan-1/khach-san-le-duy-sai-gon.html" title="Khách sạn Lê Duy Sài Gòn">Khách sạn Lê Duy Sài Gòn    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">18-20 Nguyễn Thị Nghĩa ,Quận 1 ,Tp Hồ Chí Minh. <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('le-duy-hotel-saigon');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>5</span> nhận xét: <span><strong>8.2</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">Với quy mô 108 phòng ngủ, khách sạn Lê Duy là sự kết hợp giữa kiến trúc hiện đại và đường nét theo phong cách châu âu, được phân thành 05 cấp phòng phù hợp cho từng đối tượng khách. Khách sạn nằm tại trung tâm thành phố Hồ Chí Minh, nằm ngay trục đường lớn,gần trung tâm thương mại và cách chợ Bến Thành 100m.</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">729.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/quan-1/khach-san-le-duy-sai-gon.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>38%</small></div> -->
+    <a href="http://www.mangdatphong.vn/quan-3/khach-san-new-epoch-sai-gon.html">
+        <img title="Checkin Vietnam Khách sạn New Epoch Sài Gòn" alt="Checkin Vietnam Khách sạn New Epoch Sài Gòn" src="http://media.checkinvietnam.com/hotel/newepochhotel26082011/thumb/08_2011/service_1270454423.jpg" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/quan-3/khach-san-new-epoch-sai-gon.html" title="Khách sạn New Epoch Sài Gòn">Khách sạn New Epoch Sài Gòn    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">120 Cách Mạng Tháng Tám , Quận 3, Tp.Hồ Chí Minh <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('new-epoch-hotel');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>5</span> nhận xét: <span><strong>8.2</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">New Epoch Hotel nằm trong khu mua sắm và giải trí của Thành phố Hồ Chí Minh, gần với Ga Đường Sắt Sài Gòn. Khách sạn chỉ cách Sân bay Quốc tế Tân Sơn Nhất 10 phút lái xe. Các điểm hấp dẫn khác gần đó bao gồm Bảo tàng Hồ Chí Minh, Bảo tàng Mỹ thuật, và Tổ hợp Thể Thao và Văn hóa Lao động. Tất cả các phòng ở New Epoch được trang trí trang nhã, bao gồm Điện thoại quốc tế, và Wi-Fi miễn phí...</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">1.002.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/quan-3/khach-san-new-epoch-sai-gon.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>41%</small></div> -->
+    <a href="http://www.mangdatphong.vn/quan-1/khach-san-asian-ruby-3-saigon.html">
+        <img title="Checkin Vietnam Khách sạn Asian Ruby 3 Saigon" alt="Checkin Vietnam Khách sạn Asian Ruby 3 Saigon" src="http://media.checkinvietnam.com/hotel/asianruby3hotel26082011/thumb/09_2011/1314350848_Deluxe doubl.jpg" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/quan-1/khach-san-asian-ruby-3-saigon.html" title="Khách sạn Asian Ruby 3 Saigon">Khách sạn Asian Ruby 3 Saigon    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">100 Lê Lai, Quận 1, TP. Hồ Chí Minh <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('asian-ruby-3-hotel-saigon');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>7</span> nhận xét: <span><strong>8.0</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">Nằm ở trung tâm Thành phố Hồ Chí Minh, Asian 3 Hotel cách Chợ Bến Thành 10 phút đi bộ. Tại đây có 1 spa và cung cấp Wi-Fi miễn phí. Bãi đỗ xe có miễn phí cho khách. Asian Ruby 3 Hotel cách Nhà hát Múa Rối Nước Rồng Vàng khoảng 700 m. Sân bay Quốc tế Tân Sơn Nhất cách đó 1 giờ lái xe.</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">1.238.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/quan-1/khach-san-asian-ruby-3-saigon.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="products">
+	<!--<div class="sale">Giảm <small>23%</small></div> -->
+    <a href="http://www.mangdatphong.vn/quan-1/khach-san-duc-vuong-sai-gon.html">
+        <img title="Checkin Vietnam Khách sạn Đức Vượng Sài Gòn" alt="Checkin Vietnam Khách sạn Đức Vượng Sài Gòn" src="http://media.checkinvietnam.com/hotel/ducvuonghotel26082011/thumb/08_2011/3376168.jpg" />
+    </a>
+    <div class="long_pro_cont">
+    <h2><a href="http://www.mangdatphong.vn/quan-1/khach-san-duc-vuong-sai-gon.html" title="Khách sạn Đức Vượng Sài Gòn">Khách sạn Đức Vượng Sài Gòn    <span class="rating"><img class="star-image" src="skins/modern/images/star.png"/><img class="star-image" src="skins/modern/images/star.png"/></span></a></h2>
+    <div class="add">195 Bùi Viện, Q1, Tp. HCM <span style="font-size:11px;font-weight:bold;cursor:pointer;color:#03C" title="Xem bản đồ" onclick="show_vn_map('duc-vuong-hotel');">Bản đồ</span></div><!--End .add-->
+        <div class="littlescore">Điểm từ <span>5</span> nhận xét: <span><strong>8.3</strong></span></div><!--End .littlescore-->
+    
+				    <div class="brief">Khách sạn Đức Vượng là một trong những khách sạn có uy tín về chất lượng cũng như phong cách phục vụ chuyên nghiệp. Nhằm đáp ứng nhu cầu ngày càng cao của du khách cũng như góp phần phát triển ngành du lịch nước nhà, từ tiêu chuẩn 2 sao. Khách sạn toạ lạc tại khu du lịch Phố Tây, 195 Bùi Viện, phường Phạm Ngũ Lão, Q1 .Từ sân bay Tân Sơn Nhất đến khách sạn mất khoảng mất khảng 30 bằng....</div>
+        
+    <div class="rates">Giá từ: <span class="rate-bound">510.000 </span><span class="site-currency">VND</span>
+    
+				        </div><!--End .rates-->
+    </div><!--End .pro_cont-->
+    <a class="button_detail" href="http://www.mangdatphong.vn/quan-1/khach-san-duc-vuong-sai-gon.html"></a>
+    <div class="clear"></div>
+</div><!--End .products-->
+
+						<div class="paging" align="right" style="padding:10px;"><div class="mangdatphong-paging-bound"><span style="padding:5px;">Trang </span>&nbsp;<font style="font-weight:bold;display:inline;padding:3px 5px;">1</font>&nbsp;<a rel="external" style="display:inline;padding:3px 5px;" HREF= "?page=hotels&zone_id=50&hotel_zone_id=ho-chi-minh&page_no=2&portal=mangdatphong ">2</a>&nbsp;<a rel="external" style="display:inline;padding:3px 5px;" HREF= "?page=hotels&zone_id=50&hotel_zone_id=ho-chi-minh&page_no=3&portal=mangdatphong ">3</a>&nbsp;<a rel="external" style="display:inline;padding:3px 5px;" HREF= "?page=hotels&zone_id=50&hotel_zone_id=ho-chi-minh&page_no=4&portal=mangdatphong ">4</a>&nbsp;<a rel="external" style="display:inline;padding:3px 5px;" HREF= "?page=hotels&zone_id=50&hotel_zone_id=ho-chi-minh&page_no=5&portal=mangdatphong ">5</a>&nbsp;&nbsp;&nbsp;<a rel="external" class="next" style="display:inline;padding:3px 5px;" HREF = "?page=hotels&zone_id=50&hotel_zone_id=ho-chi-minh&page_no=2&portal=mangdatphong">Sau</a></div></div>
+</div><!--End .list_product-->
+<!-- END HOTEL -->
+ <script>
+jQuery(document).ready(function(){
+				});
+	</script></div></td><td width="210px:" align="left" style="padding-right:0px;"><div id="module_72849"><div id="destinations">
+    <h3>top điểm đến</h3>
+        <div class="list-destinations">
+        <div class="destination-name"><a href="http://www.mangdatphong.vn/khach-san-tai-ha-noi.html">Hà Nội</a> <span class="italic">Có <strong>138</strong> khách sạn</span>
+        </div>
+        <div class="destination-image"><a href="http://www.mangdatphong.vn/khach-san-tai-ha-noi.html"><img src="http://www.checkinvietnam.com/upload/booking/zone/1371899526_hanoi.jpg" alt="Hà Nội" title="Hà Nội" /></a></div>
+    </div>
+    
+						    <div class="list-destinations">
+        <div class="destination-name"><a href="http://www.mangdatphong.vn/khach-san-tai-da-nang.html">Đà Nẵng</a> <span class="italic">Có <strong>44</strong> khách sạn</span>
+        </div>
+        <div class="destination-image"><a href="http://www.mangdatphong.vn/khach-san-tai-da-nang.html"><img src="http://www.checkinvietnam.com/upload/booking/zone/1371899731_danang.jpg" alt="Đà Nẵng" title="Đà Nẵng" /></a></div>
+    </div>
+    
+						    <div class="list-destinations">
+        <div class="destination-name"><a href="http://www.mangdatphong.vn/khach-san-tai-hue.html">Huế</a> <span class="italic">Có <strong>37</strong> khách sạn</span>
+        </div>
+        <div class="destination-image"><a href="http://www.mangdatphong.vn/khach-san-tai-hue.html"><img src="http://www.checkinvietnam.com/upload/booking/zone/1371899956_hue.jpg" alt="Huế" title="Huế" /></a></div>
+    </div>
+    
+						    <div class="list-destinations">
+        <div class="destination-name"><a href="http://www.mangdatphong.vn/khach-san-tai-ho-chi-minh.html">Hồ Chí Minh</a> <span class="italic">Có <strong>94</strong> khách sạn</span>
+        </div>
+        <div class="destination-image"><a href="http://www.mangdatphong.vn/khach-san-tai-ho-chi-minh.html"><img src="http://www.checkinvietnam.com/upload/booking/zone/hcmc.jpg" alt="Hồ Chí Minh" title="Hồ Chí Minh" /></a></div>
+    </div>
+    
+						    
+    <a href="khach-san-viet-nam" class="more-destinations note">Xem tất cả &gt;&gt;</a>
+</div><!--end #destinations-->
+</div><div id="module_72850"><div id="top_discount">
+    <h3>Siêu giảm giá</h3>
+        <div class="top-to-right-content">
+        <div class="top-to-right-name"><a href="http://www.mangdatphong.vn/hai-phong/khach-san-classic-hoang-long-hai-phong.html">Khách sạn Classic Hoàng Long Hải Phòng</a></div>
+        <div class="top-to-right-star"><img src="skins/mangdatphong/images/3stars.png" alt="3 sao" /></div>
+        <div class="top-to-discount-content">
+            <div class="top-to-right-img">
+                <div><a href="http://www.mangdatphong.vn/hai-phong/khach-san-classic-hoang-long-hai-phong.html"><img src="http://media.checkinvietnam.com/hotel/classichoanglonghotel14102011/thumb/12.jpg" width="130" height="80" border="0" /></a></div>
+            </div>
+        <div class="top-to-right-price">
+			<div><span class="price" style="color:#524e4f; text-decoration:line-through; margin-top:10px; line-height:15px;">1.342.000</span><span class="currency">đ</span></div>
+            <div><span class="price" style="color:#F00; font-weight:bold; font-size:12px;">802.000</span><span class="currency">đ</span></div>
+        </div>
+        <div class="top-to-right-prom"><div>Giảm 51%</div></div>        
+        </div>
+        <div class="top-to-right-address">25 Trần Quang Khải, Hồng Bàng, Trung Tâm Thành Phố / Chợ Sắt, Hải Phòng</div>
+        <div class="top-to-right-viewall"><a href="http://www.mangdatphong.vn/hai-phong/khach-san-classic-hoang-long-hai-phong.html" >>> Chi tiết...</a></div>        
+    </div>
+    
+						    <div class="top-to-right-content">
+        <div class="top-to-right-name"><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-apple-ha-noi.html">Khách sạn Apple Hà Nội</a></div>
+        <div class="top-to-right-star"><img src="skins/mangdatphong/images/3stars.png" alt="3 sao" /></div>
+        <div class="top-to-discount-content">
+            <div class="top-to-right-img">
+                <div><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-apple-ha-noi.html"><img src="http://media.checkinvietnam.com/hotel/applehotel14112011/thumb/01_2012/IMG_4653-hieuung.jpg" width="130" height="80" border="0" /></a></div>
+            </div>
+        <div class="top-to-right-price">
+			<div><span class="price" style="color:#524e4f; text-decoration:line-through; margin-top:10px; line-height:15px;">671.000</span><span class="currency">đ</span></div>
+            <div><span class="price" style="color:#F00; font-weight:bold; font-size:12px;">365.000</span><span class="currency">đ</span></div>
+        </div>
+        <div class="top-to-right-prom"><div>Giảm 50%</div></div>        
+        </div>
+        <div class="top-to-right-address">Số 15A Hàng Chiếu, Hoàn Kiếm, Hà Nội</div>
+        <div class="top-to-right-viewall"><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-apple-ha-noi.html" >>> Chi tiết...</a></div>        
+    </div>
+    
+						    <div class="top-to-right-content">
+        <div class="top-to-right-name"><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-moon-view-2-ha-noi.html">Khách sạn Moon View 2 Hà Nội</a></div>
+        <div class="top-to-right-star"><img src="skins/mangdatphong/images/3stars.png" alt="3 sao" /></div>
+        <div class="top-to-discount-content">
+            <div class="top-to-right-img">
+                <div><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-moon-view-2-ha-noi.html"><img src="http://media.checkinvietnam.com/hotel/moonviewhotel218082012/thumb/1370225101_Executive Family 1.jpg" width="130" height="80" border="0" /></a></div>
+            </div>
+        <div class="top-to-right-price">
+			<div><span class="price" style="color:#524e4f; text-decoration:line-through; margin-top:10px; line-height:15px;">1.246.000</span><span class="currency">đ</span></div>
+            <div><span class="price" style="color:#F00; font-weight:bold; font-size:12px;">1.548.000</span><span class="currency">đ</span></div>
+        </div>
+        <div class="top-to-right-prom"><div>Giảm 50%</div></div>        
+        </div>
+        <div class="top-to-right-address">Số 61 Phố Hàng Than, Quận Hoàn Kiếm, Hà Nội</div>
+        <div class="top-to-right-viewall"><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-moon-view-2-ha-noi.html" >>> Chi tiết...</a></div>        
+    </div>
+    
+						    <div class="top-to-right-content">
+        <div class="top-to-right-name"><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-ha-noi-harmony.html">Khách sạn Hà Nội Harmony</a></div>
+        <div class="top-to-right-star"><img src="skins/mangdatphong/images/3stars.png" alt="3 sao" /></div>
+        <div class="top-to-discount-content">
+            <div class="top-to-right-img">
+                <div><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-ha-noi-harmony.html"><img src="http://media.checkinvietnam.com/hotel/hanoiharmonyhotel11102011/thumb/1337738831_suit room1.JPG" width="130" height="80" border="0" /></a></div>
+            </div>
+        <div class="top-to-right-price">
+			<div><span class="price" style="color:#524e4f; text-decoration:line-through; margin-top:10px; line-height:15px;">863.000</span><span class="currency">đ</span></div>
+            <div><span class="price" style="color:#F00; font-weight:bold; font-size:12px;">310.000</span><span class="currency">đ</span></div>
+        </div>
+        <div class="top-to-right-prom"><div>Giảm 50%</div></div>        
+        </div>
+        <div class="top-to-right-address">Số 34 Lãn Ông, Hoàn Kiếm, Hà Nội</div>
+        <div class="top-to-right-viewall"><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-ha-noi-harmony.html" >>> Chi tiết...</a></div>        
+    </div>
+    
+						    <div class="top-to-right-content">
+        <div class="top-to-right-name"><a href="http://www.mangdatphong.vn/hai-chau/khach-san-gold-da-nang.html">Khách sạn Gold Đà Nẵng</a></div>
+        <div class="top-to-right-star"><img src="skins/mangdatphong/images/3stars.png" alt="3 sao" /></div>
+        <div class="top-to-discount-content">
+            <div class="top-to-right-img">
+                <div><a href="http://www.mangdatphong.vn/hai-chau/khach-san-gold-da-nang.html"><img src="http://media.checkinvietnam.com/hotel/goldhotel24082012/thumb/1351060777_1346387797_311914_120514143605_STD.jpg" width="130" height="80" border="0" /></a></div>
+            </div>
+        <div class="top-to-right-price">
+			<div><span class="price" style="color:#524e4f; text-decoration:line-through; margin-top:10px; line-height:15px;">710.000</span><span class="currency">đ</span></div>
+            <div><span class="price" style="color:#F00; font-weight:bold; font-size:12px;">344.000</span><span class="currency">đ</span></div>
+        </div>
+        <div class="top-to-right-prom"><div>Giảm 50%</div></div>        
+        </div>
+        <div class="top-to-right-address">24 Núi Thành, Quận Hải Châu, Đà Nẵng</div>
+        <div class="top-to-right-viewall"><a href="http://www.mangdatphong.vn/hai-chau/khach-san-gold-da-nang.html" >>> Chi tiết...</a></div>        
+    </div>
+    
+						    <div class="top-to-right-content">
+        <div class="top-to-right-name"><a href="http://www.mangdatphong.vn/tan-binh/khach-san-thanh-binh.html">Khách sạn Thanh Bình</a></div>
+        <div class="top-to-right-star"><img src="skins/mangdatphong/images/3stars.png" alt="3 sao" /></div>
+        <div class="top-to-discount-content">
+            <div class="top-to-right-img">
+                <div><a href="http://www.mangdatphong.vn/tan-binh/khach-san-thanh-binh.html"><img src="http://media.checkinvietnam.com/hotel/thanhbinhhotel01092011/thumb/09_2011/Phong Suite (3).jpg" width="130" height="80" border="0" /></a></div>
+            </div>
+        <div class="top-to-right-price">
+			<div><span class="price" style="color:#524e4f; text-decoration:line-through; margin-top:10px; line-height:15px;">1.342.000</span><span class="currency">đ</span></div>
+            <div><span class="price" style="color:#F00; font-weight:bold; font-size:12px;">674.000</span><span class="currency">đ</span></div>
+        </div>
+        <div class="top-to-right-prom"><div>Giảm 50%</div></div>        
+        </div>
+        <div class="top-to-right-address">315 Hoàng Văn Thụ, P.2, Q.Tân Bình, TP.HCM</div>
+        <div class="top-to-right-viewall"><a href="http://www.mangdatphong.vn/tan-binh/khach-san-thanh-binh.html" >>> Chi tiết...</a></div>        
+    </div>
+    
+						    <div class="top-to-right-content">
+        <div class="top-to-right-name"><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-royal-palace-ha-noi.html">Khách sạn Royal Palace Hà Nội</a></div>
+        <div class="top-to-right-star"><img src="skins/mangdatphong/images/3stars.png" alt="3 sao" /></div>
+        <div class="top-to-discount-content">
+            <div class="top-to-right-img">
+                <div><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-royal-palace-ha-noi.html"><img src="http://media.checkinvietnam.com/hotel/royalpalacehotel23092011/thumb/09_2011/Deluxe-dou.jpg" width="130" height="80" border="0" /></a></div>
+            </div>
+        <div class="top-to-right-price">
+			<div><span class="price" style="color:#524e4f; text-decoration:line-through; margin-top:10px; line-height:15px;">1.342.000</span><span class="currency">đ</span></div>
+            <div><span class="price" style="color:#F00; font-weight:bold; font-size:12px;">796.000</span><span class="currency">đ</span></div>
+        </div>
+        <div class="top-to-right-prom"><div>Giảm 50%</div></div>        
+        </div>
+        <div class="top-to-right-address">Số 18A Phố Quán Sứ, Hoàn Kiếm, Hà Nội</div>
+        <div class="top-to-right-viewall"><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-royal-palace-ha-noi.html" >>> Chi tiết...</a></div>        
+    </div>
+    
+						    <div class="top-to-right-content">
+        <div class="top-to-right-name"><a href="http://www.mangdatphong.vn/ninh-binh/khach-san-ngoc-anh-ninh-binh.html">Khách sạn Ngọc Anh Ninh Bình</a></div>
+        <div class="top-to-right-star"><img src="skins/mangdatphong/images/2stars.png" alt="2 sao" /></div>
+        <div class="top-to-discount-content">
+            <div class="top-to-right-img">
+                <div><a href="http://www.mangdatphong.vn/ninh-binh/khach-san-ngoc-anh-ninh-binh.html"><img src="http://media.checkinvietnam.com/hotel/ngocanhhotel27102011/thumb/IMG_0523.JPG" width="130" height="80" border="0" /></a></div>
+            </div>
+        <div class="top-to-right-price">
+			<div><span class="price" style="color:#524e4f; text-decoration:line-through; margin-top:10px; line-height:15px;">384.000</span><span class="currency">đ</span></div>
+            <div><span class="price" style="color:#F00; font-weight:bold; font-size:12px;">274.000</span><span class="currency">đ</span></div>
+        </div>
+        <div class="top-to-right-prom"><div>Giảm 50%</div></div>        
+        </div>
+        <div class="top-to-right-address">36 Lương Văn Tụy, Trung tâm Thành phố Ninh Bình</div>
+        <div class="top-to-right-viewall"><a href="http://www.mangdatphong.vn/ninh-binh/khach-san-ngoc-anh-ninh-binh.html" >>> Chi tiết...</a></div>        
+    </div>
+    
+						    <div class="top-to-right-content">
+        <div class="top-to-right-name"><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-ha-noi-violet.html">Khách sạn Hà Nội Violet</a></div>
+        <div class="top-to-right-star"><img src="skins/mangdatphong/images/2stars.png" alt="2 sao" /></div>
+        <div class="top-to-discount-content">
+            <div class="top-to-right-img">
+                <div><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-ha-noi-violet.html"><img src="http://media.checkinvietnam.com/hotel/hanoiviolethotel23082012/thumb/1346211097_Room_1.jpg" width="130" height="80" border="0" /></a></div>
+            </div>
+        <div class="top-to-right-price">
+			<div><span class="price" style="color:#524e4f; text-decoration:line-through; margin-top:10px; line-height:15px;">575.000</span><span class="currency">đ</span></div>
+            <div><span class="price" style="color:#F00; font-weight:bold; font-size:12px;">401.000</span><span class="currency">đ</span></div>
+        </div>
+        <div class="top-to-right-prom"><div>Giảm 50%</div></div>        
+        </div>
+        <div class="top-to-right-address">Số 18 Cầu Gỗ, Hoàn Kiếm, Hà Nội</div>
+        <div class="top-to-right-viewall"><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-ha-noi-violet.html" >>> Chi tiết...</a></div>        
+    </div>
+    
+						    <div class="top-to-right-content">
+        <div class="top-to-right-name"><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-grand-ha-noi.html">Khách sạn Grand Hà Nội</a></div>
+        <div class="top-to-right-star"><img src="skins/mangdatphong/images/3stars.png" alt="3 sao" /></div>
+        <div class="top-to-discount-content">
+            <div class="top-to-right-img">
+                <div><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-grand-ha-noi.html"><img src="http://media.checkinvietnam.com/hotel/hanoigrandhotel29082012/thumb/VN1_7598.jpg" width="130" height="80" border="0" /></a></div>
+            </div>
+        <div class="top-to-right-price">
+			<div><span class="price" style="color:#524e4f; text-decoration:line-through; margin-top:10px; line-height:15px;">652.000</span><span class="currency">đ</span></div>
+            <div><span class="price" style="color:#F00; font-weight:bold; font-size:12px;">419.000</span><span class="currency">đ</span></div>
+        </div>
+        <div class="top-to-right-prom"><div>Giảm 50%</div></div>        
+        </div>
+        <div class="top-to-right-address">Số 26, Phố Hội Vũ, Quận Hoàn Kiếm, Hà Nội</div>
+        <div class="top-to-right-viewall"><a href="http://www.mangdatphong.vn/hoan-kiem/khach-san-grand-ha-noi.html" >>> Chi tiết...</a></div>        
+    </div>
+    
+						    
+    <a href="khuyen-mai" class="more-destinations note">Xem tất cả &gt;&gt;</a>
+</div><!--end #destinations-->
+</div></td></tr></table></div></div>
+		    <div class="footer">
+<div id="module_73151"><div class="list-destination-bound">
+<div class="list-destination-bound1">
+<div class="list-destination-bound2">
+	<div class="list-destination-title">Điểm đến</div>
+    <ul>
+        	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-ha-noi.html" title="Khách sạn tại Hà Nội">Khách sạn tại Hà Nội</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-bac-giang.html" title="Khách sạn tại Bắc Giang">Khách sạn tại Bắc Giang</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-bac-kan.html" title="Khách sạn tại Bắc Kạn">Khách sạn tại Bắc Kạn</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-bac-ninh.html" title="Khách sạn tại Bắc Ninh">Khách sạn tại Bắc Ninh</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-cao-bang.html" title="Khách sạn tại Cao Bằng">Khách sạn tại Cao Bằng</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-ha-giang.html" title="Khách sạn tại Hà Giang">Khách sạn tại Hà Giang</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-ha-nam.html" title="Khách sạn tại Hà Nam">Khách sạn tại Hà Nam</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-dien-bien.html" title="Khách sạn tại Điện Biên">Khách sạn tại Điện Biên</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-hai-duong.html" title="Khách sạn tại Hải Dương">Khách sạn tại Hải Dương</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-hai-phong.html" title="Khách sạn tại Hải Phòng">Khách sạn tại Hải Phòng</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-hoa-binh.html" title="Khách sạn tại Hòa Bình">Khách sạn tại Hòa Bình</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-hung-yen.html" title="Khách sạn tại Hưng Yên">Khách sạn tại Hưng Yên</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-lai-chau.html" title="Khách sạn tại Lai Châu">Khách sạn tại Lai Châu</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-lao-cai.html" title="Khách sạn tại Lào Cai">Khách sạn tại Lào Cai</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-lang-son.html" title="Khách sạn tại Lạng Sơn">Khách sạn tại Lạng Sơn</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-nam-dinh.html" title="Khách sạn tại Nam Định">Khách sạn tại Nam Định</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-ninh-binh.html" title="Khách sạn tại Ninh Bình">Khách sạn tại Ninh Bình</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-phu-tho.html" title="Khách sạn tại Phú Thọ">Khách sạn tại Phú Thọ</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-quang-ninh.html" title="Khách sạn tại Quảng Ninh">Khách sạn tại Quảng Ninh</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-son-la.html" title="Khách sạn tại Sơn La">Khách sạn tại Sơn La</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-binh-dinh.html" title="Khách sạn tại Bình Định">Khách sạn tại Bình Định</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-thai-binh.html" title="Khách sạn tại Thái Bình">Khách sạn tại Thái Bình</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-thai-nguyen.html" title="Khách sạn tại Thái Nguyên">Khách sạn tại Thái Nguyên</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-tuyen-quang.html" title="Khách sạn tại Tuyên Quang">Khách sạn tại Tuyên Quang</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-vinh-phuc.html" title="Khách sạn tại Vĩnh Phúc">Khách sạn tại Vĩnh Phúc</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-yen-bai.html" title="Khách sạn tại Yên Bái">Khách sạn tại Yên Bái</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-da-nang.html" title="Khách sạn tại Đà Nẵng">Khách sạn tại Đà Nẵng</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-dak-lak.html" title="Khách sạn tại Dak Lak">Khách sạn tại Dak Lak</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-dak-nong.html" title="Khách sạn tại Dak Nông">Khách sạn tại Dak Nông</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-gia-lai.html" title="Khách sạn tại Gia Lai">Khách sạn tại Gia Lai</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-ha-tinh.html" title="Khách sạn tại Hà Tĩnh">Khách sạn tại Hà Tĩnh</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-khanh-hoa.html" title="Khách sạn tại Khánh Hòa">Khách sạn tại Khánh Hòa</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-kon-tum.html" title="Khách sạn tại Kon Tum">Khách sạn tại Kon Tum</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-nghe-an.html" title="Khách sạn tại Nghệ An">Khách sạn tại Nghệ An</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-phu-yen.html" title="Khách sạn tại Phú Yên">Khách sạn tại Phú Yên</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-quang-binh.html" title="Khách sạn tại Quảng Bình">Khách sạn tại Quảng Bình</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-quang-nam.html" title="Khách sạn tại Quảng Nam">Khách sạn tại Quảng Nam</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-quang-ngai.html" title="Khách sạn tại Quảng Ngãi">Khách sạn tại Quảng Ngãi</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-quang-tri.html" title="Khách sạn tại Quảng Trị">Khách sạn tại Quảng Trị</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-thanh-hoa.html" title="Khách sạn tại Thanh Hóa">Khách sạn tại Thanh Hóa</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-hue.html" title="Khách sạn tại Huế">Khách sạn tại Huế</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-ho-chi-minh.html" title="Khách sạn tại Hồ Chí Minh">Khách sạn tại Hồ Chí Minh</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-an-giang.html" title="Khách sạn tại An Giang">Khách sạn tại An Giang</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-vung-tau.html" title="Khách sạn tại Vũng Tàu">Khách sạn tại Vũng Tàu</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-bac-lieu.html" title="Khách sạn tại Bạc Liêu">Khách sạn tại Bạc Liêu</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-ben-tre.html" title="Khách sạn tại Bến Tre">Khách sạn tại Bến Tre</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-binh-duong.html" title="Khách sạn tại Bình Dương">Khách sạn tại Bình Dương</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-binh-phuoc.html" title="Khách sạn tại Bình Phước">Khách sạn tại Bình Phước</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-binh-thuan.html" title="Khách sạn tại Bình Thuận">Khách sạn tại Bình Thuận</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-ca-mau.html" title="Khách sạn tại Cà Mau">Khách sạn tại Cà Mau</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-can-tho.html" title="Khách sạn tại Cần Thơ">Khách sạn tại Cần Thơ</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-dong-nai.html" title="Khách sạn tại Đồng Nai">Khách sạn tại Đồng Nai</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-dong-thap.html" title="Khách sạn tại Đồng Tháp">Khách sạn tại Đồng Tháp</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-hau-giang.html" title="Khách sạn tại Hậu Giang">Khách sạn tại Hậu Giang</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-kien-giang.html" title="Khách sạn tại Kiên Giang">Khách sạn tại Kiên Giang</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-lam-dong.html" title="Khách sạn tại Lâm Đồng">Khách sạn tại Lâm Đồng</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-long-an.html" title="Khách sạn tại Long An">Khách sạn tại Long An</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-ninh-thuan.html" title="Khách sạn tại Ninh Thuận">Khách sạn tại Ninh Thuận</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-soc-trang.html" title="Khách sạn tại Sóc Trăng">Khách sạn tại Sóc Trăng</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-tay-ninh.html" title="Khách sạn tại Tây Ninh">Khách sạn tại Tây Ninh</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-tien-giang.html" title="Khách sạn tại Tiền Giang">Khách sạn tại Tiền Giang</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-tra-vinh.html" title="Khách sạn tại Trà Vinh">Khách sạn tại Trà Vinh</a></div>
+       	</li>
+    
+						    	<li>
+        	<div><a class="list-destination-name" style="font-size:11px;" href="/khach-san-tai-vinh-long.html" title="Khách sạn tại Vĩnh Long">Khách sạn tại Vĩnh Long</a></div>
+       	</li>
+    
+						    </ul>
+</div>
+</div>
+</div></div><div id="module_72864"><div class="main_footer">
+		<div class="logo_footer">
+        <img src="skins/modern/images/logo_footer.png"/>
+    </div><!--End .logo_footer-->
+    <div class="info" >
+		<ul>
+	<li><a href="http://www.mangdatphong.vn/noi-dung/dieu-khoan-va-dieu-kien.html">Điều khoản & Điều kiện</a></li>    
+    <li><a href="http://www.mangdatphong.vn/lien-he">Liên hệ</a></li>    
+	<li><a href="http://www.mangdatphong.vn/hoi-dap">FAQ</a></li>
+    <li><a href="http://www.mangdatphong.vn/quy-che-hoat-dong">Quy chế hoạt động</a></li>
+    <li style="cursor:pointer;"><a class="my-button" data-bpopup='<iframe width="560" height="315" src="http://www.youtube.com/embed/6Z8x6wevx9I" frameborder="0" allowfullscreen></iframe>' title="Giới thiệu về mạng đặt phòng khách sạn Việt Nam">Về chúng tôi</a></li>
+    <li><a target="_blank" href="http://diendan.mangdatphong.vn/">Diễn đàn</a></li>
+</ul>
+<p>Giấy phép ĐKKD số: 0105422094 © 2012 <a href="http://www.checkincorp.vn" target="_blank"><strong>Checkin Vietnam Corporation</a>., (Thành viên Hiệp Hội TMĐT Việt Nam)</strong></p>
+<p>Địa chỉ: Phòng A2302 Tòa nhà M3-M4, 91A Nguyễn Chí Thanh, Hà Nội, Việt Nam - Điện thoại: (04) 6269 7777 - Fax: (04) 6288 3456</p>    <div style="float:right;position:absolute;top:10px;right:10px;">
+        <!--<a href="http://dangkywebsite.gov.vn/vn/websites/261/index.html"><img alt="" title="" src="http://dangkywebsite.gov.vn/seals/I3kXdgX9GJyz5o2ymwTqyQ==.jpgx"></a> -->
+    </div><!--End .addthis-->
+    </div><!--End .info-->
+</div><!--End .main_footer-->
+<div id="hidden_72864" class="footer-admin" style="display:none;">
+ </div>
+<br clear="all" /></div></div>
+    </div><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5574541-26']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></body>
+</html>

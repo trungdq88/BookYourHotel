@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundleCrawler.CreateWebsiteTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="#{bundleCrawler.CreateWebsiteLabel_websiteID}" for="websiteID" />
+                    <h:inputText id="websiteID" value="#{websiteController.selected.websiteID}" title="#{bundleCrawler.CreateWebsiteTitle_websiteID}" required="true" requiredMessage="#{bundleCrawler.CreateWebsiteRequiredMessage_websiteID}"/>
+                    <h:outputLabel value="#{bundleCrawler.CreateWebsiteLabel_websiteName}" for="websiteName" />
+                    <h:inputText id="websiteName" value="#{websiteController.selected.websiteName}" title="#{bundleCrawler.CreateWebsiteTitle_websiteName}" />
+                    <h:outputLabel value="#{bundleCrawler.CreateWebsiteLabel_homepage}" for="homepage" />
+                    <h:inputText id="homepage" value="#{websiteController.selected.homepage}" title="#{bundleCrawler.CreateWebsiteTitle_homepage}" />
+                    <h:outputLabel value="#{bundleCrawler.CreateWebsiteLabel_crawlerSeed}" for="crawlerSeed" />
+                    <h:inputText id="crawlerSeed" value="#{websiteController.selected.crawlerSeed}" title="#{bundleCrawler.CreateWebsiteTitle_crawlerSeed}" />
+                    <h:outputLabel value="#{bundleCrawler.CreateWebsiteLabel_crawlerMatch}" for="crawlerMatch" />
+                    <h:inputText id="crawlerMatch" value="#{websiteController.selected.crawlerMatch}" title="#{bundleCrawler.CreateWebsiteTitle_crawlerMatch}" />
+                    <h:outputLabel value="#{bundleCrawler.CreateWebsiteLabel_crawlerIDLink}" for="crawlerIDLink" />
+                    <h:inputText id="crawlerIDLink" value="#{websiteController.selected.crawlerIDLink}" title="#{bundleCrawler.CreateWebsiteTitle_crawlerIDLink}" />
+                    <h:outputLabel value="#{bundleCrawler.CreateWebsiteLabel_crawlerIDFrom}" for="crawlerIDFrom" />
+                    <h:inputText id="crawlerIDFrom" value="#{websiteController.selected.crawlerIDFrom}" title="#{bundleCrawler.CreateWebsiteTitle_crawlerIDFrom}" />
+                    <h:outputLabel value="#{bundleCrawler.CreateWebsiteLabel_crawlerIDTo}" for="crawlerIDTo" />
+                    <h:inputText id="crawlerIDTo" value="#{websiteController.selected.crawlerIDTo}" title="#{bundleCrawler.CreateWebsiteTitle_crawlerIDTo}" />
+                    <h:outputLabel value="#{bundleCrawler.CreateWebsiteLabel_crawlerCheckContent}" for="crawlerCheckContent" />
+                    <h:inputText id="crawlerCheckContent" value="#{websiteController.selected.crawlerCheckContent}" title="#{bundleCrawler.CreateWebsiteTitle_crawlerCheckContent}" />
+                    <h:outputLabel value="#{bundleCrawler.CreateWebsiteLabel_checkInParaName}" for="checkInParaName" />
+                    <h:inputText id="checkInParaName" value="#{websiteController.selected.checkInParaName}" title="#{bundleCrawler.CreateWebsiteTitle_checkInParaName}" />
+                    <h:outputLabel value="#{bundleCrawler.CreateWebsiteLabel_checkOutParaName}" for="checkOutParaName" />
+                    <h:inputText id="checkOutParaName" value="#{websiteController.selected.checkOutParaName}" title="#{bundleCrawler.CreateWebsiteTitle_checkOutParaName}" />
+                    <h:outputLabel value="#{bundleCrawler.CreateWebsiteLabel_dateFormat}" for="dateFormat" />
+                    <h:inputText id="dateFormat" value="#{websiteController.selected.dateFormat}" title="#{bundleCrawler.CreateWebsiteTitle_dateFormat}" />
+                    <h:outputLabel value="#{bundleCrawler.CreateWebsiteLabel_otherParaNames}" for="otherParaNames" />
+                    <h:inputText id="otherParaNames" value="#{websiteController.selected.otherParaNames}" title="#{bundleCrawler.CreateWebsiteTitle_otherParaNames}" />
+                    <h:outputLabel value="#{bundleCrawler.CreateWebsiteLabel_requestMethod}" for="requestMethod" />
+                    <h:inputText id="requestMethod" value="#{websiteController.selected.requestMethod}" title="#{bundleCrawler.CreateWebsiteTitle_requestMethod}" />
+                    <h:outputLabel value="#{bundleCrawler.CreateWebsiteLabel_useCookie}" for="useCookie" />
+                    <h:inputText id="useCookie" value="#{websiteController.selected.useCookie}" title="#{bundleCrawler.CreateWebsiteTitle_useCookie}" />
+                </h:panelGrid>
+                <br />
+                <h:commandLink action="#{websiteController.create}" value="#{bundleCrawler.CreateWebsiteSaveLink}" />
+                <br />
+                <br />
+                <h:commandLink action="#{websiteController.prepareList}" value="#{bundleCrawler.CreateWebsiteShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundleCrawler.CreateWebsiteIndexLink}"/>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

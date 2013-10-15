@@ -1,0 +1,16 @@
+=========================
+ 
+ ---Viet SRS
+ ---Testcase,Selenium 
+ ---Google map 							[OK - TrungDQ]
+ ---City : at main page : view numbers of hotel in one location.[OK - TrungDQ]
+ ---hotel : at main page : top rating hotels 
+ ---HotelView : add link detail.				[OK - TrungDQ]
+ ---Register : create ? check duplicated ? password length ?
+ ---Phan trang : View hotels (normal / admin)			[OK - TrungDQ - HoaPT]
+ ---Search at main page : city / district / province /		[OK - ThaoHQ]
+ ---Search Solr : (Dinh Quang Trung)
+ ---Config Project 1 : (Dinh Quang Trung)
+ --- check again project : take parameters : Null ? empty ? (login page, get parameters ...)
+ --- Generate admin
+ =========================

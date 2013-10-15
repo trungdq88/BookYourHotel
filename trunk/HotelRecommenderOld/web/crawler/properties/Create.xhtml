@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundleCrawler.CreatePropertiesTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="#{bundleCrawler.CreatePropertiesLabel_propertyID}" for="propertyID" />
+                    <h:inputText id="propertyID" value="#{propertiesController.selected.propertyID}" title="#{bundleCrawler.CreatePropertiesTitle_propertyID}" required="true" requiredMessage="#{bundleCrawler.CreatePropertiesRequiredMessage_propertyID}"/>
+                    <h:outputLabel value="#{bundleCrawler.CreatePropertiesLabel_name}" for="name" />
+                    <h:inputText id="name" value="#{propertiesController.selected.name}" title="#{bundleCrawler.CreatePropertiesTitle_name}" />
+                    <h:outputLabel value="#{bundleCrawler.CreatePropertiesLabel_description}" for="description" />
+                    <h:inputText id="description" value="#{propertiesController.selected.description}" title="#{bundleCrawler.CreatePropertiesTitle_description}" />
+                </h:panelGrid>
+                <br />
+                <h:commandLink action="#{propertiesController.create}" value="#{bundleCrawler.CreatePropertiesSaveLink}" />
+                <br />
+                <br />
+                <h:commandLink action="#{propertiesController.prepareList}" value="#{bundleCrawler.CreatePropertiesShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundleCrawler.CreatePropertiesIndexLink}"/>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

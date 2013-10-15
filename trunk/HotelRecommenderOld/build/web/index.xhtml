@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            Trang chủ
+        </ui:define>
+        <ui:define name="body">
+            <style>
+                .pagin_link_#{homepageBean.page} {
+                    background-color: #ccc !important;
+                }
+            </style>
+            <div class="pagination-centered">
+                <ui:repeat value="#{homepageBean.pagination}" var="item">
+                    <a class="pagin_link_#{item}" href="index.xhtml?page=#{item}">#{item}</a>
+                </ui:repeat>
+            </div>
+            <ui:repeat value="#{homepageBean.index()}" var="hotel">
+                <div class="hotel_content">
+                    <h1>#{hotel.getHotelName()}</h1>
+                    <h3>#{hotel.getHotelAddress()}</h3>
+                    <div class="rooms_block">
+                        <ui:repeat value="#{hotel.getRoomList()}" var="room" class="room_block">
+                            <img src="#{room.getImages()}"/>
+                            <h4>#{room.getRoomName()}</h4>
+                            <p>Giá: #{room.getPrice()}</p>
+                            <p>Cập nhật lần cuối: #{room.getLastUpdate()}</p>
+                        </ui:repeat>
+                        <div style="clear:both"></div>
+                    </div>
+                    <div class="hotel_block">
+                        <p class="read_more_content">#{hotel.getDescription()}</p>
+                    </div>
+
+                    <div style="clear:both"></div>
+                </div>
+            </ui:repeat> 
+            
+            <div class="pagination-centered">
+                <ui:repeat value="#{homepageBean.pagination}" var="item">
+                    <a class="pagin_link_#{item}" href="index.xhtml?page=#{item}">#{item}</a>
+                </ui:repeat>
+            </div>
+        </ui:define>
+    </ui:composition>
+
+</html>

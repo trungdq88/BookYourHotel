@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundleCrawler.EditPropertiesTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="#{bundleCrawler.EditPropertiesLabel_propertyID}" for="propertyID" />
+                    <h:inputText id="propertyID" value="#{propertiesController.selected.propertyID}" title="#{bundleCrawler.EditPropertiesTitle_propertyID}" required="true" requiredMessage="#{bundleCrawler.EditPropertiesRequiredMessage_propertyID}"/>
+                    <h:outputLabel value="#{bundleCrawler.EditPropertiesLabel_name}" for="name" />
+                    <h:inputText id="name" value="#{propertiesController.selected.name}" title="#{bundleCrawler.EditPropertiesTitle_name}" />
+                    <h:outputLabel value="#{bundleCrawler.EditPropertiesLabel_description}" for="description" />
+                    <h:inputText id="description" value="#{propertiesController.selected.description}" title="#{bundleCrawler.EditPropertiesTitle_description}" />
+                </h:panelGrid>
+                <h:commandLink action="#{propertiesController.update}" value="#{bundleCrawler.EditPropertiesSaveLink}"/>
+                <br />
+                <br />
+                <h:link outcome="View" value="#{bundleCrawler.EditPropertiesViewLink}"/>
+                <br />
+                <h:commandLink action="#{propertiesController.prepareList}" value="#{bundleCrawler.EditPropertiesShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundleCrawler.EditPropertiesIndexLink}" />
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

@@ -1,0 +1,53 @@
+Task List :
+
+1. Setup environment :
+	Registered development server in IDE : glassfish (jboss)
+	Web project
+	Run web project (test compile between IDE Server Browswer)
+2. Data Model :
+	Create EAD --> Database --> Script
+	Add sample data to database :
+		hotel : create some hotels (5)
+	registered database server and	establish database connection to IDE
+	Set up Model :
+		create JPA entity classes from database tables
+		Create EJB session beans for entity classes
+		Testing : print all hotels to test screen
+
+--> seem easily to test
+	
+3. Project Infrastructure :
+	create front-end folders / files
+	create controller servlet
+	create skeleton code in servlet handle client request ( working model ? )
+
+4. Front-end project files:
+		Placeholders for those JSP pages :
+			welcome page, list page detail page.
+		Implement for : list page and detail page.
+
+6.	Developing business logic : TBD
+
+5.	Create administration console :
+	create new artifacts :
+		Views : login / welcome / error
+		Controller Servlet
+	Create login functionality
+	add actions to controller servlet
+	configure login function in DD
+	Implement admin function :
+		viewing hotel details (insert / delete / update)
+		adding other admins
+		config data (old project)
+		
+6. Secure app : (need to research more ... )
+		create security roles on server
+		declare security roles. constraints in DD
+		Register security settings in DD
+
+		
+Missing :
+
+Workflow
+Concrete Design
+function

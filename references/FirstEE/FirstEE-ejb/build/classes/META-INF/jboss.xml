@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss>
+  <enterprise-beans>
+    <session>
+      <ejb-name>BookBean</ejb-name>
+      <jndi-name>BookBean</jndi-name>
+      <resource-ref>
+        <res-ref-name>BooksDB</res-ref-name>
+        <jndi-name>java:/BooksDB</jndi-name>
+      </resource-ref>
+    </session>
+  </enterprise-beans>
+</jboss>

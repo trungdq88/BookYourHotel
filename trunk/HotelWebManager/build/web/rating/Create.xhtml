@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.CreateRatingTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="#{bundle.CreateRatingLabel_rating}" for="rating" />
+                    <h:inputText id="rating" value="#{ratingController.selected.rating}" title="#{bundle.CreateRatingTitle_rating}" />
+                    <h:outputLabel value="#{bundle.CreateRatingLabel_createdDate}" for="createdDate" />
+                    <h:inputText id="createdDate" value="#{ratingController.selected.createdDate}" title="#{bundle.CreateRatingTitle_createdDate}" >
+                        <f:convertDateTime pattern="MM/dd/yyyy HH:mm:ss" />
+                    </h:inputText>
+                    <h:outputLabel value="#{bundle.CreateRatingLabel_user}" for="user" />
+                    <h:selectOneMenu id="user" value="#{ratingController.selected.user}" title="#{bundle.CreateRatingTitle_user}" required="true" requiredMessage="#{bundle.CreateRatingRequiredMessage_user}">
+                        <f:selectItems value="#{userController.itemsAvailableSelectOne}"/>
+                    </h:selectOneMenu>
+                    <h:outputLabel value="#{bundle.CreateRatingLabel_hotel}" for="hotel" />
+                    <h:selectOneMenu id="hotel" value="#{ratingController.selected.hotel}" title="#{bundle.CreateRatingTitle_hotel}" required="true" requiredMessage="#{bundle.CreateRatingRequiredMessage_hotel}">
+                        <f:selectItems value="#{hotelController.itemsAvailableSelectOne}"/>
+                    </h:selectOneMenu>
+                </h:panelGrid>
+                <br />
+                <h:commandLink action="#{ratingController.create}" value="#{bundle.CreateRatingSaveLink}" />
+                <br />
+                <br />
+                <h:commandLink action="#{ratingController.prepareList}" value="#{bundle.CreateRatingShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.CreateRatingIndexLink}"/>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

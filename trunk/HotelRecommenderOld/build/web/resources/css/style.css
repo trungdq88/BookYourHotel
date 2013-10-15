@@ -1,0 +1,189 @@
+/* 
+    Document   : style
+    Created on : Sep 21, 2013, 10:59:25 PM
+    Author     : Quang Trung
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@font-face {
+  font-family: 'uvn_gio_may_nheregular';
+  src: url('uvngiomaynhe_r-webfont.eot');
+  src: url('uvngiomaynhe_r-webfont.eot?#iefix') format('embedded-opentype'),
+    url('uvngiomaynhe_r-webfont.woff') format('woff'),
+    url('uvngiomaynhe_r-webfont.ttf') format('truetype'),
+    url('uvngiomaynhe_r-webfont.svg#uvn_gio_may_nheregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'uvn_gio_may_nheregular';
+  font-style: bold;
+  font-weight: bold;
+  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url('roboto.woff') format('woff');
+}
+@font-face {
+    font-family: 'droid_sans_monoregular';
+    src: url('droidsansmono-webfont.eot');
+    src: url('droidsansmono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('droidsansmono-webfont.woff') format('woff'),
+         url('droidsansmono-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    font-family: 'uvn_gio_may_nheregular' !important;
+    padding: 40px;
+    background-color:#fafafa !important;
+    color: rgb(68, 68, 68);
+}
+h1 {
+    font-size: 25px;
+    color: #333;
+}
+h2 {
+    font-size: 20px;
+    color: #333;
+}
+table {
+    width: 700px;
+    margin: 0 auto;
+}
+input[type=text] {
+    width: 100%;
+}
+.span9 {
+    float: none;
+    margin: 0 auto;
+}
+.centerme {
+    margin: 0 auto;
+}
+form textarea {
+    width: 100%;
+}
+a[href="#"] {
+    background-color: rgb(249, 255, 255);
+    padding: 3px 7px;
+    font-size: 11px;
+    border-radius: 3px;
+    border: 1px solid rgb(175, 175, 235);
+    margin: 3px;
+    display: inline-block;
+    text-align: center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a[href="#"].delete_btn {
+    background-color: rgb(255, 207, 207);
+    color: rgb(121, 121, 121);
+}
+table td a[href="#"] {
+    width: 100%;
+    display: block;
+}
+table {
+    border: 1px solid #ccc !important;
+}
+table td {
+    padding: 5px 10px 5px 5px;
+}
+table .first_col {
+    width: 50px;
+}
+.hotel_content {
+    padding: 0 20px;
+}
+.hotel_content h2 {
+    margin-bottom: 0;
+}
+.hotel_content h3 {
+    font-weight: normal;
+    font-size: 15px;
+    color: #888;
+    margin-top: 0;
+    line-height: 30px;
+}
+.hotel_content p {
+    font-size: 15px;
+}
+.nav_menu {
+    text-align: center;
+}
+.nav_menu ul {
+    list-style-type: none;
+}
+.nav_menu li {
+    display: inline-block;
+}
+.nav_menu a:hover {
+    background-color: rgb(219, 219, 219);
+}
+.nav_menu a {
+    background-color: rgb(238, 238, 238);
+    padding: 3px 7px;
+    font-size: 13px;
+    border-radius: 3px;
+    border: 1px solid rgb(228, 228, 228);
+    width: 100%;
+    margin: 3px;
+    display: block;
+    text-align: center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.room_block img{
+ float: left;
+ margin-right: 10px
+}
+.rooms_block {
+    padding: 0 40px 0 0;
+    float: left;
+    width: 45%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.room_block h4,.room_block p{
+    margin: 0;
+}
+.room_block {
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 15px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.hotel_content h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.hotel_content h1 {
+    text-align: center;
+    margin-bottom: 10px !important;
+    font-size: 50px;
+}
+.hotel_content {
+    background-color: rgba(241, 241, 241, 0.5);
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin: 20px 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.read_more_content{
+
+}
+.hotel_block {
+    float: left;
+    width: 50%;
+}

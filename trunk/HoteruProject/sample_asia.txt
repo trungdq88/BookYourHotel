@@ -1,0 +1,35 @@
+<li>
+            <div class="left" style="width: 600px;">
+                <img class="ImgHotel" src="/FileUploads/HotelImages/VIET NAM/1/ha noi/Fraser Suites Hanoi/Three Bedroom Executive.jpg" align="left" />
+                <a class='hotel cyancolor' href="/detailhotel/h2712/fraser-suites-hanoi-.htm" id='LblNameHotel_2712'>
+                    Fraser Suites Hanoi 
+                </a> | 
+                <span class="DivStart">
+                        <img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/><img src='/Resources/Icons/Design/start.png'/>
+                    </span>
+                <div class="address">
+                    <span id="LblAddress_2712">
+                        51 Xuân Diệu, Tây Hồ, Hà Nội, Việt Nam
+                    </span>
+                    
+                    <img align="top" class="command" alt="Bản đồ" title="Bản đồ"
+                        src="/Resources/Icons/Design/map.png" onclick="ShowPosition(2712,'21.06177439806426,105.83085894584656 ')" />
+                    
+                </div>
+                
+                <p>
+                    Toạ lạc chiến lược trong khu Hồ Tây đẹp như tranh vẽ, Fraser Suites Hà Nội cung cấp các căn hộ dịch vụ với những tiện nghi bao gồm hồ bơi ngoài trời kiểu khu nghỉ mát và điều kiện đi lại trực tiếp đến trung tâm mua sắm liên kết Syrena.<br><br>
+                </p>
+                
+            </div>
+            <div class="right" style='padding-top: 30px'>
+                
+                <img style="margin: 5px; cursor: pointer;" src="/Resources/Images/call.png" />
+                
+                <a class="buyonline"  href="/detailhotel/e1/h2712/fraser-suites-hanoi-.htm">
+                    Đặt phòng trực tuyến
+                </a>
+                
+            </div>
+        </li>
+        

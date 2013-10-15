@@ -1,0 +1,2 @@
+﻿Copy file sqljdbc.jar vào thư mục C:\Java\sqljdbc.jar.
+Add Server.

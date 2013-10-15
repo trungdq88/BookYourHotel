@@ -1,0 +1,1257 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vi">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Content-Language" content="vi">
+        <meta NAME="AUTHOR" CONTENT="Yesgo.vn"/> 
+                <meta NAME="ROBOTS" CONTENT="ALL"/>        
+                <title>Khách sạn tại Hà Nội, đặt phòng khách sạn giảm giá rẻ nhất tại Hà Nội</title>                <script>
+            var _theme = 'v2';
+            var _tracking = '1';
+            var _numStay = 2;
+        </script>
+        <link rel="stylesheet" href="/resources/v2/css/jquery-ui-1.8.21.custom.css" />
+<link rel="stylesheet" href="/resources/v2/css/style.css?t=1378798042" />
+<link rel="stylesheet" href="/resources/v2/css/screen/content.css?t=1378798042" />
+<link rel="stylesheet" href="/resources/v2/css/common.css?t=1378798042" />
+<link rel="stylesheet" href="/resources/v2/css/nyroModal.css" />
+
+<script src="/resources/v2/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/resources/v2/js/jquery-ui-1.8.21.custom.min.js" type="text/javascript"></script>
+<script src="/resources/v2/js/jquery-ui-timepicker-addon.js" type="text/javascript"></script>
+<script src="/resources/v2/js/jquery.lazy.min.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function(){
+        $("img.lazy").lazy({
+            effect: "fadeIn",
+            effectTime: 2000
+        });
+    });
+</script>
+<script src="/resources/v2/js/jquery-ui-calendar-vi.js" type="text/javascript"></script>
+<script src="/resources/v2/js/jquery.carouFredSel-6.2.1-packed.js" type="text/javascript"></script>
+<script src="/resources/v2/js/jquery.mousewheel.min.js" type="text/javascript"></script>
+<script src="/resources/v2/js/jquery.NyroModal.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript" src="/resources/v2/js/common.js?t=1378798042"></script>
+<script type="text/javascript">
+    if(_tracking == 1) {
+        window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+$.src='//v2.zopim.com/?1KxVWL86ZQurt0XtSwoGeldKmMpuli6b';z.t=+new Date;$.
+type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');    }
+</script>        <meta name="description" content="Đặt phòng khách sạn tại Hà Nội giảm giá rẻ nhất, với nhiều đánh giá hữu ích. Khách sạn 3 đến 5 sao tại Hà Nội" >
+<meta name="keywords" content="Khách sạn tại Hà Nội, Khách sạn tại ha noi, Đặt phòng khách sạn tại Hà Nội, khách sạn giảm giá tại Hà Nội" >                <script type="text/javascript" src="/resources/v2/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/resources/v2/js/form/hotel.js?t=1378798042"></script>        <link type="image/x-icon" href="/resources/v2/images/favicon.ico" rel="shortcut icon">
+        <link rel="canonical" href="http://www.yesgo.vn/vi/khach-san/viet-nam/ha-noi.html" />
+        
+        <script type="text/javascript">
+            if(_tracking == 1) {
+                var _gaq = _gaq || [];
+                _gaq.push(['_setAccount', 'UA-40618039-1']);
+                _gaq.push(['_trackPageview']);
+
+                (function() {
+                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                    //ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-40618039-1', 'yesgo.vn');
+                ga('send', 'pageview'); 
+            }
+        </script>        
+    </head>
+    <body>        
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-ZZHH"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-ZZHH');</script>
+        <!-- End Google Tag Manager -->
+
+        <!-- Facebook Like Button -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!-- End Facebook Like Button -->
+        
+        <div id="page_margins">
+            <div id="header">
+    <div class="top_banner">
+        <div class="c1"><a href="http://www.yesgo.vn"><img alt="Yesgo.vn|Đặt phòng trực tuyến" src="/resources/v2/images/logo.jpg" /></a></div>
+        <div class="c2">
+            <div class="c3">
+                <div class="language">
+                    <div class="hotline float_left">
+                        <span class="ogrange_color">HOTLINE:</span> 1900 6068 - (08) 7303 6068                    </div>
+                    <div class="laguage_show w100 float_right"> 
+                        <a href="#" id="choose"><img src="/resources/v2/images/fag_vn.jpg"/> 
+                            <p>Tiếng Việt</p>
+                            <span><img src="/resources/v2/images/icon_1.png"/></span>
+                        </a>
+                    </div>
+                    <div class="laguage_show w80 float_right"> 
+                        <a href="#" id="choose1">
+                            <p><b class="ogrange_color">VNĐ</b> Đồng</p>
+                            <span><img src="/resources/v2/images/icon_1.png"/></span>
+                        </a>
+                    </div>
+                    <div class="cb"></div>
+                </div>
+                <div class="login">
+                    <iframe style="width: 170px; height:38px; overflow-x: hidden; overflow-y: hidden" frameborder="0" src="/ajax/support"></iframe>
+                    <ul>
+                    <li><a href="/vi/gioi-thieu-ve-yesgo.htm">Giới thiệu Yesgo</a></li>
+                    <li><a href="/vi/huong-dan-dat-phong.htm">Hướng dẫn đặt phòng</a></li>
+                                            <li><a href="/vi/dang-nhap.html">Đăng nhập</a></li>
+                        <li><a href="/vi/dang-ky.html">Đăng ký</a></li>
+                                        </ul>
+                    <div class="cb"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cb"></div>
+    </div>
+</div>
+<div id="top_nav">
+    <div id="top_nav_content">
+        <div id="nav_main">
+            <ul>
+                            <li class="frist"><a title="Trang chủ" href="/">Trang chủ</a></li>
+                                        <li><a title="Khuyến mãi" href="/vi/khach-san/viet-nam/khuyen-mai-hot.html">Khuyến mãi<div class="icon-hot"></div></a></li>
+                        <!--<li><a title="khách sạn lễ 2/9" href="http://www.yesgo.vn/page/du-lich-2-9-dam-bao-con-phong">Khách sạn lễ 2/9<div class="icon-hot"></div></a></li>-->
+                            <li><a title="Tour" href="/vi/tour.html">Tour</a></li>
+                                        <li><a title="Địa danh" href="/vi/dia-danh-du-lich.html">Địa danh</a></li>
+                       
+                            <li><a title="Cẩm nang du lịch" href="/vi/cam-nang-du-lich.html">Cẩm nang du lịch</a></li>
+              
+            
+        </ul>
+        </div>
+        <div class="cb"></div>
+    </div>
+</div>                <div id="page">
+        <div id="main" class="border_bt_do">
+            <div class="nav_sub clearfix">
+    <ul>
+        <li><a href="/">Khách sạn</a></li>
+                    <li><a href="/vi/khach-san/viet-nam.html" title="Việt Nam"><img src="/resources/v2/images/icon_6.png"/>Việt Nam</a></li>
+                            <li><a href="/vi/khach-san/viet-nam/ha-noi.html"><img src="/resources/v2/images/icon_6.png"/> Hà Nội</a></li>
+                    </ul>
+    <div class="icon-google-map">
+                    <a class="nyroModal" id="mapZone" target="_blank" href="/ajax/map-zone" onclick="trackingMapListing()">
+                <img alt="" width="30px" src="/resources/v2/images/google_maps_icon.png"/>
+            </a>   
+                <div class="tooltip-google-map hidden">
+        Tìm khách sạn theo bản đồ        </div>
+    </div>     
+    <div class="cb"></div>
+</div>
+<div class="p15r p15l p10b thanks_box">
+    <p>Hướng dẫn đặt ph&ograve;ng tại H&agrave; Nội. Xem&nbsp;<a href="http://yesgo.vn/page/huong-dan-dat-phong">tại đ&acirc;y</a></p></div>
+            <form name="hsearch" id="hsearch" method="get" action="">
+            <div id="col1" class="w785">
+                                    <div class="box_sort_1 clearfix">
+    <ul>
+        <li><b>Sắp xếp theo:</b></li>
+        <li><a href="javascript:;" onclick="goSort('')" class="current">Theo gợi ý</a></li>
+        <li>
+            <a href="#" class="">
+                                    Theo số sao                            </a>
+            <ul class="nav-2 w171">
+                <li><a href="javascript:;" onclick="goSort('stars-desc')">5 Sao > 1 Sao</a></li>
+                <li><a href="javascript:;" onclick="goSort('stars-asc')">1 Sao > 5 Sao</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#" class="">
+                                    Theo giá phòng                            </a>
+            <ul class="nav-2 w171">
+                <li><a href="javascript:;" onclick="goSort('hotel_price-desc')">Giá cao > Giá thấp</a></li>
+                <li><a href="javascript:;" onclick="goSort('hotel_price-asc')">Giá thấp > Giá cao</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#" class="">
+                                    Theo đánh giá                            </a>
+            <ul class="nav-2 w171">
+                <li><a href="javascript:;" onclick="goSort('review_ranking-desc')">Điểm cao > Điểm thấp</a></li>
+                <li><a href="javascript:;" onclick="goSort('review_ranking-asc')">Điểm thấp > Điểm cao</a></li>
+            </ul>
+        </li>
+    </ul>
+    <input type="hidden" name="sort" id="sort">
+</div>
+                                               <div class="sort_hotel clearfix">
+                            </div>                <div>
+                                        <h1 class=" p10b font18 float_left p5t">Chúng tôi tìm được 269 khách sạn tại Hà Nội</h1>
+                                            <div class="box_pagin_top w230 float_right">
+                            <ul>
+     
+    <!-- Numbered page links -->
+     
+                    <li class="current"><a href="javascript:;">1 </a></li> 
+             
+                    <li><a href="/vi/khach-san/viet-nam/ha-noi.html?page=2&source=homepage">2</a></li>
+             
+                    <li><a href="/vi/khach-san/viet-nam/ha-noi.html?page=3&source=homepage">3</a></li>
+             
+                    <li><a href="/vi/khach-san/viet-nam/ha-noi.html?page=4&source=homepage">4</a></li>
+             
+                    <li><a href="/vi/khach-san/viet-nam/ha-noi.html?page=5&source=homepage">5</a></li>
+             
+     
+        <li><a href="/vi/khach-san/viet-nam/ha-noi.html?page=2&source=homepage" class="next">&gt;</a></li>
+        <li><a href="/vi/khach-san/viet-nam/ha-noi.html?page=27&source=homepage" class="nextrange">&gt;&gt;</a></li>
+    </ul>
+<div class="cb">
+        <input type="hidden" name="page" id="page" value="1">
+    </div>                            <div class="cb"></div>
+                        </div>    
+                                                            <div class="cb"></div>
+                </div>
+
+                                                                            <div class="box_list_content">
+                        <div class="co1"> 
+                                                        <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-lan-vien-8081.html?source=listing-photo">
+                                <img class="lazy" width = "212px" height = "142px" alt="Khách sạn Lan Viên" data-src="http://images.yesgo.vn/logo/thumb/prop-img-full-h2u7ba9h-1e5b6d3d452io_75_212_142_crop.jpg" src="/resources/v2/images/load.gif"/>
+                            </a>
+                                                        <div class="price">
+                                                                <p class="font18"><strong>Từ 1.540.000  </strong></p>
+                                <p>VNĐ / Đêm</p>
+                                                            </div>
+                        </div>
+                        <div class="co2">
+                            <div class="cot">
+                                <div class="title">
+                                    <h2 class="font18 ogrange_color">
+                                        <a title="Khách sạn Lan Viên" href="/vi/khach-san/viet-nam/ha-noi/khach-san-lan-vien-8081.html?source=listing-title">Khách sạn Lan Viên</a> 
+                                                                                <span><img alt="Khách sạn Lan Viên" src="/resources/v2/images/star4.png"/></span>
+                                                                            </h2>
+                                    <p class="gray_color text_i p5b"> 32 Hàng Bài/ 37A Lý Thường Kiệt, , Hoàn Kiếm, Hà Nội, Việt Nam</p>
+                                    <div class="extra_info">
+                                        <div class="float_left text_align">
+                                            <a class="nyroModal" target="_blank" href="/ajax/map/id/8081" onclick="trackingMapListing()"><img src="/resources/v2/images/04_maps.png"><br>
+                                            Bản Đồ                                            </a>
+                                        </div>
+                                                                                    <div class="float_left m5l">
+                                                <p><strong>Khu vực: </strong>
+                                                 Nhà hát thành phố</p>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="box_danhgia" title="Đánh giá của Khách sạn Lan Viên">
+                                                                            <p class=" font24"><b>
+                                        8.0                                        <p class="font11 text_i gray_color"><a href="/vi/khach-san/viet-nam/hoan-kiem/khach-san-lan-vien-8081/danh-gia.html?source=hotel-listing#customer_review">1 đánh giá</a></p>
+                                        </b></p>
+                                        
+                                </div>
+                                <div class="cb"></div>
+                                                                <div class="textdeription">Khách sạn Lan Viên tọa lạc ngay trung tâm thủ đô Hà Nội, nơi giao nhau của đường Lý Thường Kiệt và phố Hàng Bài. Đây thật sự là một địa điểm lý tưởng để du khách tham quan và khám phá thủ đô 1000 năm tuổi này. Từ khách sạn du khách chỉ mất 3 phút đi bộ đến...</div>
+                                                            </div>
+                            <div class="cob"> 
+                                                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8081/prop-img-full-h2u7ba9h-1e5b6d3d452io.jpg" class="nyroModal" rel="8081">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn Lan Viên 1" data-src="http://images.yesgo.vn/hotel/8081/thumb/prop-img-full-h2u7ba9h-1e5b6d3d452io_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8081/prop-img-full-h2u6y96v-7ui3r24umwhs.jpg" class="nyroModal" rel="8081">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn Lan Viên 2" data-src="http://images.yesgo.vn/hotel/8081/thumb/prop-img-full-h2u6y96v-7ui3r24umwhs_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8081/prop-img-full-h2u7ffra-114jbbpu22tj4.jpg" class="nyroModal" rel="8081">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn Lan Viên 3" data-src="http://images.yesgo.vn/hotel/8081/thumb/prop-img-full-h2u7ffra-114jbbpu22tj4_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8081/prop-img-full-h2u6xa6p-1gn0a3n7mrthc.jpg" class="nyroModal" rel="8081">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn Lan Viên 4" data-src="http://images.yesgo.vn/hotel/8081/thumb/prop-img-full-h2u6xa6p-1gn0a3n7mrthc_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8081/prop-img-full-h2u72dwq-61kxd09lbxmo.jpg" class="nyroModal" rel="8081">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn Lan Viên 5" data-src="http://images.yesgo.vn/hotel/8081/thumb/prop-img-full-h2u72dwq-61kxd09lbxmo_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                                                <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-lan-vien-8081.html?source=listing-datphong#boxRoom" class="bt_booking_now m15t float_right">Đặt phòng ngay</a>
+                                <div class="cb"></div>
+                            </div>
+                        </div>
+                        <div class="cb"></div>
+                    </div>
+                                                            <div class="box_list_content">
+                        <div class="co1"> 
+                                                        <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-ha-noi-9454.html?source=listing-photo">
+                                <img class="lazy" width = "212px" height = "142px" alt="Khách sạn Hà Nội" data-src="http://images.yesgo.vn/logo/thumb/1367548814_75_212_142_crop.jpg" src="/resources/v2/images/load.gif"/>
+                            </a>
+                                                        <div class="price">
+                                                                <p class="font18"><strong>Từ 1.550.000  </strong></p>
+                                <p>VNĐ / Đêm</p>
+                                                            </div>
+                        </div>
+                        <div class="co2">
+                            <div class="cot">
+                                <div class="title">
+                                    <h2 class="font18 ogrange_color">
+                                        <a title="Khách sạn Hà Nội" href="/vi/khach-san/viet-nam/ha-noi/khach-san-ha-noi-9454.html?source=listing-title">Khách sạn Hà Nội</a> 
+                                                                                <span><img alt="Khách sạn Hà Nội" src="/resources/v2/images/star4.png"/></span>
+                                                                            </h2>
+                                    <p class="gray_color text_i p5b"> D8, Phố Giảng Võ, Ba Đình, Hà Nội, Việt Nam</p>
+                                    <div class="extra_info">
+                                        <div class="float_left text_align">
+                                            <a class="nyroModal" target="_blank" href="/ajax/map/id/9454" onclick="trackingMapListing()"><img src="/resources/v2/images/04_maps.png"><br>
+                                            Bản Đồ                                            </a>
+                                        </div>
+                                                                                    <div class="float_left m5l">
+                                                <p><strong>Khu vực: </strong>
+                                                Giảng Võ - Trung Tâm Hội Nghị</p>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="box_danhgia" title="Đánh giá của Khách sạn Hà Nội">
+                                                                            <p class=" font14">
+                                        <p class="font11 text_i gray_color"><a href="/vi/khach-san/viet-nam/ba-dinh/khach-san-ha-noi-9454/danh-gia.html?source=hotel-listing#customer_review">Cần thêm đánh giá cho khách sạn này</a></p>
+                                        </p>
+                                        
+                                </div>
+                                <div class="cb"></div>
+                                                                <div class="textdeription">Khách sạn Hà Nội là một khách sạn mang phong cách truyền thống được thiết kế đáp ứng mọi nhu cầu của du khách từ nghỉ ngơi, tới công tác. Khách sạn có những phòng nghỉ và phòng căn hộ tiện nghi với trang thiết bị hiện đại và một câu lạc bộ đêm, các phòng karaoke, trung tâm thể...</div>
+                                                            </div>
+                            <div class="cob"> 
+                                                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9454/1367548906.jpg" class="nyroModal" rel="9454">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Câu lạc bộ đêm" data-src="http://images.yesgo.vn/hotel/9454/thumb/1367548906_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9454/1367548897.jpg" class="nyroModal" rel="9454">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Tiện nghi giải trí" data-src="http://images.yesgo.vn/hotel/9454/thumb/1367548897_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9454/1367548845.jpg" class="nyroModal" rel="9454">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Câu lạc bộ đêm" data-src="http://images.yesgo.vn/hotel/9454/thumb/1367548845_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9454/1367548834.jpg" class="nyroModal" rel="9454">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Phòng tập thể hình" data-src="http://images.yesgo.vn/hotel/9454/thumb/1367548834_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9454/1367548877.jpg" class="nyroModal" rel="9454">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Phòng khách" data-src="http://images.yesgo.vn/hotel/9454/thumb/1367548877_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                                                <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-ha-noi-9454.html?source=listing-datphong#boxRoom" class="bt_booking_now m15t float_right">Đặt phòng ngay</a>
+                                <div class="cb"></div>
+                            </div>
+                        </div>
+                        <div class="cb"></div>
+                    </div>
+                                                            <div class="box_list_content">
+                        <div class="co1"> 
+                                                        <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-bao-son-international-9447.html?source=listing-photo">
+                                <img class="lazy" width = "212px" height = "142px" alt="Khách Sạn Bảo Sơn International" data-src="http://images.yesgo.vn/logo/thumb/1376448255_75_212_142_crop.jpg" src="/resources/v2/images/load.gif"/>
+                            </a>
+                                                        <div class="price">
+                                                                <p class="font18"><strong>Từ 1.490.000  </strong></p>
+                                <p>VNĐ / Đêm</p>
+                                                            </div>
+                        </div>
+                        <div class="co2">
+                            <div class="cot">
+                                <div class="title">
+                                    <h2 class="font18 ogrange_color">
+                                        <a title="Khách Sạn Bảo Sơn International" href="/vi/khach-san/viet-nam/ha-noi/khach-san-bao-son-international-9447.html?source=listing-title">Khách Sạn Bảo Sơn International</a> 
+                                                                                <span><img alt="Khách Sạn Bảo Sơn International" src="/resources/v2/images/star4.png"/></span>
+                                                                            </h2>
+                                    <p class="gray_color text_i p5b">50 Nguyễn Chí Thanh, P.Láng Thượng, Đống Đa, Hà Nội, Việt Nam</p>
+                                    <div class="extra_info">
+                                        <div class="float_left text_align">
+                                            <a class="nyroModal" target="_blank" href="/ajax/map/id/9447" onclick="trackingMapListing()"><img src="/resources/v2/images/04_maps.png"><br>
+                                            Bản Đồ                                            </a>
+                                        </div>
+                                                                                    <div class="float_left m5l">
+                                                <p><strong>Khu vực: </strong>
+                                                Trung Tâm TP Hà Nội</p>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="box_danhgia" title="Đánh giá của Khách Sạn Bảo Sơn International">
+                                                                            <p class=" font24"><b>
+                                        8.5                                        <p class="font11 text_i gray_color"><a href="/vi/khach-san/viet-nam/dong-da/khach-san-bao-son-international-9447/danh-gia.html?source=hotel-listing#customer_review">2 đánh giá</a></p>
+                                        </b></p>
+                                        
+                                </div>
+                                <div class="cb"></div>
+                                                                <div class="textdeription">Khách sạn Bảo Sơn International chính thức mở cửa đón khách từ tháng 12 năm 1995. Kể từ khi đi vào hoạt động, khách sạn luôn được đánh giá là một trong những khách sạn uy tín. 
+ Với 95 phòng nghỉ sang trọng có thiết kế đương đại, tiện nghi cao cấp nhưng vẫn giữ sự ấm cúng tạo...</div>
+                                                            </div>
+                            <div class="cob"> 
+                                                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9447/1376448924.jpg" class="nyroModal" rel="9447">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Khu vực lễ tân" data-src="http://images.yesgo.vn/hotel/9447/thumb/1376448924_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9447/1376448576.jpg" class="nyroModal" rel="9447">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Phòng khách" data-src="http://images.yesgo.vn/hotel/9447/thumb/1376448576_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9447/1376448907.jpg" class="nyroModal" rel="9447">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Khu vực lễ tân" data-src="http://images.yesgo.vn/hotel/9447/thumb/1376448907_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9447/1376448933.jpg" class="nyroModal" rel="9447">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Bể bơi" data-src="http://images.yesgo.vn/hotel/9447/thumb/1376448933_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9447/1376448613.jpg" class="nyroModal" rel="9447">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Phòng khách" data-src="http://images.yesgo.vn/hotel/9447/thumb/1376448613_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                                                <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-bao-son-international-9447.html?source=listing-datphong#boxRoom" class="bt_booking_now m15t float_right">Đặt phòng ngay</a>
+                                <div class="cb"></div>
+                            </div>
+                        </div>
+                        <div class="cb"></div>
+                    </div>
+                                                            <div class="box_list_content">
+                        <div class="co1"> 
+                                                        <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-hong-ha-9457.html?source=listing-photo">
+                                <img class="lazy" width = "212px" height = "142px" alt="Khách sạn Hồng Hà" data-src="http://images.yesgo.vn/logo/thumb/1367546850_75_212_142_crop.jpg" src="/resources/v2/images/load.gif"/>
+                            </a>
+                                                        <div class="price">
+                                                                <p class="font18"><strong>Từ 1.055.000  </strong></p>
+                                <p>VNĐ / Đêm</p>
+                                                            </div>
+                        </div>
+                        <div class="co2">
+                            <div class="cot">
+                                <div class="title">
+                                    <h2 class="font18 ogrange_color">
+                                        <a title="Khách sạn Hồng Hà" href="/vi/khach-san/viet-nam/ha-noi/khach-san-hong-ha-9457.html?source=listing-title">Khách sạn Hồng Hà</a> 
+                                                                                <span><img alt="Khách sạn Hồng Hà" src="/resources/v2/images/star4.png"/></span>
+                                                                            </h2>
+                                    <p class="gray_color text_i p5b">204 Trần Quang Khải, Hoàn Kiếm, Hà Nội, Việt Nam</p>
+                                    <div class="extra_info">
+                                        <div class="float_left text_align">
+                                            <a class="nyroModal" target="_blank" href="/ajax/map/id/9457" onclick="trackingMapListing()"><img src="/resources/v2/images/04_maps.png"><br>
+                                            Bản Đồ                                            </a>
+                                        </div>
+                                                                                    <div class="float_left m5l">
+                                                <p><strong>Khu vực: </strong>
+                                                Trung Tâm TP Hà Nội</p>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="box_danhgia" title="Đánh giá của Khách sạn Hồng Hà">
+                                                                            <p class=" font14">
+                                        <p class="font11 text_i gray_color"><a href="/vi/khach-san/viet-nam/hoan-kiem/khach-san-hong-ha-9457/danh-gia.html?source=hotel-listing#customer_review">Cần thêm đánh giá cho khách sạn này</a></p>
+                                        </p>
+                                        
+                                </div>
+                                <div class="cb"></div>
+                                                                <div class="textdeription">Tọa lạc tại trung tâm phố cổ Hà Nội, khách sạn Hồng Hà mang phong cách kiến trúc Pháp nửa đầu thế kỷ 19, ấm áp, sang trọng chắc chắn sẽ làm thỏa mãn sự mong đợi của quý khách trong quá trình lưu trú tại khách sạn.
+
+Khách sạn đạt tiêu chuẩn 4 sao quốc tế được trang bị đầy...</div>
+                                                            </div>
+                            <div class="cob"> 
+                                                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9457/1367546880.jpg" class="nyroModal" rel="9457">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Phòng họp" data-src="http://images.yesgo.vn/hotel/9457/thumb/1367546880_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9457/1367546925.jpg" class="nyroModal" rel="9457">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Nhà hàng" data-src="http://images.yesgo.vn/hotel/9457/thumb/1367546925_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9457/1367546886.jpg" class="nyroModal" rel="9457">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Ngoại cảnh" data-src="http://images.yesgo.vn/hotel/9457/thumb/1367546886_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9457/1367546909.jpg" class="nyroModal" rel="9457">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Phòng khách" data-src="http://images.yesgo.vn/hotel/9457/thumb/1367546909_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9457/1367546863.jpg" class="nyroModal" rel="9457">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Phòng tắm" data-src="http://images.yesgo.vn/hotel/9457/thumb/1367546863_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                                                <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-hong-ha-9457.html?source=listing-datphong#boxRoom" class="bt_booking_now m15t float_right">Đặt phòng ngay</a>
+                                <div class="cb"></div>
+                            </div>
+                        </div>
+                        <div class="cb"></div>
+                    </div>
+                                                            <div class="box_list_content">
+                        <div class="co1"> 
+                                                        <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-eden-ariva-eden-ha-noi-cu-8069.html?source=listing-photo">
+                                <img class="lazy" width = "212px" height = "142px" alt="Khách sạn Eden - Ariva Eden Hà Nội cũ" data-src="http://images.yesgo.vn/logo/thumb/prop-img-full-gyguedre-1n3pqblim3t34_75_212_142_crop.jpg" src="/resources/v2/images/load.gif"/>
+                            </a>
+                                                        <div class="price">
+                                                                <p class="font18"><strong>Từ 1.039.000  </strong></p>
+                                <p>VNĐ / Đêm</p>
+                                                            </div>
+                        </div>
+                        <div class="co2">
+                            <div class="cot">
+                                <div class="title">
+                                    <h2 class="font18 ogrange_color">
+                                        <a title="Khách sạn Eden - Ariva Eden Hà Nội cũ" href="/vi/khach-san/viet-nam/ha-noi/khach-san-eden-ariva-eden-ha-noi-cu-8069.html?source=listing-title">Khách sạn Eden - Ariva Eden Hà Nội cũ</a> 
+                                                                                <span><img alt="Khách sạn Eden - Ariva Eden Hà Nội cũ" src="/resources/v2/images/star4.png"/></span>
+                                                                            </h2>
+                                    <p class="gray_color text_i p5b">22 Đoàn Trấn Nghiệp,, Hai Bà Trưng, Hà Nội, Việt Nam</p>
+                                    <div class="extra_info">
+                                        <div class="float_left text_align">
+                                            <a class="nyroModal" target="_blank" href="/ajax/map/id/8069" onclick="trackingMapListing()"><img src="/resources/v2/images/04_maps.png"><br>
+                                            Bản Đồ                                            </a>
+                                        </div>
+                                                                                    <div class="float_left m5l">
+                                                <p><strong>Khu vực: </strong>
+                                                Trung Tâm TP Hà Nội</p>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="box_danhgia" title="Đánh giá của Khách sạn Eden - Ariva Eden Hà Nội cũ">
+                                                                            <p class=" font14">
+                                        <p class="font11 text_i gray_color"><a href="/vi/khach-san/viet-nam/hai-ba-trung/khach-san-eden-ariva-eden-ha-noi-cu-8069/danh-gia.html?source=hotel-listing#customer_review">Cần thêm đánh giá cho khách sạn này</a></p>
+                                        </p>
+                                        
+                                </div>
+                                <div class="cb"></div>
+                                                                <div class="textdeription">Dù là đi du lịch hay làm việc, 60 phòng nghỉ tại khách sạn 4 sao của chúng tôi được thiết kế để mang tới cho qúy khách sự thư giãn thật sự thoải mái. Tất cả các phòng đều được thiết kế không hút thuốc, có máy lạnh, áo choàng tắm, bàn làm việc, máy sấy tóc. Để phục...</div>
+                                                            </div>
+                            <div class="cob"> 
+                                                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8069/prop-img-full-h0nfqis0-das8d5dbzjeo.jpg" class="nyroModal" rel="8069">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Phòng ngủ" data-src="http://images.yesgo.vn/hotel/8069/thumb/prop-img-full-h0nfqis0-das8d5dbzjeo_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8069/prop-img-full-h0nggp8q-1oca0mzz9vgu8.jpg" class="nyroModal" rel="8069">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Nhà hàng" data-src="http://images.yesgo.vn/hotel/8069/thumb/prop-img-full-h0nggp8q-1oca0mzz9vgu8_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8069/prop-img-full-h0ng8i85-1x85erqc3rj0g.jpg" class="nyroModal" rel="8069">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Nhà hàng" data-src="http://images.yesgo.vn/hotel/8069/thumb/prop-img-full-h0ng8i85-1x85erqc3rj0g_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8069/prop-img-full-h0ni0ikt-1ixqgmnwwz8xs.jpg" class="nyroModal" rel="8069">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn Eden - Ariva Eden Hà Nội cũ 1" data-src="http://images.yesgo.vn/hotel/8069/thumb/prop-img-full-h0ni0ikt-1ixqgmnwwz8xs_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8069/prop-img-full-h0ni5u74-uxu2dmst0mps.jpg" class="nyroModal" rel="8069">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn Eden - Ariva Eden Hà Nội cũ 2" data-src="http://images.yesgo.vn/hotel/8069/thumb/prop-img-full-h0ni5u74-uxu2dmst0mps_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                                                <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-eden-ariva-eden-ha-noi-cu-8069.html?source=listing-datphong#boxRoom" class="bt_booking_now m15t float_right">Đặt phòng ngay</a>
+                                <div class="cb"></div>
+                            </div>
+                        </div>
+                        <div class="cb"></div>
+                    </div>
+                                                            <div class="box_list_content">
+                        <div class="co1"> 
+                                                        <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-may-de-ville-city-centre-8077.html?source=listing-photo">
+                                <img class="lazy" width = "212px" height = "142px" alt="Khách sạn May de Ville City Centre" data-src="http://images.yesgo.vn/logo/thumb/prop-img-full-gkxt726v-mnv1aoaivq4g_75_212_142_crop.jpg" src="/resources/v2/images/load.gif"/>
+                            </a>
+                                                        <div class="price">
+                                                                <p class="font18"><strong>Từ 1.270.000  </strong></p>
+                                <p>VNĐ / Đêm</p>
+                                                            </div>
+                        </div>
+                        <div class="co2">
+                            <div class="cot">
+                                <div class="title">
+                                    <h2 class="font18 ogrange_color">
+                                        <a title="Khách sạn May de Ville City Centre" href="/vi/khach-san/viet-nam/ha-noi/khach-san-may-de-ville-city-centre-8077.html?source=listing-title">Khách sạn May de Ville City Centre</a> 
+                                                                                <span><img alt="Khách sạn May de Ville City Centre" src="/resources/v2/images/star4.png"/></span>
+                                                                            </h2>
+                                    <p class="gray_color text_i p5b">24 Hàn Thuyên, Hai Bà Trưng, Hà Nội, Việt Nam</p>
+                                    <div class="extra_info">
+                                        <div class="float_left text_align">
+                                            <a class="nyroModal" target="_blank" href="/ajax/map/id/8077" onclick="trackingMapListing()"><img src="/resources/v2/images/04_maps.png"><br>
+                                            Bản Đồ                                            </a>
+                                        </div>
+                                                                            </div>
+                                </div>
+                                <div class="box_danhgia" title="Đánh giá của Khách sạn May de Ville City Centre">
+                                                                            <p class=" font24"><b>
+                                        8.0                                        <p class="font11 text_i gray_color"><a href="/vi/khach-san/viet-nam/hai-ba-trung/khach-san-may-de-ville-city-centre-8077/danh-gia.html?source=hotel-listing#customer_review">2 đánh giá</a></p>
+                                        </b></p>
+                                        
+                                </div>
+                                <div class="cb"></div>
+                                                                <div class="textdeription">Nằm trên một con phố yên tĩnh có tầm nhìn ra sông Hồng, May de Ville City Centre đã thêm vào một phong cách mới cho thủ đô nghìn năm tuổi. Đây là sự kết hợp độc đáo của phong cách đương đại và các vật liệu truyền thống Việt Nam mang lại 81 phòng khách thanh lịch bao gồm...</div>
+                                                            </div>
+                            <div class="cob"> 
+                                                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8077/prop-img-full-gkxt726v-mnv1aoaivq4g.jpg" class="nyroModal" rel="8077">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn May de Ville City Centre 1" data-src="http://images.yesgo.vn/hotel/8077/thumb/prop-img-full-gkxt726v-mnv1aoaivq4g_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8077/prop-img-full-gkxth2df-hjcguz8qntog.jpg" class="nyroModal" rel="8077">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn May de Ville City Centre 2" data-src="http://images.yesgo.vn/hotel/8077/thumb/prop-img-full-gkxth2df-hjcguz8qntog_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8077/prop-img-full-gkxtcdjh-a4kx8nwxekg.jpg" class="nyroModal" rel="8077">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn May de Ville City Centre 3" data-src="http://images.yesgo.vn/hotel/8077/thumb/prop-img-full-gkxtcdjh-a4kx8nwxekg_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8077/prop-img-full-gkxtgd0e-1303vrtw55xxc.jpg" class="nyroModal" rel="8077">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn May de Ville City Centre 4" data-src="http://images.yesgo.vn/hotel/8077/thumb/prop-img-full-gkxtgd0e-1303vrtw55xxc_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8077/prop-img-full-gkxtlr6j-nxrja5aw0utc.jpg" class="nyroModal" rel="8077">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn May de Ville City Centre 5" data-src="http://images.yesgo.vn/hotel/8077/thumb/prop-img-full-gkxtlr6j-nxrja5aw0utc_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                                                <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-may-de-ville-city-centre-8077.html?source=listing-datphong#boxRoom" class="bt_booking_now m15t float_right">Đặt phòng ngay</a>
+                                <div class="cb"></div>
+                            </div>
+                        </div>
+                        <div class="cb"></div>
+                    </div>
+                                                            <div class="box_list_content">
+                        <div class="co1"> 
+                                                        <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-golden-silk-boutique--8078.html?source=listing-photo">
+                                <img class="lazy" width = "212px" height = "142px" alt="Khách sạn Golden Silk Boutique " data-src="http://images.yesgo.vn/logo/thumb/prop-img-full-gykyppg8-wmzrndn3b01s_75_212_142_crop.jpg" src="/resources/v2/images/load.gif"/>
+                            </a>
+                                                        <div class="price">
+                                                                <p class="font18"><strong>Từ 1.493.000  </strong></p>
+                                <p>VNĐ / Đêm</p>
+                                                            </div>
+                        </div>
+                        <div class="co2">
+                            <div class="cot">
+                                <div class="title">
+                                    <h2 class="font18 ogrange_color">
+                                        <a title="Khách sạn Golden Silk Boutique " href="/vi/khach-san/viet-nam/ha-noi/khach-san-golden-silk-boutique--8078.html?source=listing-title">Khách sạn Golden Silk Boutique </a> 
+                                                                                <span><img alt="Khách sạn Golden Silk Boutique " src="/resources/v2/images/star4.png"/></span>
+                                                                            </h2>
+                                    <p class="gray_color text_i p5b">109 -111 Hàng Gai, Hoàn Kiếm, Hà Nội, Việt Nam</p>
+                                    <div class="extra_info">
+                                        <div class="float_left text_align">
+                                            <a class="nyroModal" target="_blank" href="/ajax/map/id/8078" onclick="trackingMapListing()"><img src="/resources/v2/images/04_maps.png"><br>
+                                            Bản Đồ                                            </a>
+                                        </div>
+                                                                                    <div class="float_left m5l">
+                                                <p><strong>Khu vực: </strong>
+                                                Hồ Hoàn Kiếm</p>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="box_danhgia" title="Đánh giá của Khách sạn Golden Silk Boutique ">
+                                                                            <p class=" font24"><b>
+                                        6.0                                        <p class="font11 text_i gray_color"><a href="/vi/khach-san/viet-nam/hoan-kiem/khach-san-golden-silk-boutique--8078/danh-gia.html?source=hotel-listing#customer_review">1 đánh giá</a></p>
+                                        </b></p>
+                                        
+                                </div>
+                                <div class="cb"></div>
+                                                                <div class="textdeription">Khách Sạn Golden Silk Boutique với tầm nhìn ra quang cảnh đường phố từ cửa sổ hoặc ban công, tất cả các phòng máy lạnh tại đây đều được trang bị TV màn hình phẳng, két an toàn cá nhân và minibar. Phòng tắm riêng đi kèm với vòi sen hoặc bồn tắm cũng như đồ vệ sinh cá nhân...</div>
+                                                            </div>
+                            <div class="cob"> 
+                                                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8078/prop-img-full-gykys841-ke8ttl86hvk.jpg" class="nyroModal" rel="8078">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Phòng khách" data-src="http://images.yesgo.vn/hotel/8078/thumb/prop-img-full-gykys841-ke8ttl86hvk_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8078/prop-img-full-gykyt0lo-rylowxyynw1s.jpg" class="nyroModal" rel="8078">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Quán cà phê" data-src="http://images.yesgo.vn/hotel/8078/thumb/prop-img-full-gykyt0lo-rylowxyynw1s_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8078/1367555655.jpg" class="nyroModal" rel="8078">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Bể sục" data-src="http://images.yesgo.vn/hotel/8078/thumb/1367555655_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8078/prop-img-full-gykyr0xx-idplzvi8gm4g.jpg" class="nyroModal" rel="8078">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Phòng khách" data-src="http://images.yesgo.vn/hotel/8078/thumb/prop-img-full-gykyr0xx-idplzvi8gm4g_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8078/1367555661.jpg" class="nyroModal" rel="8078">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Phòng tắm" data-src="http://images.yesgo.vn/hotel/8078/thumb/1367555661_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                                                <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-golden-silk-boutique--8078.html?source=listing-datphong#boxRoom" class="bt_booking_now m15t float_right">Đặt phòng ngay</a>
+                                <div class="cb"></div>
+                            </div>
+                        </div>
+                        <div class="cb"></div>
+                    </div>
+                                                            <div class="box_list_content">
+                        <div class="co1"> 
+                                                        <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-imperial-ha-noi-8080.html?source=listing-photo">
+                                <img class="lazy" width = "212px" height = "142px" alt="Khách sạn Imperial Hà Nội" data-src="http://images.yesgo.vn/logo/thumb/prop-img-full-fxvms9f0-1gkb9brox9reo_75_212_142_crop.jpg" src="/resources/v2/images/load.gif"/>
+                            </a>
+                                                        <div class="price">
+                                                                <p class="font18"><strong>Từ 1.255.000  </strong></p>
+                                <p>VNĐ / Đêm</p>
+                                                            </div>
+                        </div>
+                        <div class="co2">
+                            <div class="cot">
+                                <div class="title">
+                                    <h2 class="font18 ogrange_color">
+                                        <a title="Khách sạn Imperial Hà Nội" href="/vi/khach-san/viet-nam/ha-noi/khach-san-imperial-ha-noi-8080.html?source=listing-title">Khách sạn Imperial Hà Nội</a> 
+                                                                                <span><img alt="Khách sạn Imperial Hà Nội" src="/resources/v2/images/star4.png"/></span>
+                                                                            </h2>
+                                    <p class="gray_color text_i p5b">44 Hàng Hành, Thành phố, Việt Nam, Hoàn Kiếm, Hà Nội, Việt Nam</p>
+                                    <div class="extra_info">
+                                        <div class="float_left text_align">
+                                            <a class="nyroModal" target="_blank" href="/ajax/map/id/8080" onclick="trackingMapListing()"><img src="/resources/v2/images/04_maps.png"><br>
+                                            Bản Đồ                                            </a>
+                                        </div>
+                                                                                    <div class="float_left m5l">
+                                                <p><strong>Khu vực: </strong>
+                                                Hồ Hoàn Kiếm</p>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="box_danhgia" title="Đánh giá của Khách sạn Imperial Hà Nội">
+                                                                            <p class=" font24"><b>
+                                        8.6                                        <p class="font11 text_i gray_color"><a href="/vi/khach-san/viet-nam/hoan-kiem/khach-san-imperial-ha-noi-8080/danh-gia.html?source=hotel-listing#customer_review">5 đánh giá</a></p>
+                                        </b></p>
+                                        
+                                </div>
+                                <div class="cb"></div>
+                                                                <div class="textdeription">Nằm tại trung tâm Hà Nội, từ khách sạn, quý khách chỉ cần vài bước dạo bộ là tới hồ Hoàn Kiếm. Tọa lạc tại một con phố nằm trong khu Phố Cổ 36 Phố phường, quý khách có thể đi bộ đến tất cả các điểm tham quan chính như nhà hàng, mua sắm, quán bar và trung tâm...</div>
+                                                            </div>
+                            <div class="cob"> 
+                                                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8080/1368428297.jpg" class="nyroModal" rel="8080">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Phòng khách" data-src="http://images.yesgo.vn/hotel/8080/thumb/1368428297_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8080/1368428359.jpg" class="nyroModal" rel="8080">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Khu vực lễ tân" data-src="http://images.yesgo.vn/hotel/8080/thumb/1368428359_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8080/1368428238.jpg" class="nyroModal" rel="8080">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Nhà hàng" data-src="http://images.yesgo.vn/hotel/8080/thumb/1368428238_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8080/1368428374.jpg" class="nyroModal" rel="8080">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Spa" data-src="http://images.yesgo.vn/hotel/8080/thumb/1368428374_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8080/1368428292.jpg" class="nyroModal" rel="8080">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Phòng khách" data-src="http://images.yesgo.vn/hotel/8080/thumb/1368428292_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                                                <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-imperial-ha-noi-8080.html?source=listing-datphong#boxRoom" class="bt_booking_now m15t float_right">Đặt phòng ngay</a>
+                                <div class="cb"></div>
+                            </div>
+                        </div>
+                        <div class="cb"></div>
+                    </div>
+                                                            <div class="box_list_content">
+                        <div class="co1"> 
+                                                        <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-sunway-ha-noi-8086.html?source=listing-photo">
+                                <img class="lazy" width = "212px" height = "142px" alt="Khách sạn Sunway Hà Nội" data-src="http://images.yesgo.vn/logo/thumb/prop-img-full-h3mbadj9-wp1f3uark7wg_75_212_142_crop.jpg" src="/resources/v2/images/load.gif"/>
+                            </a>
+                                                        <div class="price">
+                                                                <p class="font18"><strong>Từ 1.617.000  </strong></p>
+                                <p>VNĐ / Đêm</p>
+                                                            </div>
+                        </div>
+                        <div class="co2">
+                            <div class="cot">
+                                <div class="title">
+                                    <h2 class="font18 ogrange_color">
+                                        <a title="Khách sạn Sunway Hà Nội" href="/vi/khach-san/viet-nam/ha-noi/khach-san-sunway-ha-noi-8086.html?source=listing-title">Khách sạn Sunway Hà Nội</a> 
+                                                                                <span><img alt="Khách sạn Sunway Hà Nội" src="/resources/v2/images/star4.png"/></span>
+                                                                            </h2>
+                                    <p class="gray_color text_i p5b">19 Phạm Đình Hổ, Hai Bà Trưng, Hà Nội, Việt Nam</p>
+                                    <div class="extra_info">
+                                        <div class="float_left text_align">
+                                            <a class="nyroModal" target="_blank" href="/ajax/map/id/8086" onclick="trackingMapListing()"><img src="/resources/v2/images/04_maps.png"><br>
+                                            Bản Đồ                                            </a>
+                                        </div>
+                                                                                    <div class="float_left m5l">
+                                                <p><strong>Khu vực: </strong>
+                                                Chợ Hôm / Phố Huế</p>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="box_danhgia" title="Đánh giá của Khách sạn Sunway Hà Nội">
+                                                                            <p class=" font14">
+                                        <p class="font11 text_i gray_color"><a href="/vi/khach-san/viet-nam/hai-ba-trung/khach-san-sunway-ha-noi-8086/danh-gia.html?source=hotel-listing#customer_review">Cần thêm đánh giá cho khách sạn này</a></p>
+                                        </p>
+                                        
+                                </div>
+                                <div class="cb"></div>
+                                                                <div class="textdeription">Tọa lạc tại trung tâm Hà Nội, khách sạn Sunway nằm gần các địa điểm thu hút khách du lịch, khoảng 10 phút đi bộ là quý khách có thể đặt chân đến phố Cổ, hồ Hoàn Kiếm, Nhà hát lớn, rạp Múa rối nước, các trung tâm thương mai, khu vực mua sắm, giải trí. Khách sạn Sunway nằm...</div>
+                                                            </div>
+                            <div class="cob"> 
+                                                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8086/prop-img-full-h3mba436-mxu5hvugcwlc.jpg" class="nyroModal" rel="8086">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Phòng họp" data-src="http://images.yesgo.vn/hotel/8086/thumb/prop-img-full-h3mba436-mxu5hvugcwlc_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8086/prop-img-full-h3mb7v2o-12sf9lekr9vr4.jpg" class="nyroModal" rel="8086">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn Sunway Hà Nội 1" data-src="http://images.yesgo.vn/hotel/8086/thumb/prop-img-full-h3mb7v2o-12sf9lekr9vr4_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8086/prop-img-full-h3mb87sn-eookjhw2f75s.jpg" class="nyroModal" rel="8086">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn Sunway Hà Nội 2" data-src="http://images.yesgo.vn/hotel/8086/thumb/prop-img-full-h3mb87sn-eookjhw2f75s_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8086/prop-img-full-h3mbatv6-111cyhsfk78qo.jpg" class="nyroModal" rel="8086">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Phòng ngủ" data-src="http://images.yesgo.vn/hotel/8086/thumb/prop-img-full-h3mbatv6-111cyhsfk78qo_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8086/prop-img-full-h3mb76fr-183dxftxsprls.jpg" class="nyroModal" rel="8086">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn Sunway Hà Nội 3" data-src="http://images.yesgo.vn/hotel/8086/thumb/prop-img-full-h3mb76fr-183dxftxsprls_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                                                <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-sunway-ha-noi-8086.html?source=listing-datphong#boxRoom" class="bt_booking_now m15t float_right">Đặt phòng ngay</a>
+                                <div class="cb"></div>
+                            </div>
+                        </div>
+                        <div class="cb"></div>
+                    </div>
+                                                            <div class="box_list_content">
+                        <div class="co1"> 
+                                                        <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-vista-ha-noi-9069.html?source=listing-photo">
+                                <img class="lazy" width = "212px" height = "142px" alt="Khách sạn Vista Hà Nội" data-src="http://images.yesgo.vn/logo/thumb/1369387386_75_212_142_crop.jpg" src="/resources/v2/images/load.gif"/>
+                            </a>
+                                                        <div class="price">
+                                                                <p class="font18"><strong>Từ 1.480.000  </strong></p>
+                                <p>VNĐ / Đêm</p>
+                                                            </div>
+                        </div>
+                        <div class="co2">
+                            <div class="cot">
+                                <div class="title">
+                                    <h2 class="font18 ogrange_color">
+                                        <a title="Khách sạn Vista Hà Nội" href="/vi/khach-san/viet-nam/ha-noi/khach-san-vista-ha-noi-9069.html?source=listing-title">Khách sạn Vista Hà Nội</a> 
+                                                                                <span><img alt="Khách sạn Vista Hà Nội" src="/resources/v2/images/star4.png"/></span>
+                                                                            </h2>
+                                    <p class="gray_color text_i p5b">30 Nguyễn Thượng Hiền, Thủ Đô, Việt Nam, Hai Bà Trưng, Hà Nội, Việt Nam</p>
+                                    <div class="extra_info">
+                                        <div class="float_left text_align">
+                                            <a class="nyroModal" target="_blank" href="/ajax/map/id/9069" onclick="trackingMapListing()"><img src="/resources/v2/images/04_maps.png"><br>
+                                            Bản Đồ                                            </a>
+                                        </div>
+                                                                                    <div class="float_left m5l">
+                                                <p><strong>Khu vực: </strong>
+                                                Chợ Hôm / Phố Huế</p>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="box_danhgia" title="Đánh giá của Khách sạn Vista Hà Nội">
+                                                                            <p class=" font14">
+                                        <p class="font11 text_i gray_color"><a href="/vi/khach-san/viet-nam/hai-ba-trung/khach-san-vista-ha-noi-9069/danh-gia.html?source=hotel-listing#customer_review">Cần thêm đánh giá cho khách sạn này</a></p>
+                                        </p>
+                                        
+                                </div>
+                                <div class="cb"></div>
+                                                                <div class="textdeription">Khách sạn Vista Hà Nội là khách sạn tiêu chuẩn 4 sao, toạ lạc tại trung tâm Thủ Đô Hà Nội, gần Hồ Thiền Quang và Công viên Lê Nin. Khách sạn Vista Hà Nội gồm có 80 phòng được thiết kế theo phong cách hiện đại và các thiết bị sang trọng. Tất cả các phòng đều có sàn...</div>
+                                                            </div>
+                            <div class="cob"> 
+                                                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9069/prop-img-full-grj3u3e8-q3b845mnjim8.jpg" class="nyroModal" rel="9069">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Phòng ngủ" data-src="http://images.yesgo.vn/hotel/9069/thumb/prop-img-full-grj3u3e8-q3b845mnjim8_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9069/prop-img-full-grj3z8s4-13by1zcgqsrgg.jpg" class="nyroModal" rel="9069">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Ngoại cảnh" data-src="http://images.yesgo.vn/hotel/9069/thumb/prop-img-full-grj3z8s4-13by1zcgqsrgg_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9069/prop-img-full-grj3vlnc-19cf4ujab1ukg.jpg" class="nyroModal" rel="9069">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Nhà hàng" data-src="http://images.yesgo.vn/hotel/9069/thumb/prop-img-full-grj3vlnc-19cf4ujab1ukg_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9069/prop-img-full-grj3lwob-1i18wcynk0pa8.jpg" class="nyroModal" rel="9069">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn Vista Hà Nội 1" data-src="http://images.yesgo.vn/hotel/9069/thumb/prop-img-full-grj3lwob-1i18wcynk0pa8_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/9069/prop-img-full-grj4182v-611cesnj9vr4.jpg" class="nyroModal" rel="9069">
+                                                                                <img class="lazy" width = "71px" height = "49px"  alt="Ngoại cảnh" data-src="http://images.yesgo.vn/hotel/9069/thumb/prop-img-full-grj4182v-611cesnj9vr4_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                                                <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-vista-ha-noi-9069.html?source=listing-datphong#boxRoom" class="bt_booking_now m15t float_right">Đặt phòng ngay</a>
+                                <div class="cb"></div>
+                            </div>
+                        </div>
+                        <div class="cb"></div>
+                    </div>
+                                    
+                                    <div class="box_pagin">                        <ul>
+     
+    <!-- Numbered page links -->
+     
+                    <li class="current"><a href="javascript:;">1 </a></li> 
+             
+                    <li><a href="/vi/khach-san/viet-nam/ha-noi.html?page=2&source=homepage">2</a></li>
+             
+                    <li><a href="/vi/khach-san/viet-nam/ha-noi.html?page=3&source=homepage">3</a></li>
+             
+                    <li><a href="/vi/khach-san/viet-nam/ha-noi.html?page=4&source=homepage">4</a></li>
+             
+                    <li><a href="/vi/khach-san/viet-nam/ha-noi.html?page=5&source=homepage">5</a></li>
+             
+     
+        <li><a href="/vi/khach-san/viet-nam/ha-noi.html?page=2&source=homepage" class="next">&gt;</a></li>
+        <li><a href="/vi/khach-san/viet-nam/ha-noi.html?page=27&source=homepage" class="nextrange">&gt;&gt;</a></li>
+    </ul>
+<div class="cb">
+    </div>                    </div>
+                            </div>
+            <!-- Right page -->
+            <div id="col2" class="w288">           
+                <script>
+    var regKeyword = "Vui lòng nhập từ khóa cần tìm kiếm";
+</script>
+<div class="box_search_sub w265 m20b">
+    <p>Tìm kiếm khách sạn </p>
+        <div class="p15t">
+            <label>Điểm đến:</label>
+                            <input type="hidden" value="Hotel listing" id="source_page">
+                        <input name="keyword" id="keyword" type="text" class="txt1 w239" autocomplete="off" maxlength="70" value="Hà Nội" placeholder="Thành phố, quận, hoặc tên khách sạn"/>
+            <div id="keyword_error"></div>
+            <div class="w129 m10b float_left">
+                <label>Ngày nhận phòng:</label>
+                <div class="box_day">
+                    <input readonly="true" name="checkin_date" id="checkin_date" class="w90" type="text" value="16/09/2013" placeholder="16/09/2013" />
+                    <a href="javascript:;" onclick="$('#checkin_date').focus()"><img alt="Ngày nhận phòng" src="/resources/v2/images/icon_calendar.png" /></a>
+                </div>
+            </div>
+            <div class="w129 m10b float_right">
+                <label>Ngày trả phòng:</label>
+                <div class="box_day">
+                    <input readonly="true" name="checkout_date" id="checkout_date" class="w90" type="text" value="18/09/2013" placeholder="18/09/2013" />
+                    <a href="javascript:;" onclick="$('#checkout_date').focus()"><img alt="Ngày trả phòng"  src="/resources/v2/images/icon_calendar.png" /></a></div>
+            </div>
+            <input class="button_search float_right pointer" type="button" onclick="clearFilter();" value="Tìm kiếm"  attr="search">
+            <div class="cb"></div>
+        </div>
+</div>
+                <div class="box_search_sub w265 m15b" id="box_filter">
+    <div class="tooltip-xep-hang hidden">
+        <span><a href="javascript:;" onclick="$('.tooltip-xep-hang').fadeOut('slow')"><img src="/resources/v2/images/icon_close3.png"></a></span>
+        Các chế độ lọc giúp cho bạn tiết kiệm được thời gian trong việc tìm kiếm khách sạn & resort. Bạn hãy thử chọn một vài lựa chọn    </div>
+            <div class="font18 p5b border_bt_do">Xếp hạng sao</div>
+        <div class="nav_right">             
+                    <label><input name="stars[]"  type="checkbox" class="m8r btnFilter" value="1"><span>Khách sạn 1 sao</span><span class='red_color'> (7)</span></label><br>
+                    <label><input name="stars[]"  type="checkbox" class="m8r btnFilter" value="2"><span>Khách sạn 2 sao</span><span class='red_color'> (68)</span></label><br>
+                    <label><input name="stars[]"  type="checkbox" class="m8r btnFilter" value="3"><span>Khách sạn 3 sao</span><span class='red_color'> (138)</span></label><br>
+                    <label><input name="stars[]"  type="checkbox" class="m8r btnFilter" value="4"><span>Khách sạn 4 sao</span><span class='red_color'> (46)</span></label><br>
+                    <label><input name="stars[]"  type="checkbox" class="m8r btnFilter" value="5"><span>Khách sạn 5 sao</span><span class='red_color'> (11)</span></label><br>
+                                                                
+        </div>    
+        
+            <div class="font18 p5b border_bt_do">Khu vực</div>
+        <div class="nav_right">     
+                    <label><input name="geo_near[]"  type="checkbox" class="m8r btnFilter" value="211"><span> Làng lụa Vạn Phúc - Hà Đông</span><span class='red_color'> (1)</span></label><br>
+                    <label><input name="geo_near[]"  type="checkbox" class="m8r btnFilter" value="207"><span> Nhà hát thành phố</span><span class='red_color'> (6)</span></label><br>
+                    <label><input name="geo_near[]"  type="checkbox" class="m8r btnFilter" value="205"><span>Chợ Đồng Xuân</span><span class='red_color'> (2)</span></label><br>
+                    <label><input name="geo_near[]"  type="checkbox" class="m8r btnFilter" value="204"><span>Chợ Hôm / Phố Huế</span><span class='red_color'> (3)</span></label><br>
+                    <label><input name="geo_near[]"  type="checkbox" class="m8r btnFilter" value="139"><span>Giảng Võ - Trung Tâm Hội Nghị</span><span class='red_color'> (4)</span></label><br>
+                    <label><input name="geo_near[]"  type="checkbox" class="m8r btnFilter" value="137"><span>Hồ Hoàn Kiếm</span><span class='red_color'> (39)</span></label><br>
+                    <label><input name="geo_near[]"  type="checkbox" class="m8r btnFilter" value="138"><span>Hồ Tây</span><span class='red_color'> (5)</span></label><br>
+                    <label><input name="geo_near[]"  type="checkbox" class="m8r btnFilter" value="141"><span>Phố Cổ</span><span class='red_color'> (36)</span></label><br>
+                    <label><input name="geo_near[]"  type="checkbox" class="m8r btnFilter" value="210"><span>Thành Hà Nội - Lăng Hồ Chí Minh</span><span class='red_color'> (1)</span></label><br>
+                    <label><input name="geo_near[]"  type="checkbox" class="m8r btnFilter" value="206"><span>Trung tâm hội nghị quốc gia - Trung Hòa Nhân Chính</span><span class='red_color'> (4)</span></label><br>
+                    <label><input name="geo_near[]"  type="checkbox" class="m8r btnFilter" value="143"><span>Trung Tâm TP Hà Nội</span><span class='red_color'> (40)</span></label><br>
+          
+        </div>    
+        
+        <div class="font18 p5b border_bt_do">Theo giá phòng</div>
+    <div class="nav_right">     
+            <label><input name="prices[]"  type="checkbox" class="m8r btnFilter" value="<=500.000"><span><=500.000</span><span class='red_color'> (8)</span></label><br>
+            <label><input name="prices[]"  type="checkbox" class="m8r btnFilter" value="500.000 - 1.000.000"><span>500.000 - 1.000.000</span><span class='red_color'> (62)</span></label><br>
+            <label><input name="prices[]"  type="checkbox" class="m8r btnFilter" value="1.000.000 - 2.000.000"><span>1.000.000 - 2.000.000</span><span class='red_color'> (29)</span></label><br>
+            <label><input name="prices[]"  type="checkbox" class="m8r btnFilter" value=">2.000.000"><span>>2.000.000</span><span class='red_color'> (7)</span></label><br>
+                                                          
+    </div>    
+      
+            <div class="font18 p5b border_bt_do">Số khách / phòng</div>
+    <div class="nav_right">     
+            <label><input name="persons[]"  type="checkbox" class="m8r btnFilter" value="1<= x <=2"><span>Từ 1 đến 2 khách</span><span class='red_color'></span></label><br>
+            <label><input name="persons[]"  type="checkbox" class="m8r btnFilter" value="4<= x <=6"><span>Từ 4 đến 6 khách</span><span class='red_color'></span></label><br>
+            <label><input name="persons[]"  type="checkbox" class="m8r btnFilter" value=">6"><span>Hơn 6 khách</span><span class='red_color'></span></label><br>
+                                                          
+    </div>    
+      
+            <div class="font18 p5b border_bt_do">Tiện nghi khách sạn</div>
+        <div class="nav_right">   
+                    <label><input name="facilities[]"  type="checkbox" class="m8r btnFilter" value="1"><span>Bãi biển riêng</span><span class='red_color'> (1)</span></label><br>
+                    <label><input name="facilities[]"  type="checkbox" class="m8r btnFilter" value="18"><span>Bãi đậu xe</span><span class='red_color'> (73)</span></label><br>
+                    <label><input name="facilities[]"  type="checkbox" class="m8r btnFilter" value="40"><span>Bình nấu nước</span><span class='red_color'> (28)</span></label><br>
+                    <label><input name="facilities[]"  type="checkbox" class="m8r btnFilter" value="37"><span>Bồn tắm</span><span class='red_color'> (36)</span></label><br>
+                    <label><input name="facilities[]"  type="checkbox" class="m8r btnFilter" value="9"><span>Gym</span><span class='red_color'> (19)</span></label><br>
+                    <label><input name="facilities[]"  type="checkbox" class="m8r btnFilter" value="19"><span>Hồ bơi cho trẻ em</span><span class='red_color'> (3)</span></label><br>
+                    <label><input name="facilities[]"  type="checkbox" class="m8r btnFilter" value="10"><span>Hồ bơi ngoài trời</span><span class='red_color'> (14)</span></label><br>
+                    <label><input name="facilities[]"  type="checkbox" class="m8r btnFilter" value="11"><span>Hồ bơi trong nhà</span><span class='red_color'> (2)</span></label><br>
+                    <label><input name="facilities[]"  type="checkbox" class="m8r btnFilter" value="12"><span>Nhà hàng</span><span class='red_color'> (100)</span></label><br>
+                    <label><input name="facilities[]"  type="checkbox" class="m8r btnFilter" value="8"><span>Spa</span><span class='red_color'> (28)</span></label><br>
+          
+        </div>    
+        
+  
+<!--    <input class="button_search float_right" type="button" value="Tìm kiếm" id="btnFilter">-->
+    <div class="cb"></div> 
+</div>
+<script>
+    $(document).ready(function(){
+        $('.btnFilter').click(function(e) {
+            filterSubmit();
+        });
+    });
+    
+    function filterSubmit () {
+        if(_tracking == 1) {
+            var opt_label = '';
+            var opt_value = '';        
+
+            if($("input[name='stars[]']:checked").length) {
+                opt_label += "Xếp hạng sao" + " + ";
+                $.each($("input[name='stars[]']:checked"), function() {   
+                    opt_value += $(this).next().text() + " + ";
+                });
+            }
+
+            if($("input[name='prices[]']:checked").length) {
+                opt_label += "Theo giá phòng" + " + ";
+                $.each($("input[name='prices[]']:checked"), function() {                 
+                    opt_value += $(this).next().text() + " + ";
+                }); 
+            }
+
+            if($("input[name='persons[]']:checked").length) {
+                opt_label += "Số khách / phòng" + " + ";
+                $.each($("input[name='persons[]']:checked"), function() {                 
+                    opt_value += $(this).next().text() + " + ";
+                }); 
+            }
+
+            if($("input[name='facilities[]']:checked").length) {
+                opt_label += "Tiện nghi khách sạn" + " + ";
+                $.each($("input[name='facilities[]']:checked"), function() {                 
+                    opt_value += $(this).next().text() + " + ";
+                }); 
+            }
+
+            if($("input[name='geo_near[]']:checked").length) {
+                opt_label += "Khu vực" + " + ";
+                $.each($("input[name='geo_near[]']:checked"), function() {                 
+                    opt_value += $(this).next().text() + " + ";
+                }); 
+            }
+
+            opt_label = Trim(opt_label, " + ");
+            opt_value = Trim(opt_value, " + ");
+            opt_label = opt_label + " / " + opt_value;
+
+            // Prevent the form being submitted just yet
+            //e.preventDefault();
+            // Keep a reference to this dom element for the callback
+//            var _this = this;
+            _gaq.push(
+                // Queue the tracking event
+                ['_trackEvent', 'Hotel listing', 'Filter hotel', opt_label],
+                // Queue the callback function immediately after.
+                // This will execute in order.
+                function() {
+                    // Submit the parent form
+                    $('#hsearch').submit();
+                }
+            );
+        } else {
+            $('#hsearch').submit();
+        }
+    }
+</script>
+                             </div>
+            </form>
+            <div class="cb"></div>
+        </div>
+    </div>
+
+
+<script>
+    var time = 0;
+    var tipTimer;
+    $(document).ready(function() {
+        $(".closeFilter").click(function() {
+            $(".btnFilter[name='"+$(this).attr('type')+"'][value='"+$(this).attr('rel')+"']").removeAttr("checked");
+            filterSubmit();
+        });
+        
+        $(".closeAllFilter").click(function() {
+            $(".btnFilter").removeAttr("checked");
+            filterSubmit();
+        });
+        
+        $.nyroModalSettings({
+            type: 'iframe',
+            closeButton: '<div class="icon-close"><a class="nyroModalClose nyroModalCloseBannerButton nmReposition" title="close" href="#"><img src="/resources/v2/images/icon_close1.png"/></a></div>',	// Close button HTML
+            width: 998,
+            height: 595,
+            resizable: true,
+            autoSizable: true,
+            titleFromIframe: true,
+            contentLoading: ""// use our own
+        });
+    });    
+    
+    setTimeout(function(){
+        $(".tooltip-google-map").fadeIn(2000);
+    }, 1000);
+</script>
+
+            <div id="footer">
+    <div class="nav_footer">
+        <div class="c1">
+            <p class="p5b font15">Thông tin</p>
+            <ul>
+                <li><a href="/vi/gioi-thieu-ve-yesgo.htm">Giới thiệu về Yesgo</a></li>
+                <li><a href="/vi/thong-tin-lien-he.htm">Thông tin liên hệ</a></li>
+                <li><a href="/vi/dieu-khoan-thanh-vien.htm">Điều khoản thành viên</a></li>
+                <li><a href="/vi/phuong-thuc-thanh-toan.htm">Phương thức thanh toán</a></li>
+                <li><a href="/vi/tuyen-dung.htm">Tuyển dụng</a></li>
+                <li><a href="/vi/quy-che-hoat-dong.htm">Quy chế hoạt động</a></li>
+            </ul>
+        </div>
+        <div class="c2">
+            <p class="p5b font15">Cộng đồng</p>
+            <div class="icon">
+                <img src="/resources/v2/images/icon_facebbok.png"/><a href="https://www.facebook.com/pages/Yesgovn/139737692887884"> Facebook</a><br class="cb" />
+            </div>
+            <div class="icon">
+                <img src="/resources/v2/images/icon_youtube.png"/> <a href="http://www.youtube.com/user/YesgoVN">Youtube</a><br class="cb" />
+            </div>
+            <div class="icon">
+                <img src="/resources/v2/images/icon_twitter.png"/> <a href="https://twitter.com/YesgoVietnam">Twitter</a><br class="cb" />
+            </div>
+            <div class="icon">
+                <img src="/resources/v2/images/google-plus-icon.png"/> <a href="https://plus.google.com/113533361468601446608" rel="publisher">Google+</a><br class="cb" />
+            </div>
+        </div>
+        <div class="c3">
+            <p class="p5b font15">Sản phẩm được phát triển bởi</p>
+			<p class="float_left p20t"><a href="http://www.vinabook.com"><img src="/resources/v2/images/logo_vinabook.jpg" width="130" height="34"/></a></p>
+            <p class="float_left p20t p30l"><a href="http://www.hotdeal.vn"><img src="/resources/v2/images/logo_hotdeal.jpg" width="130" /></a></p>            
+        </div>
+        <div class="c4">
+            <form name="newletterForm" id="newletterForm" method="post" action="/index/newsletter">
+                <p class="font20 green_color p15t">Nhập địa chỉ email của bạn</p>
+                <div class="bg_txt_mail">
+                    <input name="email" id="email" type="text" placeholder="Nhập địa chỉ email của bạn" />
+                    <a class="bt_reister" id="btnNewLetter" href="javascript:;">Đăng ký</a> 
+                </div>
+                <div id="email_error"></div>
+            </form>
+        </div>
+        <div class="cb"></div>
+    </div>
+    
+        <div class="box-partner">
+        <div class="prov" id="prev_banner"><a class="pointer"><img src="/resources/v2/images/icon_prov_par.png"></a></div>
+        <ul>
+            <div id="banner_slider">
+                                    <li><a href="http://www.zship.vn/"> <img height="83" width="163" src="http://images.yesgo.vn/banner/1375265640.jpg"></a></li>
+                                    <li><a href="http://www.yesgo.vn/vi/khach-san/viet-nam/nha-trang/merperle-resort-residences-best-western-premier-cu--9488.html"> <img height="83" width="163" src="http://images.yesgo.vn/banner/1375265727.jpg"></a></li>
+                                    <li><a href="http://www.yesgo.vn/vi/khach-san/viet-nam/da-nang/sandy-beach-resort-da-nang-9257.html"> <img height="83" width="163" src="http://images.yesgo.vn/banner/1375265769.jpg"></a></li>
+                                    <li><a href="http://www.yesgo.vn/vi/khach-san/viet-nam/da-lat/khach-san-du-parc-da-lat-mercure-du-parc-da-lat-truoc-day-7781.html"> <img height="83" width="163" src="http://images.yesgo.vn/banner/1375265819.jpg"></a></li>
+                                    <li><a href="http://www.yesgo.vn/vi/khach-san/viet-nam/nha-trang/khach-san-havana-nha-trang-9515.html"> <img height="83" width="163" src="http://images.yesgo.vn/banner/1375265855.jpg"></a></li>
+                                    <li><a href="http://www.yesgo.vn/vi/khach-san/viet-nam/vung-tau/khach-san-corvin-9500.html"> <img height="83" width="163" src="http://images.yesgo.vn/banner/1375265895.jpg"></a></li>
+                            </div>
+        </ul>
+        <div class="cb"></div>
+        <div class="next" id="next_banner"><a class="pointer"><img src="/resources/v2/images/icon_next_par.png"></a></div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('#banner_slider').carouFredSel({
+                auto: true,
+                items: {
+                        width: 156,
+                        height: 130,	//	optionally resize item-height
+                        visible: {
+                                            max: 6
+                                    }
+                },
+                prev: '#prev_banner',
+                next: '#next_banner',
+                mousewheel: true,
+                swipe: {
+                    onMouse: true,
+                    onTouch: true
+                },
+                scroll: 1
+            });
+        });
+    </script>
+    
+    <div class="box_nav_footer">
+        <div class="box_logo_bank"> <img alt="Đặt phòng thanh toán trực tuyến" src="/resources/v2/images/logo_bank.jpg" /></div>
+        <div class="copyright">
+            <div class="float_left">
+                <img alt="Yesgo.vn|Đặt phòng trực tuyến" src="/resources/v2/images/logo.png">
+            </div>
+            <div class="float_left width-650">
+                ©2013 Yesgo.vn - Dịch vụ đặt phòng khách sạn tiện lợi - Phát triển bởi <a href="http://www.vinabook.com" target="_blank">Vinabook.com</a><br />
+                <b>CÔNG TY TNHH HOTDEAL</b><br />
+                Tầng 2, số 70 Lữ Gia, Phường 15, Quận 11, Tp.Hồ Chí Minh<br />
+                Mã số doanh nghiệp/Mã số thuế: 0310955176 do Sở Kế hoạch đầu tư TP HCM cấp ngày 29/06/2011<br />
+                ĐT: 1900 6068 - (08) 7303 6068 - FAX: (08) 3866 3405<br />
+                Email: <a href="mailto:info@yesgo.vn">info@yesgo.vn </a><br />
+            </div>
+            <div class="float_left" style="width:120px">
+                <b>Dịch vụ</b>
+                <p>Đặt phòng khách sạn toàn quốc</p>                
+            </div>
+            <div class="float_left" style="width:103px">
+                <b>Chứng nhận sàn giao dịch TMĐT</b><br />
+                <a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=665"><img alt="" title="" src="http://online.gov.vn/seals/GqajDVcH0EYzVCK9dJ6NkA==.jpgx" /></a>
+            </div>
+        </div>
+        
+                <div class="extra_footer">
+                                                <div></div>
+                    <div class="nav_footer_content">
+                        <h3 class="footer_title">Khách sạn ở Hà Nội theo khu vực</h3>
+                        <ul>
+                                                    <li>
+                                <h4><a title=" Làng lụa Vạn Phúc - Hà Đông" href="/vi/khach-san/viet-nam/ha-noi/khach-san-gan--lang-lua-van-phuc-ha-dong.html?source=footer"> Làng lụa Vạn Phúc - Hà Đông</a></h4>                            
+                            </li>
+                                                    <li>
+                                <h4><a title=" Nhà hát thành phố" href="/vi/khach-san/viet-nam/ha-noi/khach-san-gan--nha-hat-thanh-pho.html?source=footer"> Nhà hát thành phố</a></h4>                            
+                            </li>
+                                                    <li>
+                                <h4><a title="Chợ Đồng Xuân" href="/vi/khach-san/viet-nam/ha-noi/khach-san-gan-cho-dong-xuan.html?source=footer">Chợ Đồng Xuân</a></h4>                            
+                            </li>
+                                                    <li>
+                                <h4><a title="Chợ Hôm / Phố Huế" href="/vi/khach-san/viet-nam/ha-noi/khach-san-gan-cho-hom-pho-hue.html?source=footer">Chợ Hôm / Phố Huế</a></h4>                            
+                            </li>
+                                                    <li>
+                                <h4><a title="Ga Hà Nội" href="/vi/khach-san/viet-nam/ha-noi/khach-san-gan-ga-ha-noi.html?source=footer">Ga Hà Nội</a></h4>                            
+                            </li>
+                                                    <li>
+                                <h4><a title="Giảng Võ - Trung Tâm Hội Nghị" href="/vi/khach-san/viet-nam/ha-noi/khach-san-gan-giang-vo-trung-tam-hoi-nghi.html?source=footer">Giảng Võ - Trung Tâm Hội Nghị</a></h4>                            
+                            </li>
+                                                    <li>
+                                <h4><a title="Hồ Hoàn Kiếm" href="/vi/khach-san/viet-nam/ha-noi/khach-san-gan-ho-hoan-kiem.html?source=footer">Hồ Hoàn Kiếm</a></h4>                            
+                            </li>
+                                                    <li>
+                                <h4><a title="Hồ Tây" href="/vi/khach-san/viet-nam/ha-noi/khach-san-gan-ho-tay.html?source=footer">Hồ Tây</a></h4>                            
+                            </li>
+                                                    <li>
+                                <h4><a title="Phố Cổ" href="/vi/khach-san/viet-nam/ha-noi/khach-san-gan-pho-co.html?source=footer">Phố Cổ</a></h4>                            
+                            </li>
+                                                    <li>
+                                <h4><a title="Thành Hà Nội - Lăng Hồ Chí Minh" href="/vi/khach-san/viet-nam/ha-noi/khach-san-gan-thanh-ha-noi-lang-ho-chi-minh.html?source=footer">Thành Hà Nội - Lăng Hồ Chí Minh</a></h4>                            
+                            </li>
+                                                    <li>
+                                <h4><a title="Trung tâm hội nghị quốc gia - Trung Hòa Nhân Chính" href="/vi/khach-san/viet-nam/ha-noi/khach-san-gan-trung-tam-hoi-nghi-quoc-gia-trung-hoa-nhan-chinh.html?source=footer">Trung tâm hội nghị quốc gia - Trung Hòa Nhân Chính</a></h4>                            
+                            </li>
+                                                    <li>
+                                <h4><a title="Trung Tâm TP Hà Nội" href="/vi/khach-san/viet-nam/ha-noi/khach-san-gan-trung-tam-tp-ha-noi.html?source=footer">Trung Tâm TP Hà Nội</a></h4>                            
+                            </li>
+                                                </ul>
+                        <div class="cb"></div>
+                    </div>
+                                                    <div></div>
+                    <div class="nav_footer_content">
+                        <h3 class="footer_title">Khách sạn ở Hà Nội theo hạng</h3>
+                        <ul>
+                                                        <li>
+                                <h4><a title="Khách sạn 1 sao" href="/vi/khach-san/viet-nam/ha-noi.html?stars[]=1&source=footer">Khách sạn 1 sao tại Hà Nội</a></h4>                            
+                            </li>
+                                                        <li>
+                                <h4><a title="Khách sạn 2 sao" href="/vi/khach-san/viet-nam/ha-noi.html?stars[]=2&source=footer">Khách sạn 2 sao tại Hà Nội</a></h4>                            
+                            </li>
+                                                        <li>
+                                <h4><a title="Khách sạn 3 sao" href="/vi/khach-san/viet-nam/ha-noi.html?stars[]=3&source=footer">Khách sạn 3 sao tại Hà Nội</a></h4>                            
+                            </li>
+                                                        <li>
+                                <h4><a title="Khách sạn 4 sao" href="/vi/khach-san/viet-nam/ha-noi.html?stars[]=4&source=footer">Khách sạn 4 sao tại Hà Nội</a></h4>                            
+                            </li>
+                                                        <li>
+                                <h4><a title="Khách sạn 5 sao" href="/vi/khach-san/viet-nam/ha-noi.html?stars[]=5&source=footer">Khách sạn 5 sao tại Hà Nội</a></h4>                            
+                            </li>
+                                                        <li>
+                                <h4><a title="Khách sạn 2 & 3 sao" href="/vi/khach-san/viet-nam/ha-noi.html?stars[]=2&stars[]=3&source=footer">Khách sạn giá rẻ ở Hà Nội</a></h4>                            
+                            </li>
+                            <li>
+                                <h4><a title="Khách sạn 4 & 5 sao" href="/vi/khach-san/viet-nam/ha-noi.html?stars[]=4&stars[]=5&source=footer">Khách sạn cao cấp ở Hà Nội</a></h4>                            
+                            </li>
+                        </ul>
+                        <div class="cb"></div>
+                    </div>
+                                              
+        </div>
+                
+    </div>
+    <div id="nav_hotline">
+      <div class="tag_hotline">
+         <span>Hotline</span>
+         <span class="arrow_hotline"></span>
+      </div>
+      <div class="main_nav_hotline">
+         <ul>
+                              <li>
+                     <span class="nav_tit_location">Toàn quốc:</span> 1900 6068 - (08) 7303 6068                  </li>
+                           </ul>
+      </div>
+      <div class="fb-like" data-href="https://www.facebook.com/yesgovn" data-send="false" data-width="450" data-show-faces="false"></div>
+   </div>
+</div>           
+                    </div>
+    </body>
+</html>

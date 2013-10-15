@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.EditRoomTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="#{bundle.EditRoomLabel_roomID}" for="roomID" />
+                    <h:inputText id="roomID" value="#{roomController.selected.roomID}" title="#{bundle.EditRoomTitle_roomID}" required="true" requiredMessage="#{bundle.EditRoomRequiredMessage_roomID}"/>
+                    <h:outputLabel value="#{bundle.EditRoomLabel_roomName}" for="roomName" />
+                    <h:inputText id="roomName" value="#{roomController.selected.roomName}" title="#{bundle.EditRoomTitle_roomName}" />
+                    <h:outputLabel value="#{bundle.EditRoomLabel_capicity}" for="capicity" />
+                    <h:inputText id="capicity" value="#{roomController.selected.capicity}" title="#{bundle.EditRoomTitle_capicity}" />
+                    <h:outputLabel value="#{bundle.EditRoomLabel_imageLinks}" for="imageLinks" />
+                    <h:inputTextarea rows="4" cols="30" id="imageLinks" value="#{roomController.selected.imageLinks}" title="#{bundle.EditRoomTitle_imageLinks}" />
+                    <h:outputLabel value="#{bundle.EditRoomLabel_description}" for="description" />
+                    <h:inputTextarea rows="4" cols="30" id="description" value="#{roomController.selected.description}" title="#{bundle.EditRoomTitle_description}" />
+                    <h:outputLabel value="#{bundle.EditRoomLabel_otherProperties}" for="otherProperties" />
+                    <h:inputTextarea rows="4" cols="30" id="otherProperties" value="#{roomController.selected.otherProperties}" title="#{bundle.EditRoomTitle_otherProperties}" />
+                    <h:outputLabel value="#{bundle.EditRoomLabel_hotelID}" for="hotelID" />
+                    <h:selectOneMenu id="hotelID" value="#{roomController.selected.hotelID}" title="#{bundle.EditRoomTitle_hotelID}" >
+                        <f:selectItems value="#{hotelController.itemsAvailableSelectOne}"/>
+                    </h:selectOneMenu>
+                </h:panelGrid>
+                <h:commandLink action="#{roomController.update}" value="#{bundle.EditRoomSaveLink}"/>
+                <br />
+                <br />
+                <h:link outcome="View" value="#{bundle.EditRoomViewLink}"/>
+                <br />
+                <h:commandLink action="#{roomController.prepareList}" value="#{bundle.EditRoomShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.EditRoomIndexLink}" />
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

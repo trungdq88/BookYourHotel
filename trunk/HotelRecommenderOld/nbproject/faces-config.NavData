@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Project" version="2">
+    <Scope Scope="Faces Configuration Only"/>
+    <Scope Scope="Project">
+        <Node id="crawler/website/View.xhtml" x="150" y="1050" zoom="true"/>
+        <Node id="crawler/website/Create.xhtml" x="150" y="450" zoom="true"/>
+        <Node id="template.xhtml" x="650" y="450" zoom="true"/>
+        <Node id="region/List.xhtml" x="400" y="150" zoom="true"/>
+        <Node id="crawler/linkDetail/Create.xhtml" x="1900" y="150" zoom="true"/>
+        <Node id="crawler/properties/Create.xhtml" x="650" y="750" zoom="true"/>
+        <Node id="crawler/hotelProperties/Edit.xhtml" x="900" y="750" zoom="true"/>
+        <Node id="crawler/website/List.xhtml" x="150" y="900" zoom="true"/>
+        <Node id="crawler/hotelProperties/List.xhtml" x="900" y="450" zoom="true"/>
+        <Node id="crawler/roomProperties/List.xhtml" x="900" y="600" zoom="true"/>
+        <Node id="hotel/View.xhtml" x="150" y="750" zoom="true"/>
+        <Node id="room/View.xhtml" x="900" y="150" zoom="true"/>
+        <Node id="crawler/roomProperties/Edit.xhtml" x="1650" y="300" zoom="true"/>
+        <Node id="crawler/linkDetail/Edit.xhtml" x="400" y="450" zoom="true"/>
+        <Node id="region/View.xhtml" x="1400" y="150" zoom="true"/>
+        <Node id="room/Create.xhtml" x="650" y="900" zoom="true"/>
+        <Node id="crawler/properties/View.xhtml" x="650" y="600" zoom="true"/>
+        <Node id="crawler/linkDetail/List.xhtml" x="650" y="300" zoom="true"/>
+        <Node id="room/Edit.xhtml" x="1150" y="300" zoom="true"/>
+        <Node id="hotel/List.xhtml" x="400" y="900" zoom="true"/>
+        <Node id="crawler/hotelProperties/Create.xhtml" x="150" y="300" zoom="true"/>
+        <Node id="crawler/properties/List.xhtml" x="400" y="600" zoom="true"/>
+        <Node id="crawler/roomProperties/Create.xhtml" x="1150" y="150" zoom="true"/>
+        <Node id="crawler/roomProperties/View.xhtml" x="1650" y="150" zoom="true"/>
+        <Node id="hotel/Edit.xhtml" x="400" y="750" zoom="true"/>
+        <Node id="room/List.xhtml" x="1400" y="300" zoom="true"/>
+        <Node id="crawler/properties/Edit.xhtml" x="1150" y="600" zoom="true"/>
+        <Node id="crawler/hotelProperties/View.xhtml" x="1150" y="450" zoom="true"/>
+        <Node id="crawler/linkDetail/View.xhtml" x="150" y="150" zoom="true"/>
+        <Node id="region/Edit.xhtml" x="400" y="300" zoom="true"/>
+        <Node id="index.xhtml" x="650" y="150" zoom="true"/>
+        <Node id="crawler/website/Edit.xhtml" x="1400" y="450" zoom="true"/>
+        <Node id="region/Create.xhtml" x="900" y="300" zoom="true"/>
+        <Node id="hotel/Create.xhtml" x="150" y="600" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations"/>
+</Scene>

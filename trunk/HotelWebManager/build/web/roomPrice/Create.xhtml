@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.CreateRoomPriceTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="#{bundle.CreateRoomPriceLabel_roomPriceID}" for="roomPriceID" />
+                    <h:inputText id="roomPriceID" value="#{roomPriceController.selected.roomPriceID}" title="#{bundle.CreateRoomPriceTitle_roomPriceID}" required="true" requiredMessage="#{bundle.CreateRoomPriceRequiredMessage_roomPriceID}"/>
+                    <h:outputLabel value="#{bundle.CreateRoomPriceLabel_checkedIn}" for="checkedIn" />
+                    <h:inputText id="checkedIn" value="#{roomPriceController.selected.checkedIn}" title="#{bundle.CreateRoomPriceTitle_checkedIn}" >
+                        <f:convertDateTime pattern="MM/dd/yyyy HH:mm:ss" />
+                    </h:inputText>
+                    <h:outputLabel value="#{bundle.CreateRoomPriceLabel_checkOut}" for="checkOut" />
+                    <h:inputText id="checkOut" value="#{roomPriceController.selected.checkOut}" title="#{bundle.CreateRoomPriceTitle_checkOut}" >
+                        <f:convertDateTime pattern="MM/dd/yyyy HH:mm:ss" />
+                    </h:inputText>
+                    <h:outputLabel value="#{bundle.CreateRoomPriceLabel_price}" for="price" />
+                    <h:inputText id="price" value="#{roomPriceController.selected.price}" title="#{bundle.CreateRoomPriceTitle_price}" />
+                    <h:outputLabel value="#{bundle.CreateRoomPriceLabel_roomID}" for="roomID" />
+                    <h:selectOneMenu id="roomID" value="#{roomPriceController.selected.roomID}" title="#{bundle.CreateRoomPriceTitle_roomID}" >
+                        <f:selectItems value="#{roomController.itemsAvailableSelectOne}"/>
+                    </h:selectOneMenu>
+                </h:panelGrid>
+                <br />
+                <h:commandLink action="#{roomPriceController.create}" value="#{bundle.CreateRoomPriceSaveLink}" />
+                <br />
+                <br />
+                <h:commandLink action="#{roomPriceController.prepareList}" value="#{bundle.CreateRoomPriceShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.CreateRoomPriceIndexLink}"/>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

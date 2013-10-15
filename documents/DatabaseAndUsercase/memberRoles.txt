@@ -1,0 +1,51 @@
+﻿- Hotel Crawler Project
+	Phạm Thị Thu Hòa :
+	
+	Lê Tài Nhật Minh
+	
+	Đinh Quang Trung
+	
+	Huỳnh Quang Thảo
+	
+	
+- Hotel Web Project
+
+	Phạm Thị Thu Hòa
+		. Login
+		. Logout
+		. Server Validation
+		. User Comment
+		. User Rating
+		. Register
+		. List Hotels using pagination .
+		. Selenium
+		
+	Lê Tài Nhật Minh
+		. LogIn 
+		. LogOut
+		. User Comment
+		. User Rating
+		. View Hotel Detail (view rooms, description ...)
+		. Client Validation
+		. View All Hotels List
+		. Template design (Logo design :P)
+		. Design Test case Document
+		
+	Huỳnh Quang Thào
+		. Normalization (for AJAX Search)
+		. AJAX Search By Geo.
+		. Common Object Converter
+		. Writing DAL
+		. Library Research (Hibernate, Eclipselink, Crawler4J, GSON, JSoup)
+		. Fix Bug
+		. Training
+	
+	Đinh Quang Trung
+		. View Top Destination Place (On Main Page)
+		. Synchronize parsed hotels to database
+		. Writing DAL
+		. Library Research (Hibernate, Eclipselink, Crawler4J, GSON, JSoup)
+		. Google Map API
+		. Fix Bug
+		. Training
+		

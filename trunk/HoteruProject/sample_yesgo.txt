@@ -1,0 +1,64 @@
+<input type="hidden" name="page" id="page" value="1">
+    </div>                            <div class="cb"></div>
+                        </div>    
+                                                            <div class="cb"></div>
+                </div>
+
+                                                                            <div class="box_list_content">
+                        <div class="co1"> 
+                                                        <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-lan-vien-8081.html?source=listing-photo">
+                                <img class="lazy" width = "212px" height = "142px" alt="Khách sạn Lan Viên" data-src="http://images.yesgo.vn/logo/thumb/prop-img-full-h2u7ba9h-1e5b6d3d452io_75_212_142_crop.jpg" src="/resources/v2/images/load.gif"/>
+                            </a>
+                                                        <div class="price">
+                                                                <p class="font18"><strong>Từ 1.540.000  </strong></p>
+                                <p>VNĐ / Đêm</p>
+                                                            </div>
+                        </div>
+                        <div class="co2">
+                            <div class="cot">
+                                <div class="title">
+                                    <h2 class="font18 ogrange_color">
+                                        <a title="Khách sạn Lan Viên" href="/vi/khach-san/viet-nam/ha-noi/khach-san-lan-vien-8081.html?source=listing-title">Khách sạn Lan Viên</a> 
+                                                                                <span><img alt="Khách sạn Lan Viên" src="/resources/v2/images/star4.png"/></span>
+                                                                            </h2>
+                                    <p class="gray_color text_i p5b"> 32 Hàng Bài/ 37A Lý Thường Kiệt, , Hoàn Kiếm, Hà Nội, Việt Nam</p>
+                                    <div class="extra_info">
+                                        <div class="float_left text_align">
+                                            <a class="nyroModal" target="_blank" href="/ajax/map/id/8081" onclick="trackingMapListing()"><img src="/resources/v2/images/04_maps.png"><br>
+                                            Bản Đồ                                            </a>
+                                        </div>
+                                                                                    <div class="float_left m5l">
+                                                <p><strong>Khu vực: </strong>
+                                                 Nhà hát thành phố</p>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                <div class="box_danhgia" title="Đánh giá của Khách sạn Lan Viên">
+                                                                            <p class=" font24"><b>
+                                        8.0                                        <p class="font11 text_i gray_color"><a href="/vi/khach-san/viet-nam/hoan-kiem/khach-san-lan-vien-8081/danh-gia.html?source=hotel-listing#customer_review">1 đánh giá</a></p>
+                                        </b></p>
+                                        
+                                </div>
+                                <div class="cb"></div>
+                                                                <div class="textdeription">Khách sạn Lan Viên tọa lạc ngay trung tâm thủ đô Hà Nội, nơi giao nhau của đường Lý Thường Kiệt và phố Hàng Bài. Đây thật sự là một địa điểm lý tưởng để du khách tham quan và khám phá thủ đô 1000 năm tuổi này. Từ khách sạn du khách chỉ mất 3 phút đi bộ đến...</div>
+                                                            </div>
+                            <div class="cob"> 
+                                                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8081/prop-img-full-h2u7ba9h-1e5b6d3d452io.jpg" class="nyroModal" rel="8081">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn Lan Viên 1" data-src="http://images.yesgo.vn/hotel/8081/thumb/prop-img-full-h2u7ba9h-1e5b6d3d452io_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8081/prop-img-full-h2u6y96v-7ui3r24umwhs.jpg" class="nyroModal" rel="8081">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn Lan Viên 2" data-src="http://images.yesgo.vn/hotel/8081/thumb/prop-img-full-h2u6y96v-7ui3r24umwhs_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8081/prop-img-full-h2u7ffra-114jbbpu22tj4.jpg" class="nyroModal" rel="8081">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn Lan Viên 3" data-src="http://images.yesgo.vn/hotel/8081/thumb/prop-img-full-h2u7ffra-114jbbpu22tj4_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8081/prop-img-full-h2u6xa6p-1gn0a3n7mrthc.jpg" class="nyroModal" rel="8081">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn Lan Viên 4" data-src="http://images.yesgo.vn/hotel/8081/thumb/prop-img-full-h2u6xa6p-1gn0a3n7mrthc_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                    <a onClick="trackingPhotoListing()" href="http://images.yesgo.vn/hotel/8081/prop-img-full-h2u72dwq-61kxd09lbxmo.jpg" class="nyroModal" rel="8081">
+                                                                                <img class="lazy" width = "71px" height = "49px" alt="Khách sạn Lan Viên 5" data-src="http://images.yesgo.vn/hotel/8081/thumb/prop-img-full-h2u72dwq-61kxd09lbxmo_75_71_49_crop.jpg" src="/resources/v2/images/load.gif"/> 
+                                                                            </a>
+                                                                                                <a href="/vi/khach-san/viet-nam/ha-noi/khach-san-lan-vien-8081.html?source=listing-datphong#boxRoom" class="bt_booking_now m15t float_right">Đặt phòng ngay</a>
+                                <div class="cb"></div>
+                            </div>
+                        </div>

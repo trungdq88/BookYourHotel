@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundleCrawler.ListHotelPropertiesTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:form styleClass="jsfcrud_list_form">
+                <h:panelGroup id="messagePanel" layout="block">
+                    <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+                </h:panelGroup>
+                <h:outputText escape="false" value="#{bundleCrawler.ListHotelPropertiesEmpty}" rendered="#{hotelPropertiesController.items.rowCount == 0}"/>
+                <h:panelGroup rendered="#{hotelPropertiesController.items.rowCount > 0}">
+                    <h:outputText value="#{hotelPropertiesController.pagination.pageFirstItem + 1}..#{hotelPropertiesController.pagination.pageLastItem + 1}/#{hotelPropertiesController.pagination.itemsCount}"/>&nbsp;
+                    <h:commandLink action="#{hotelPropertiesController.previous}" value="#{bundleCrawler.Previous} #{hotelPropertiesController.pagination.pageSize}" rendered="#{hotelPropertiesController.pagination.hasPreviousPage}"/>&nbsp;
+                    <h:commandLink action="#{hotelPropertiesController.next}" value="#{bundleCrawler.Next} #{hotelPropertiesController.pagination.pageSize}" rendered="#{hotelPropertiesController.pagination.hasNextPage}"/>&nbsp;
+                    <h:dataTable value="#{hotelPropertiesController.items}" var="item" border="0" cellpadding="2" cellspacing="0" rowClasses="jsfcrud_odd_row,jsfcrud_even_row" rules="all" style="border:solid 1px">
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundleCrawler.ListHotelPropertiesTitle_selector}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.selector}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundleCrawler.ListHotelPropertiesTitle_resultMode}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.resultMode}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundleCrawler.ListHotelPropertiesTitle_afterRegex}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.afterRegex}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundleCrawler.ListHotelPropertiesTitle_website}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.website}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundleCrawler.ListHotelPropertiesTitle_properties}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.properties}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="&nbsp;"/>
+                            </f:facet>
+                            <h:commandLink action="#{hotelPropertiesController.prepareView}" value="#{bundleCrawler.ListHotelPropertiesViewLink}"/>
+                            <h:outputText value=" "/>
+                            <h:commandLink action="#{hotelPropertiesController.prepareEdit}" value="#{bundleCrawler.ListHotelPropertiesEditLink}"/>
+                            <h:outputText value=" "/>
+                            <h:commandLink action="#{hotelPropertiesController.destroy}" value="#{bundleCrawler.ListHotelPropertiesDestroyLink}"/>
+                        </h:column>
+                    </h:dataTable>
+                </h:panelGroup>
+                <br />
+                <h:commandLink action="#{hotelPropertiesController.prepareCreate}" value="#{bundleCrawler.ListHotelPropertiesCreateLink}"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundleCrawler.ListHotelPropertiesIndexLink}"/>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>
